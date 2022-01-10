@@ -1,0 +1,180 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset204 Lucida Console;}{\f3\fnil\fcharset0 Lucida Console;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red0\green128\blue0;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'d2\'e5\'f1\'f2 \'ea\'ee\'ed\'ed\'e5\'ea\'f2\'e0 Zoiper \'ea Asterisk \'ef\'ee TLS\b0\par
+\par
+\ul\'c7\'e0\'e4\'e0\'f7\'ea\'e0:\ulnone\par
+1. \'e2\'fb\'ea\'eb\'fe\'f7\'e8\'f2\'fc \'f1\'f2\'e0\'f0\'fb\'e9 \'ec\'ee\'e4\'f3\'eb\'fc \lang1033\f1 SIP (sip.conf)\lang1049\f0\par
+2. \'f1\'ee\'e7\'e4\'e0\'f2\'fc \'f1\'e5\'f0\'f2\'e8\'f4\'e8\'ea\'e0\'f2 \'e4\'eb\'ff \lang1033\f1 TLS\lang1049\f0\par
+\cf2\ul linkto:\'d1\'ee\'e7\'e4\'e0\'ed\'e8\'e5 \'f1\'e0\'ec\'ee\'ef\'ee\'e4\'ef\'e8\'f1\'e0\'ed\'ed\'ee\'e3\'ee \'f1\'e5\'f0\'f2\'e8\'f4\'e8\'ea\'e0\'f2\'e0 \'e2 openssl\cf1\ulnone\par
+\par
+3. \'ed\'e0\'f1\'f2\'f0\'ee\'e8\'f2\'fc \lang1033\f1 pjsip.conf\par
+ \lang1049\f0 3\lang1033\f1 .1 \lang1049\f0\'f1\'e4\'e5\'eb\'e0\'f2\'fc \'ea\'ee\'ed\'e5\'f7\'ed\'f3\'fe \'f2\'ee\'f7\'ea\'f3 \'e4\'eb\'ff \lang1033\f1 TLS\par
+ \lang1049\f0 3\lang1033\f1 .2 \lang1049\f0\'f1\'e4\'e5\'eb\'e0\'f2\'fc \'ea\'ee\'ed\'e5\'f7\'ed\'f3\'fe \'f2\'ee\'f7\'ea\'f3 \'e4\'eb\'ff \lang1033\f1 UDP - \lang1049\f0\'ee\'ef\'f6\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'ee\lang1033\f1\par
+\lang1049\f0  3\lang1033\f1 .\lang1049\f0 3\lang1033\f1  \lang1049\f0\'f1\'ee\'e7\'e4\'e0\'f2\'fc "\'fe\'e7\'e5\'f0\'e0" \'e4\'eb\'ff \lang1033\f1 Zoiper\par
+\cf2\lang1049\ul\f0 linkto:PJSIP\cf1\ulnone\par
+\lang1033\f1\par
+\lang1049\f0 4\lang1033\f1 . \lang1049\f0\'f1\'ea\'ee\'ed\'e2\'e5\'f0\'f2\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'ec\'f3\'e7\'fb\'ea\'f3 \'e2 \'f4\'ee\'f0\'ec\'e0\'f2 \'ef\'f0\'e8\'e3\'ee\'e4\'ed\'fb\'e9 \'e4\'eb\'ff \lang1033\f1 Asterisk\par
+ \lang1049\f0 4\lang1033\f1 .1 \lang1049\f0\'ed\'e0\'e9\'f2\'e8 \'ea\'ee\'ed\'e2\'e5\'f0\'f2\'e5\'f0 \'e8\'e7 \lang1033\f1 MP3 \lang1049\f0\'e2 \lang1033\f1 GSM\lang1049\f0\par
+\lang1033\f1  4.2 \lang1049\f0\'f1\'ea\'ee\'ef\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'e7\'e2\'f3\'ea\'ee\'e2\'ee\'e9 \'f4\'e0\'e9\'eb \'e2 \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'fe\'f9\'f3\'fe \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'fe\lang1033\f1\par
+\lang1049\f0 5\lang1033\f1 . \lang1049\f0\'e2 \'e4\'e8\'e0\'eb\'ef\'eb\'e0\'ed\'e5 \'f1\'e4\'e5\'eb\'e0\'f2\'fc \'ef\'f0\'ee\'e8\'e3\'f0\'fb\'e2\'e0\'ed\'e8\'e5 \'ec\'f3\'e7\'fb\'ea\'e8 \'ef\'f0\'e8 \'e4\'ee\'e7\'e2\'ee\'ed\'e5 \'ed\'e0 \lang1033\f1 1111\par
+\cf2\lang1049\ul\f0 linkto:\'c0\'f1\'f2\'e5\'f01\cf1\ulnone\par
+\'f1\'f2\'f0. 163\par
+\par
+\ul\'d7\'e5\'ea-\'eb\'e8\'f1\'f2:\ulnone\par
+1. \'ef\'f0\'ee\'e2\'e5\'f0\'e8\'f2\'fc \'f1\'ef\'e8\'f1\'ee\'ea \'e7\'e0\'e3\'f0\'f3\'e6\'e5\'ed\'ed\'fb\'f5 \'ec\'ee\'e4\'f3\'eb\'e5\'e9\par
+\cf2\ul linkto:\'cc\'ee\'e4\'f3\'eb\'e8 Asterisk\cf1\ulnone\par
+2. \'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'f1\'e5\'f0\'f2\'e8\'f4\'e8\'ea\'e0\'f2\par
+3.\par
+\lang1033\f1 - \lang1049\f0\'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'ee\'e1\'fa\'e5\'ea\'f2\'fb \'f0\'e0\'e7\'eb\'e8\'f7\'ed\'fb\'f5 \'f1\'e5\'ea\'f6\'e8\'e9 \'e2 \lang1033\f1 pjsip\lang1049\f0\par
+\lang1033\f1 - \lang1049\f0\'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'f2\'f0\'e0\'f4\'e8\'ea \lang1033\f1 zoiper-aster \lang1049\f0\'e2 \lang1033\f1 Wireshark/tcpdump\lang1049\f0 , \'f3\'e1\'e5\'e4\'e8\'f2\'fc\'f1\'ff \'f7\'f2\'ee \lang1033\f1 TLS\lang1049\f0\par
+\cf2\ul linkto:\'cf\'f0\'e8\'ec\'e5\'f0\'fb \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff tcpdump\cf1\lang1033\ulnone\f1\par
+5. \lang1049\f0\'e4\'ee\'e7\'e2\'ee\'ed, \'ef\'f0\'ee\'f1\'eb\'f3\'f8\'e8\'e2\'e0\'ed\'e8\'e5\par
+\par
+\ul\b\'d0\'e5\'f8\'e5\'ed\'e8\'e5:\ulnone\b0\par
+\par
+1.\par
+\par
+\f2\fs16 nano modules.conf\par
+cat modules.conf | grep -v '^$\\|^\\s*\\;'\f0\fs20\par
+\par
+\ul\'d4\'e0\'e9\'eb \lang1033\f1 /etc/asterisk/modules.conf (\lang1049\f0\'e1\'e5\'e7 \'ea\'ee\'ec\'ec\'e5\'ed\'f2\'ee\'e2\lang1033\f1 )\lang1049\f0 :\ulnone\par
+\f2\fs16 [modules]\par
+autoload=yes\par
+noload => pbx_gtkconsole.so\par
+noload => pbx_kdeconsole.so\par
+noload => app_intercom.so\par
+noload => chan_modem.so\par
+noload => chan_modem_aopen.so\par
+noload => chan_modem_bestdata.so\par
+noload => chan_modem_i4l.so\par
+\cf3 noload => chan_sip.so\cf1\par
+noload => chan_capi.so\par
+load => res_musiconhold.so\par
+noload => chan_alsa.so\par
+noload => chan_console.so\par
+noload => chan_oss.so\par
+noload => cdr_sqlite.so\par
+noload => app_directory_odbc.so\par
+noload => res_config_odbc.so\par
+noload => res_config_pgsql.so\par
+[global]\f0\fs20\par
+\par
+\f2\fs16 asterisk -rx 'module show' | grep sip\par
+service asterisk restart\par
+asterisk -rx 'module show' | grep sip\f0\fs20\par
+\par
+2.\par
+\par
+\f2\fs16 root@AsterA:/etc/asterisk/keys# openssl req -x509 \\\par
+> -nodes -newkey rsa:4096 \\\par
+> -keyout privkey.pem \\\par
+> -days 3650 -subj '/C=US/ST=California/L=Los Angeles/O=RogaIKopyta Inc./CN=rogaikopyta.com' \\\par
+> -out mycert.pem\par
+Generating a RSA private key\par
+......................................................................++++\par
+.............................++++\par
+writing new private key to 'privkey.pem'\par
+-----\par
+root@AsterA:/etc/asterisk/keys# ls -al\par
+total 16\par
+drwxr-xr-x 2 root     root     4096 Dec 22 16:20 .\par
+drwxr-xr-x 4 asterisk asterisk 4096 Dec 22 16:18 ..\par
+-rw-r--r-- 1 root     root     2049 Dec 22 16:20 mycert.pem\par
+-rw------- 1 root     root     3272 Dec 22 16:20 privkey.pem\par
+root@AsterA:/etc/asterisk/keys#\f0\fs20\par
+\par
+\f2\fs16 chown asterisk:asterisk *.pem\par
+cd ..\par
+\par
+chown asterisk:asterisk keys/\f0\fs20\par
+\par
+\lang1033\f1 3.\par
+\par
+\f3\fs16 mv pjsip.conf pjsip.conf.old\par
+touch pjsip.conf\par
+nano pjsip.conf\f1\fs20\par
+\par
+\lang1049\ul\f0\'d4\'e0\'e9\'eb \lang1033\f1 /etc/asterisk/pjsip.conf\lang1049\f0 :\lang1033\ulnone\f1\par
+\f3\fs16 [transport-tls]\par
+type=transport\par
+protocol=tls\par
+bind=0.0.0.0:7912\par
+cert_file=/etc/asterisk/keys/mycert.pem\par
+priv_key_file=/etc/asterisk/keys/privkey.pem\par
+\par
+[ip-phones](!)\par
+type=endpoint\par
+transport=transport-tls\par
+context=ip-phones\par
+disallow=all\par
+allow=alaw\par
+\par
+[ip-phones-auth](!)\par
+type=auth\par
+auth_type=userpass\par
+\par
+[ip-phones-aor](!)\par
+type=aor\par
+max_contacts=1\par
+\par
+;=== USERS ===\par
+\par
+[3001](ip-phones)\par
+auth=auth3001\par
+aors=3001\par
+\par
+[auth3001](ip-phones-auth)\par
+password=note3\par
+username=3001\par
+\par
+[3001](ip-phones-aor)\f1\fs20\par
+\par
+\lang1049\f0\'c2 \'f4\'e0\'e9\'eb\'e5 \lang1033\f1 extensions.conf \lang1049\f0\'e4\'ee\'eb\'e6\'e5\'ed \'f1\'f3\'f9\'e5\'f1\'f2\'e2\'ee\'e2\'e0\'f2\'fc \'ea\'ee\'ed\'f2\'e5\'ea\'f1\'f2 \lang1033\f1 ip-phones\par
+\par
+\lang1049\ul\f0\'d4\'e0\'e9\'eb \lang1033\f1 /etc/asterisk/extensions.conf (\lang1049\f0\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'fb\'e9\lang1033\f1 )\lang1049\f0 :\lang1033\ulnone\f1\par
+\f3\fs16 [ip-phones]\par
+exten => s,1,Answer()\par
+exten => s,n,Hangup()\f1\fs20\par
+\par
+s \lang1049\f0\'e4\'ee\'e1\'e0\'e2\'e8\'eb \'ef\'f0\'ee\'f1\'f2\'ee \'f2\'e0\'ea...\lang1033\f1\par
+\par
+\f3\fs16 service asterisk restart\par
+asterisk -rvvvvvv\f1\fs20\par
+\lang1049\f0\par
+4 + 5.\par
+\par
+https://convertio.co/ru/mp3-gsm/\par
+\par
+\f2\fs16 cd /var/lib/asterisk/sounds/\par
+cp /home/vlad/scatman1.gsm ./scatman1.gsm\par
+chown asterisk:asterisk scatman1.gsm\f0\fs20\par
+\par
+\ul\'d4\'e0\'e9\'eb \lang1033\f1 /etc/asterisk/extensions.conf\lang1049\f0 :\ulnone\par
+\f2\fs16 [ip-phones]\par
+exten => s,1,Answer()\par
+exten => s,n,Hangup()\par
+exten => 1111,1,Answer()\par
+exten => 1111,n,Playback(\cf4 /var/lib/asterisk/sounds/\cf1 scatman1)\par
+exten => 1111,n,Hangup()\f0\fs20\par
+\par
+\'cf\'f0\'ee\'e1\'ee\'e2\'e0\'eb \'ec\'e5\'ed\'ff\'f2\'fc \'ef\'f3\'f2\'fc \'ea \lang1033\f1 datadir \lang1049\f0\'e2\lang1033\f1  asterisk.conf - \lang1049\f0\'ea\'e0\'ea\'e8\'e5-\'f2\'ee \'e3\'eb\'fe\'ea\'e0\'ed\'fb\par
+\'ef\'ee \'fd\'f2\'ee\'e9 \'e8\'ed\'f1\'f2\'f0\'f3\'ea\'f6\'e8\'e8: https://forum.asterisk.ru/viewtopic.php?f=5&t=1142\par
+\'f2\'ee\'eb\'fc\'ea\'ee \'f5\'f3\'e6\'e5 - \'e2\'ee\'ee\'e1\'f9\'e5 \'e0\'f1\'f2\'e5\'f0 \'ed\'e5 \'e3\'f0\'f3\'e7\'e8\'f2\'f1\'ff\par
+\par
++ \lang1033\f1 systemd \lang1049\f0\'ee\'f1\'eb\'ee\'e6\'ed\'ff\'e5\'f2 \'f1\'e8\'f2\'f3\'e0\'f6\'e8\'fe\par
+\par
+\'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ef\'eb\'fe\'ed\'f3\'eb \'e8 \'ef\'f0\'ee\'ef\'e8\'f1\'e0\'eb \'ef\'ee\'eb\'ed\'fb\'e9 \'ef\'f3\'f2\'fc \'ea \'f4\'e0\'e9\'eb\'f3 \lang1033\f1 gsm \lang1049\f0\'e1\'e5\'e7 \'f0\'e0\'f1\'f8\'e8\'f0\'e5\'ed\'e8\'ff\par
+\par
+\'f3\'e2\'e8\'e4\'e5\'f2\'fc \'f2\'e5\'ea\'f3\'f9\'e8\'e5 \'ed\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e8 \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'e9:\par
+\f2\fs16 asterisk -x "core show settings" | grep -i dire\f0\fs20\par
+\par
+\'cf\'f0\'ee\'f1\'ec\'ee\'f2\'f0 \'e2 \lang1033\f1 Wireshark:\par
+\f3\fs16 tcpdump -i eth0 -w out.cap\lang1049\f0\fs20\par
+\par
+\'cf\'ee\'f5\'ee\'e6\'e5, \'f7\'f2\'ee \lang1033\f1 RTP \lang1049\f0\'ed\'e5 \'f8\'e8\'f4\'f0\'ee\'e2\'e0\'eb\'f1\'ff...\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:\'d3\'f7\'e5\'e1\'ed\'fb\'e5 \'e7\'e0\'e4\'e0\'f7\'ea\'e8 Asterisk\par
+\par
+\cf2\ul H:\\video-experimentov\\2021-Dec-22--19-02-55_\'d2\'e5\'f1\'f2 \'ea\'ee\'ed\'ed\'e5\'ea\'f2\'e0 Zoiper \'ea Asterisk \'ef\'ee TLS.mp4\cf1\ulnone\par
+}
+ 
