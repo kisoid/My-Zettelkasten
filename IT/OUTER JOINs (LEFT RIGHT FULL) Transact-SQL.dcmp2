@@ -1,0 +1,77 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}{\f3\fnil\fcharset204 Lucida Console;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 OUTER JOINs (LEFT RIGHT FULL) Transact-SQL\par
+\'e8 3 \'f2\'e8\'ef\'ee\'e2\'fb\'f5 \'ee\'f8\'e8\'e1\'ea\'e8\b0\par
+\par
+\'cf\'f0\'ee\'e1\'eb\'e5\'ec\'e0 \lang1033\f1 INNER JOIN - \lang1049\f0\'f2\'e5\'f0\'ff\'fe\'f2\'f1\'ff \'f1\'f2\'f0\'ee\'ea\'e8 \'e8\'e7 \'ee\'e4\'ed\'ee\'e9 \'f2\'e0\'e1\'eb\'e8\'f6\'fb, \'e5\'f1\'eb\'e8 \'e8\'ec \'ed\'e5 \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'e5\'f2 \'f5\'ee\'f2\'ff \'e1\'fb 1 \'f1\'f2\'f0\'ee\'ea\'e0 \'e8\'e7 \'e4\'f0\'f3\'e3\'ee\'e9 \'f2\'e0\'e1\'eb\'e8\'f6\'fb\par
+\par
+\'cf\'f0\'e8\'ec\'e5\'f0 \'f1\'e8\'ec\'ef\'f2\'ee\'ec\'e0: \'e4\'ee\'eb\'e6\'ed\'fb \'e1\'fb\'eb\'e8 \'ef\'ee\'eb\'f3\'f7\'e8\'f2\'fc 91 \'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'ff (\'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'fc \lang1033\f1 inner join \lang1049\f0\'e7\'e0\'ea\'e0\'e7\'fb), \'ef\'ee\'eb\'f3\'f7\'e8\'eb\'e8\lang1033\f1  89\lang1049\f0 , \'f2.\'ea. 2 \'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'ff \'ed\'e5 \'e4\'e5\'eb\'e0\'eb\'e8 \'e7\'e0\'ea\'e0\'e7\'ee\'e2\par
+\par
+\ul\'f2\'e8\'ef\'ee\'e2\'e0\'ff \'ee\'f8\'e8\'e1\'ea\'e0 \'b91 - \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'fc \lang1033\f1 cross/inner \lang1049\f0\'e2\'ec\'e5\'f1\'f2\'ee \lang1033\f1 outer \lang1049\f0\'e8 \'f2\'e5\'f0\'ff\'f2\'fc \'f1\'f2\'f0\'ee\'ea\'e8\ulnone\par
+\par
+\lang1033\f1 LEFT [OUTER] JOIN - \lang1049\f0 "\'f1\'ef\'e0\'f1\'e0\'e5\'f2" \'f1\'f2\'f0\'ee\'ea\'e8 \'e8\'e7 \'eb\'e5\'e2\'ee\'e9 \'f2\'e0\'e1\'eb\'e8\'f6\'fb\lang1033\f1 , \lang1049\f0\'f1\'f2\'e0\'e2\'e8\'f2 \'e8\'ec \'e2 \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e8\'e5 \lang1033\f1 NULL\lang1049\f0\par
+\par
+\'ef\'f0\'e0\'e2\'fb\'e9 - \'e7\'e5\'f0\'ea\'e0\'eb\'fc\'ed\'fb\'e9\par
+\par
+\ul\'f2\'e8\'ef\'ee\'e2\'e0\'ff \'ee\'f8\'e8\'e1\'ea\'e0 \'b9\lang1033\f1 2\lang1049\ulnone\f0  - \'e2 \'f1\'eb\'f3\'f7\'e0\'e5 \'f1 \lang1033\f1 inner/cross \lang1049\f0\'ed\'e0 3 \'fd\'f2\'e0\'ef\'e5 "\'f3\'ed\'e8\'e2\'e5\'f0\'f1\'e0\'eb\'fc\'ed\'ee\'e3\'ee \'e0\'eb\'e3\'ee\'f0\'e8\'f2\'ec\'e0" \'ee\'e4\'ed\'ee\'e7\'ed\'e0\'f7\'ed\'fb\'e9 \'ee\'f2\'e2\'e5\'f2 \'ed\'e0 \'e2\'ee\'ef\'f0\'ee\'f1: "\'f1\'ef\'e8\'f1\'ee\'ea \'f7\'e5\'e3\'ee \'ff \'ef\'ee\'eb\'f3\'f7\'e8\'eb?", \'e2 \'f1\'eb\'f3\'f7\'e0\'e5 \'f1 \lang1033\f1 left/right \lang1049\f0\'f3\'e6\'e5 \'e1\'f3\'e4\'e5\'f2 \'e4\'e2\'e0 \'f1\'ef\'e8\'f1\'ea\'e0: \'f1\'ef\'e8\'f1\'ee\'ea \'e7\'e0\'ea\'e0\'e7\'ee\'e2 + \'f1\'ef\'e8\'f1\'ee\'ea "\'ee\'f1\'e8\'f0\'ee\'f2\'e5\'e2\'f8\'e8\'f5 \'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'e5\'e9"\par
+\par
+\'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ed\'f3\'e6\'ed\'ee \'e0\'ea\'ea\'f3\'f0\'e0\'f2\'ed\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'fc \'e0\'e3\'e3\'f0\'e5\'e3\'e0\'f6\'e8\'ee\'ed\'ed\'fb\'e5 \'f4\'f3\'ed\'ea\'f6\'e8\'e8: \lang1033\f1 count(), sum() \lang1049\f0\'e8 \'f2.\'e4.\par
+\par
+\lang1033\f1 count(*) - \lang1049\f0\'e2 \'f1\'eb\'f3\'f7\'e0\'e5 \'f1 \lang1033\f1 left/right - \lang1049\f0 "\'ec\'fb \'f1\'f7\'e8\'f2\'e0\'e5\'ec \'ed\'e5\'ef\'ee\'ed\'ff\'f2\'ed\'ee \'f7\'f2\'ee"\par
+\lang1033\f1\par
+\lang1049\f0\'e7\'e0\'ec\'e5\'ed\'ff\'e5\'ec \'ed\'e0\par
+\par
+\lang1033\f1 count(OrderID) - \lang1049\f0\'f1\'f7\'e8\'f2\'e0\'e5\'ec \'e7\'e0\'ea\'e0\'e7\'fb, \'f2.\'ea. \lang1033\f1 OrderID \lang1049\f0 - \'fd\'f2\'ee \'ef\'e5\'f0\'e2\'e8\'f7\'ed\'fb\'e9 \'ea\'eb\'fe\'f7 \'f2\'e0\'e1\'eb\'e8\'f6\'fb \'e7\'e0\'ea\'e0\'e7\'ee\'e2 \'e8 \'e5\'e3\'ee \'ed\'e5\'f2 \'e2 \'f1\'ef\'e8\'f1\'ea\'e5 "\'ee\'f1\'e8\'f0\'ee\'f2\'e5\'e2\'f8\'e8\'f5 \'ef\'ee\'ea\'f3\'ef\'e0\'f2\'e5\'eb\'e5\'e9"\par
+\par
+\ul\'f2\'e8\'ef\'ee\'e2\'e0\'ff \'ee\'f8\'e8\'e1\'ea\'e0 \'b91.1 - \'f2\'e5\'f0\'ff\'f2\'fc \'f1\'f2\'f0\'ee\'ea\'e8 \'e8\'e7-\'e7\'e0 \'f2\'ee\'e3\'ee, \'f7\'f2\'ee \'f1\'ed\'e0\'f7\'e0\'eb\'e0 \lang1033\f1 left join\lang1049\f0 , \'e7\'e0\'f2\'e5\'ec \lang1033\f1 where\lang1049\ulnone\f0\par
+\par
+\lang1033\f1 join \lang1049\f0\'f7\'e5\'f1\'f2\'ed\'ee \'f1\'ef\'e0\'f1\'e0\'e5\'f2 \'f2\'ee, \'f7\'f2\'ee \'ed\'e5 \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'e5\'f2 \lang1033\f1 ON\lang1049\f0 , \'ed\'ee \lang1033\f1 WHERE \lang1049\f0 "\'e4\'ee\'e1\'e8\'e2\'e0\'e5\'f2"\lang1033\f1  \lang1049\f0\'f1\'ef\'e0\'f1\'b8\'ed\'ed\'fb\'f5\par
+\'f0\'e5\'f8\'e5\'ed\'e8\'e5 - \'ef\'e5\'f0\'e5\'ed\'e5\'f1\'f2\'e8 \'f3\'f1\'eb\'ee\'e2\'e8\'e5 \'e8\'e7 \lang1033\f1 WHERE\lang1049\f0  \'e2 \lang1033\f1 ON \lang1049\f0\'f7\'e5\'f0\'e5\'e7 \lang1033\f1 AND\lang1049\f0\par
+\par
+\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'ee, \'e5\'f1\'eb\'e8 \'e4\'e6\'ee\'e9\'ed\'ee\'e2 \'ec\'ed\'ee\'e3\'ee \'e8 \'e2 \'ed\'e0\'f7\'e0\'eb\'e5 \lang1033\f1 left\lang1049\f0 /.. - \'e5\'e3\'ee \'ed\'e0\'e4\'ee "\'f2\'e0\'f9\'e8\'f2\'fc \'e4\'ee \'ea\'ee\'ed\'f6\'e0", \'e8\'ed\'e0\'f7\'e5 \lang1033\f1 inner \lang1049\f0\'ec\'ee\'e6\'e5\'f2 "\'e4\'ee\'e1\'e8\'f2\'fc"\par
+\par
+\lang1033\f1 FULL [OUTER] JOIN \lang1049\f0 - \lang1033\f1 "\lang1049\f0\'f1\'ef\'e0\'f1\'e0\'e5\'f2\lang1033\f1 "\lang1049\f0  \'e2\'f1\'e5 \'ed\'e5\'f1\'ef\'e0\'f0\'e5\'ed\'ed\'fb\'e5 \'f1\'f2\'f0\'ee\'ea\'e8 \'e8\'e7 \'ee\'e1\'e5\'e8\'f5 \'f2\'e0\'e1\'eb\'e8\'f6\par
+\par
+\'ef\'ee\'f1\'eb\'e5 \lang1033\f1 full \lang1049\f0\'ec\'fb \'ef\'ee\'eb\'f3\'f7\'e0\'e5\'ec \'e0\'e6 3 \'f1\'ef\'e8\'f1\'ea\'e0: \lang1033\f1 inner + \lang1049\f0\'eb\'e5\'e2\'fb\'e5 \'f1\'e8\'f0\'ee\'f2\'fb + \'ef\'f0\'e0\'e2\'fb\'e5 \'f1\'e8\'f0\'ee\'f2\'fb\par
+\par
+\ul\'f2\'e8\'ef\'ee\'e2\'e0\'ff \'ee\'f8\'e8\'e1\'ea\'e0 \'b93 - \'f4\'e8\'eb\'fc\'f2\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \'e8 \'f1\'f3\'ec\'ec\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \'f0\'e0\'e7\'ed\'fb\'f5 \'e2\'e5\'f9\'e5\'e9\ulnone\par
+\par
+\'e2\'ee\'e7\'ed\'e8\'ea\'e0\'e5\'f2, \'ea\'ee\'e3\'e4\'e0 \'e4\'eb\'e8\'ed\'ed\'fb\'e9 \'ea\'ee\'ed\'e2\'e5\'e9\'f0 \'e4\'e6\'ee\'e9\'ed\'ee\'e2\par
+\'e2\'ed\'e0\'f7\'e0\'eb\'e5 \'eb\'e5\'e2\'fb\'e9 - \'e7\'ed\'e0\'f7\'e8\'f2, \'e5\'e3\'ee \'ed\'e0\'e4\'ee \'f2\'e0\'f9\'e8\'f2\'fc \'e4\'ee \'ea\'ee\'ed\'f6\'e0\par
+\'e2 \'ea\'ee\'ed\'f6\'e5 \i\'f5\'ee\'f0\'ee\'f8\'ee \'e1\'fb\i0  \lang1033\f1 inner\lang1049\f0 , \'f7\'f2\'ee\'e1\'fb \'e1\'fb\'eb\'ee \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e8\'e5, \'ed\'ee \'ef\'f0\'e8\'f5\'ee\'e4\'e8\'f2\'f1\'ff \'eb\'e5\'e2\'fb\'e9\par
+\'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'e2\'ee\'e7\'ed\'e8\'ea\'e0\'fe\'f2 \'ed\'f3\'eb\'eb\'fb \'f1\'ef\'f0\'e0\'e2\'e0 \'e2 \'f1\'ef\'e0\'f1\'b8\'ed\'ed\'fb\'f5 \'f1\'f2\'f0\'ee\'ea\'e0\'f5\par
+\'ed\'ee \'f1\'f3\'ec\'ec\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \'ef\'f0\'ee\'e8\'f1\'f5\'ee\'e4\'e8\'f2 \'ef\'ee \'f2\'e5\'ec \'f1\'f2\'ee\'eb\'e1\'f6\'e0\'ec, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'ed\'e5 \'ed\'f3\'eb\'eb\'fb (\'f1\'f2\'ee\'eb\'e1\'f6\'fb \'e8\'e7 \'eb\'e5\'e2\'ee\'e9 \'f7\'e0\'f1\'f2\'e8)\par
+\'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'f1\'f3\'ec\'ec\'fb \'ef\'ee\'eb\'f3\'f7\'e0\'fe\'f2\'f1\'ff \'e1\'ee\'eb\'fc\'f8\'e5 \'f2\'e5\'f5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e4\'ee\'eb\'e6\'ed\'fb \'e1\'fb\'f2\'fc\par
+\par
+\'f5\'ee\'f2\'e5\'eb \'ef\'ee\'f1\'f2\'e0\'e2\'e8\'f2\'fc \'e8\'ed\'ed\'e5\'f0 \'e4\'e6\'ee\'e9\'ed, \'ed\'ee \'e1\'fb\'eb \'e2\'fb\'ed\'f3\'e6\'e4\'e5\'ed \'ef\'ee\'f1\'f2\'e0\'e2\'e8\'f2\'fc \'eb\'e5\'e2\'fb\'e9 (\'f7\'f2\'ee\'e1\'fb \'f1\'ef\'e0\'f1\'f2\'e8 \'f0\'e0\'ed\'e5\'e5 \'f1\'ef\'e0\'f1\'b8\'ed\'ed\'ee\'e5)\par
+\'ed\'ee \'e2\'e5\'e4\'fc \'ef\'ee-\'f5\'ee\'f0\'ee\'f8\'e5\'ec\'f3-\'f2\'ee \'ed\'e0\'e4\'ee \'e1\'fb\'eb\'ee \'e8\'ed\'ed\'e5\'f0!\par
+\par
+\'f0\'e5\'f8\'e5\'ed\'e8\'e5 - \'f1\'ea\'ee\'e1\'ea\'e8! \'f7\'f2\'ee\'e1\'fb \'ef\'ee\'ec\'e5\'ed\'ff\'f2\'fc \'ef\'ee\'f0\'ff\'e4\'ee\'ea \'e2\'fb\'ef\'ee\'eb\'ed\'e5\'ed\'e8\'ff \'e4\'e6\'ee\'e9\'ed\'ee\'e2 \'e8 \'e2\'ed\'f3\'f2\'f0\'e8 \'f1\'ea\'ee\'e1\'ee\'ea \'f1\'e4\'e5\'eb\'e0\'f2\'fc \'f2\'e0\'ea\'e8 \lang1033\f1 inner\par
+\par
+\lang1049\f0\'e4\'f0\'f3\'e3\'ee\'e9 \'e2\'e0\'f0\'e8\'e0\'ed\'f2 - \'ec\'e5\'ed\'ff\'f2\'fc \'ef\'ee\'f0\'ff\'e4\'ee\'ea \'e4\'e6\'ee\'e9\'ed\'ee\'e2 \'e8 \'ec\'e5\'ed\'ff\'f2\'fc \'eb\'e5\'e2\'fb\'e9 \'ed\'e0 \'ef\'f0\'e0\'e2\'fb\'e9, \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0 - \'e1\'ee\'eb\'e5\'e5 \'e7\'e0\'ec\'f3\'e4\'f0\'b8\'ed\'ed\'ee\'e5 \'f0\'e5\'f8\'e5\'ed\'e8\'e5, \'e5\'f1\'eb\'e8 \'e5\'f1\'f2\'fc \'ee\'f2\'e2\'f0\'e0\'f9\'e5\'ed\'e8\'e5 \'ea \'f1\'ea\'ee\'e1\'ea\'e0\'ec \'ef\'ee \'ea\'e0\'ea\'ee\'e9-\'f2\'ee \'ef\'f0\'e8\'f7\'e8\'ed\'e5\par
+\par
+\lang1033\f1 e L o L od L p - \lang1049\f0\'ee\'f8\'e8\'e1\'ea\'e0!\par
+\lang1033\f1 e L \lang1049\f0 (\lang1033\f1 o I od I p\lang1049\f0 )\lang1033\f1  - \lang1049\f0\'ee\'ea\par
+\lang1033\f1 p I od I o R e - \lang1049\f0\'e0\'eb\'fc\'f2\'e5\'f0\'ed\'e0\'f2\'e8\'e2\'e0\par
+\par
+\ul\'c2\'e0\'f0\'e8\'e0\'ed\'f2 \'f1\'ee \'f1\'ea\'ee\'e1\'ea\'e0\'ec\'e8:\par
+\ulnone\par
+\lang1033\f2\fs16 SELECT FirstName + ' ' + LastName,\par
+       IsNull(Sum(OD.UnitPrice * Quantity * (1-Discount)), 0)\par
+FROM   \cf2 Employees E LEFT JOIN\cf1\par
+       (\par
+       Orders O INNER JOIN [Orders Details] OD\par
+       ON O.OrderID = OD.OrderID\par
+       INNER JOIN Products P\par
+       ON OD.ProductID = P.ProductID\par
+\lang1049\f3        \lang1033\f2 AND P.ProductName = 'Tea'\par
+       )\par
+       \cf2 ON E.EmployeeID = O.EmployeeID\par
+       AND O.ShipCity = 'London'\cf1\par
+GROUP BY FirstName + ' ' + LastName\lang1049\f0\fs20\par
+\par
+\'ef\'ee\'eb\'f3\'f7\'e0\'fe\'f2\'f1\'ff \'ef\'ee\'e4\'e4\'e6\'ee\'e9\'ed\'fb :)\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:\'cf\'ee\'e4\'e7\'e0\'ef\'f0\'ee\'f1\'fb \'e8 JOIN\'fb Transact-SQL\par
+}
+ 
