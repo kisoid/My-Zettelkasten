@@ -46,6 +46,27 @@ The full name of the algorithm is DUAL finite-state machine (DUAL FSM)\par
 \'e4\'e5\'eb\'fd\'e9 \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'ea\'e0\'ea \'e2\'f0\'e5\'ec\'ff_\'ef\'ee\'e4\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff_\'ef\'ee\'eb\'f3\'f7\'e5\'ed\'e8\'ff/2 - \'f2.\'e5. \'f0\'ee\'f3\'f2\'e5\'f0 \'ef\'ee\'f1\'f2\'ee\'ff\'ed\'ed\'ee \'f1\'f7\'e8\'f2\'e0\'e5\'f2 \'f4\'e0\'ea\'f2\'e8\'f7\'e5\'f1\'ea\'f3\'fe \'e7\'e0\'e4\'e5\'f0\'e6\'ea\'f3\par
 \'e8 \'e5\'f1\'eb\'e8 \'ed\'e0 \'e4\'f0\'f3\'e3\'ee\'e9 \'f1\'f2\'ee\'f0\'ee\'ed\'e5 \'f3 \'f0\'ee\'f3\'f2\'e5\'f0\'e0 \'ef\'f0\'ee\'f6 \'e7\'e0\'e3\'f0\'f3\'e6\'e5\'ed \'ed\'e0 100% \'e8 \'ee\'ed \'ee\'f2\'f1\'fb\'eb\'e0\'e5\'f2 \'ef\'ee\'e4\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff \'e4\'ee\'eb\'fc\'f8\'e5 - \'e7\'e0\'e4\'e5\'f0\'e6\'ea\'e0 \'e2\'fb\'f0\'e0\'f1\'f2\'e5\'f2\par
 \par
+\ul\'d2\'e8\'ef\'fb \'ef\'e0\'ea\'e5\'f2\'ee\'e2 \lang1033\f1 EIGRP:\ulnone\par
+1) hello - \lang1049\f0\'f0\'e0\'e7 \'e2 10 \'f1\'e5\'ea, \'e5\'e4\'e8\'ed\'f1\'f2\'e2\'e5\'ed\'ed\'fb\'e9 \'ed\'e5 \'f2\'f0\'e5\'e1\'f3\'e5\'f2 \'ef\'ee\'e4\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff \'ef\'ee\'eb\'f3\'f7\'e5\'ed\'e8\'ff "\'ff \'f0\'ee\'f3\'f2\'e5\'f0 \'f2\'e0\'ea\'ee\'e9-\'f2\'ee, \'ea\'f2\'ee \'e7\'e4\'e5\'f1\'fc?"\par
+2) \lang1033\f1 update - \lang1049\f0\'e5\'ec\'f3 \'e2 \'ee\'f2\'e2\'e5\'f2 \lang1033\f1 ACK\par
+3) query - \lang1049\f0\'e5\'ec\'f3 \'e2 \'ee\'f2\'e2\'e5\'f2 \lang1033\f1 reply - \lang1049\f0\'e5\'f1\'eb\'e8 \'ed\'e5 \'e7\'ed\'e0\'e5\'ec \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e0, \'f1\'ef\'f0\'e0\'f8\'e8\'e2\'e0\'e5\'ec \'f3 \'f1\'ee\'f1\'e5\'e4\'e5\'e9, \'e0 \'ed\'e5 \'e7\'ed\'e0\'fe\'f2 \'eb\'e8 \'ee\'ed\'e8 \'f1\'eb\'f3\'f7\'e0\'e9\'ed\'ee (\'f1\'ee\'f1\'e5\'e4\'e8 \lang1033\f1 query \lang1049\f0\'ec\'ee\'e3\'f3\'f2 \'e5\'f9\'b8 \'e8 \'ef\'f0\'ee\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'f2\'fc)\lang1033\f1\par
+\lang1049\f0 4) \lang1033\f1 reply\par
+5) ACK\lang1049\f0\par
+\par
+\ul\'d0\'e0\'f1\'f1\'f7\'b8\'f2 \'ec\'e5\'f2\'f0\'e8\'ea\'e8:\ulnone\par
+\lang1033\f1 metric = (K1*BW + ((K2*BW)/(256 - load)) + K3*delay)*(K5/(reliability + K4))\par
+\par
+\lang1049\f0\'ef\'ee \'f3\'ec\'ee\'eb\'f7\'e0\'ed\'e8\'fe:\par
+\lang1033\f1 K1 = K3 = 1\lang1049\f0\par
+\lang1033\f1 K2 = K4 = K5 = 0\lang1049\f0\par
+\par
+\lang1033\f1 BW - slowest link = 10^7 / (minimum BW in kilobits/s) * 256\par
+delay = sum of delays in \i tens of micro\i0 seconds * 256\lang1049\f0\par
+\lang1033\f1 load - \lang1049\f0\'e2 \'e1\'e0\'e9\'f2-\'ef\'f0\'ee\'f6\'e5\'ed\'f2\'e0\'f5 (\'ee\'f2 0 \'e4\'ee 255) - \'f1\'f0\'e5\'e4\'ed\'e5\'e5 \'e0\'f0\'e8\'f4\'ec\'e5\'f2\'e8\'f7\'e5\'f1\'ea\'ee\'e5 \'ec\'e5\'e6\'e4\'f3 \lang1033\f1 txload \lang1049\f0\'e8 \lang1033\f1 rxload\lang1049\f0\par
+\lang1033\f1 reliability \lang1049\f0\'f3\'ec\'e5\'ed\'fc\'f8\'e0\'e5\'f2\'f1\'ff \'ee\'f2 \'ee\'f8\'e8\'e1\'ee\'ea \lang1033\f1 crc, \lang1049\f0\'ef\'ee\'f2\'e5\'f0\'e8 \'ed\'e5\'f1\'f3\'f9\'e5\'e9, \'ef\'ee\'e7\'e4\'ed\'e5\'e9 \'ea\'ee\'eb\'eb\'e8\'e7\'e8\'e8 \'e8 \'f2.\'e4.\par
+\par
+\cf3\ul linkto:\'ca\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \lang1033\f1 EIGRP\cf1\lang1049\ulnone\f0\par
+\par
 \'cd\'e0\'e7\'e0\'e4 - linkto:Interior Gateway Protocols\par
 \par
 linkto:Cisco ROUTE 1.0 (2012)\par
