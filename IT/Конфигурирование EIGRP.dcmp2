@@ -90,7 +90,29 @@ ip hold-time eigrp\lang1049\f0\fs20\par
 \par
 \ul\'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'f1\'e0\'ec\'ec\'e0\'f0\'e8:\ulnone\par
 \lang1033\f1\fs16 show ip route\f2\fs20\par
-(... is a summary ... Null0)\lang1049\f0\par
+(... is a summary ... Null0)\par
+\par
+\lang1049\ul\f0\'ed\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e0 \'e1\'e0\'eb\'e0\'ed\'f1\'e8\'f0\'ee\'e2\'ea\'e8 \'ef\'ee \'ec\'e5\'f2\'f0\'e8\'ea\'e5:\ulnone\par
+\lang1033\f1\fs16 R1(config-router)# variance 2\lang1049\f0\fs20\par
+\par
+\'ef\'ee\'ec\'ed\'ee\'e6\'e0\'e5\'ec \'ec\'e8\'ed\'e8\'ec\'e0\'eb\'fc\'ed\'fb\'e9 \lang1033\f2 FD*2 \lang1049\f0\'e8 \'e2\'f1\'e5 \lang1033\f2 FD\lang1049\f0 , \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'ec\'e5\'ed\'fc\'f8\'e5 \'ef\'ee\'eb\'f3\'f7\'e5\'ed\'ed\'ee\'e3\'ee \'f7\'e8\'f1\'eb\'e0 - \'e3\'ee\'e4\'ff\'f2\'f1\'ff \'e4\'eb\'ff \'ef\'e0\'f0\'e0\'eb\'eb\'e5\'eb\'fc\'ed\'ee\'e9 \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8 (\'ed\'e5 \'e1\'ee\'eb\'e5\'e5 32 \'ef\'f3\'f2\'e5\'e9, \'ef\'ee \'f3\'ec\'ee\'eb\'f7\'e0\'ed\'e8\'fe 4 \'e8\'eb\'e8 6\cf2 ?\cf1 )\par
+\par
+\ul\b\'cd\'ce:\ulnone\b0  \'e2 \'f6\'e5\'eb\'ff\'f5 \'e7\'e0\'f9\'e8\'f2\'fb \'ee\'f2 \'ef\'e5\'f2\'e5\'eb\'fc, \'e5\'f1\'eb\'e8 \lang1033\f2 AD\lang1049\f0  \'e0\'eb\'fc\'f2\'e5\'f0\'ed\'e0\'f2\'e8\'e2\'ed\'ee\'e3\'ee \'ef\'f3\'f2\'e8 \'e1\'ee\'eb\'fc\'f8\'e5, \'f7\'e5\'ec \'ec\'e8\'ed\'e8\'ec\'e0\'eb\'fc\'ed\'fb\'e9 \lang1033\f2 FD\lang1049\f0  (\'ee\'f1\'ed\'ee\'e2\'ed\'ee\'e9 \'e2\'fb\'e1\'f0\'e0\'ed\'ed\'fb\'e9 \'ef\'f3\'f2\'fc), \'f2\'ee \'e0\'eb\'fc\'f2\'e5\'f0\'ed\'e0\'f2\'e8\'e2\'ed\'fb\'e9 \'ef\'f3\'f2\'fc \'e8\'e3\'ed\'ee\'f0\'e8\'f2\'f1\'ff\par
+\'e8 \'e2\'ee\'ee\'e1\'f9\'e5 \'ea\'e0\'ea \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'ed\'e5 \'e1\'f3\'e4\'e5\'f2 \'e2\'ee\'f1\'ef\'f0\'e8\'ed\'e8\'ec\'e0\'f2\'fc\'f1\'ff... (\'e4\'e0\'e6\'e5 \'e2\'fd\'f0\'e8\'fd\'ed\'f1 \'ed\'e8 \'ef\'f0\'e8 \'f7\'b8\'ec)\par
+\par
+\ul\'d1\'ef\'e5\'f6\'ea\'ee\'f1\'f2\'fb\'eb\'e8 \'e4\'eb\'ff \'f0\'e0\'e1\'ee\'f2\'fb \'ef\'ee \lang1033\f2 WAN\lang1049\f0 -\'ea\'e0\'ed\'e0\'eb\'e0\'ec\ulnone\par
+\par
+\'f0\'e5\'e3\'f3\'eb\'e8\'f0\'ee\'e2\'ea\'e0, \'ea\'e0\'ea\'ee\'e9 \'ef\'f0\'ee\'f6\'e5\'ed\'f2 \'f2\'f0\'e0\'f4\'e8\'ea\'e0 \'ec\'ee\'e6\'e5\'f2 \'ef\'ee\'f2\'f0\'e5\'e1\'eb\'ff\'f2\'fc \'f1\'e0\'ec \lang1033\f2 EIGRP\lang1049\f0\par
+\lang1033\f1\fs16 interface serial 0.1 point-to-point\par
+ bandwidth 25\par
+ ip bandwidth-percent eigrp 200 110\lang1049\f0\fs20\par
+\par
+25 - \'ed\'e5(!) \'f8\'e5\'e9\'ef\'e8\'ed\'e3, \'ef\'ee\'eb\'ee\'f1\'e0 \'e2 \'ea\'e8\'eb\'ee\'e1\'e8\'f2\'e0\'f5, \'e4\'eb\'ff \'f4\'ee\'f0\'ec\'f3\'eb\'fb \'ec\'e5\'f2\'f0\'e8\'ea\'e8\lang1033\f2\par
+200 - \lang1049\f0\'ed\'ee\'ec\'e5\'f0 \'ef\'f0\'ee\'f6\'e5\'f1\'f1\'e0 \lang1033\f2 eigrp (\lang1049\f0\'ed\'ee\'ec\'e5\'f0 \'e0\'e2\'f2\'ee\'ed\'ee\'ec\'ed\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'ec\'fb\lang1033\f2 )\lang1049\f0\par
+110 - 110% \'ee\'f2 25 \'ea\'e8\'eb\'ee\'e1\'e8\'f2, \lang1033\f2 ~\lang1049\f0 28 \'ea\'e8\'eb\'ee\'e1\'e8\'f2\par
+\par
+\'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'e1\'ee\'eb\'fc\'f8\'e5 100%. \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \'e5\'f1\'eb\'e8 \'ec\'fb \'f3\'ec\'fb\'f8\'eb\'e5\'ed\'ed\'ee \'e7\'e0\'ed\'e8\'e7\'e8\'eb\'e8 \lang1033\f2 BW\lang1049\f0  \'f0\'e0\'e4\'e8 \'f4\'ee\'f0\'ec\'f3\'eb\'fb \'ec\'e5\'f2\'f0\'e8\'ea\'e8\par
+\'ef\'ee \'e4\'e5\'f4\'ee\'eb\'f2\'f3 50%\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:EIGRP\par
 \par
