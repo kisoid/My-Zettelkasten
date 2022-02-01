@@ -114,8 +114,23 @@ ip hold-time eigrp\lang1049\f0\fs20\par
 \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'e1\'ee\'eb\'fc\'f8\'e5 100%. \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \'e5\'f1\'eb\'e8 \'ec\'fb \'f3\'ec\'fb\'f8\'eb\'e5\'ed\'ed\'ee \'e7\'e0\'ed\'e8\'e7\'e8\'eb\'e8 \lang1033\f2 BW\lang1049\f0  \'f0\'e0\'e4\'e8 \'f4\'ee\'f0\'ec\'f3\'eb\'fb \'ec\'e5\'f2\'f0\'e8\'ea\'e8\par
 \'ef\'ee \'e4\'e5\'f4\'ee\'eb\'f2\'f3 50%\par
 \par
-\'cd\'e0\'e7\'e0\'e4 - linkto:EIGRP\par
+\ul\'d1\'ef\'e5\'f6\'e8\'f4\'e8\'ea\'e0 \'e1\'ee\'eb\'fc\'f8\'ee\'e9 \'f1\'e5\'f2\'e8\ulnone\par
 \par
+\lang1033\i\f2 eigrp query\i0  - \lang1049\f0\'ef\'ee\'e4\'f1\'f2\'f0\'e0\'f5\'ee\'e2\'ea\'e0 \'e2 \'f1\'eb\'f3\'f7\'e0\'e5, \'ea\'ee\'e3\'e4\'e0 \'ef\'ee\'ec\'e5\'f0\'eb\'e8 \'e2\'f1\'e5 \'e7\'e0\'ef\'e0\'f1\'ed\'fb\'e5 (\lang1033\f2 fisible successor \lang1049\f0\'ed\'e5 \'e4\'ee\'f1\'f2\'f3\'ef\'e5\'ed, \'ed\'ee \lang1033\f2 successor \lang1049\f0\'ef\'ee\'ea\'e0 \'e6\'e8\'e2\'ee\'e9 (\'ed\'ee \'ee\'ed \'ee\'e4\'e8\'ed)) - \'ed\'e0\'f7\'e8\'ed\'e0\'e5\'f2\'f1\'ff \'e2\'ee\'eb\'ed\'ee\'ee\'e1\'f0\'e0\'e7\'ed\'e0\'ff (\'ef\'ee\'f2\'ee\'ec\'f3 \'f7\'f2\'ee \'ef\'f0\'ee\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \'e7\'e0\'ef\'f0\'ee\'f1\'e0 \'f1\'ee\'f1\'e5\'e4\'ff\'ec\'e8) \'f0\'e0\'f1\'f1\'fb\'eb\'ea\'e0 \'e7\'e0\'ef\'f0\'ee\'f1\'e0 "\'e0 \'e7\'ed\'e0\'e5\'f2 \'eb\'e8 \'ea\'f2\'ee, \'ea\'e0\'ea \'e4\'ee\'e1\'f0\'e0\'f2\'fc\'f1\'ff \'e4\'ee \'fd\'f2\'ee\'e9 \'f1\'e5\'f2\'e8?"\par
+\par
+\'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2 - \'e2\'ee\'e7\'ec\'ee\'e6\'ed\'e0 \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'e0\'ff \lang1033\f2 "DDoS\lang1049\f0 -\'e0\'f2\'e0\'ea\'e0\lang1033\f2 "\lang1049\f0 . \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \'d6\'ce \'f1 2 \'f0\'ee\'f3\'f2\'e5\'f0\'e0\'ec\'e8 \'e8 100 \'f4\'e8\'eb\'e8\'e0\'eb\'ee\'e2. \'e5\'f1\'eb\'e8 \'f3 1-\'e3\'ee \'f0\'ee\'f3\'f2\'e5\'f0\'e0 \'d6\'ce \'ee\'f2\'e2\'e0\'eb\'e8\'eb\'f1\'ff \'f0\'e5\'e7\'e5\'f0\'e2\'ed\'fb\'e9 \'ec\'e0\'f0\'f8\'f0\'f3\'f2, \'ee\'ed \'ef\'ee\'f1\'fb\'eb\'e0\'e5\'f2 \'e7\'e0\'ef\'f0\'ee\'f1 \'e2\'f1\'e5\'ec \'f4\'e8\'eb\'e8\'e0\'eb\'e0\'ec (\'e2\'e5\'e4\'fc \'f0\'e5\'e3\'e8\'ee\'ed-\'f2\'ee \'ee\'e4\'e8\'ed!), \'e0 \'f4\'e8\'eb\'e8\'e0\'eb\'fb \'ed\'e0\'f7\'e8\'ed\'e0\'fe\'f2 \'ef\'f0\'ee\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'e7\'e0\'ef\'f0\'ee\'f1 \'ed\'e0 2-\'e9 \'d6\'ce\'f8\'ed\'fb\'e9 \'f0\'ee\'f3\'f2\'e5\'f0...\par
+\par
+\lang1033\i\f2 eigrp stub\i0  - \lang1049\f0\'f2\'f3\'ef\'e8\'ea\'ee\'e2\'e0\'ff \'f1\'e5\'f2\'fc. \'f0\'ee\'f3\'f2\'e5\'f0 \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ef\'ee\'ec\'e5\'f7\'e5\'ed \'e0\'e4\'ec\'e8\'ed\'ee\'ec, \'ea\'e0\'ea \'f1\'f2\'e0\'e1\'ee\'e2\'fb\'e9.\lang1033\f2\par
+\lang1049\f0\'e8 \'f2\'ee\'e3\'e4\'e0 \'e5\'ec\'f3 \'ea\'e2\'e5\'f0\'e8 \'ef\'f0\'e8\'eb\'e5\'eb\'e0\'f2\'fc \'ed\'e5 \'e1\'f3\'e4\'f3\'f2\par
+\'f5\'ee\'f0\'ee\'f8\'ee \'e4\'eb\'ff \'f2\'ee\'ef\'ee\'eb\'ee\'e3\'e8\'e8 \lang1033\f2 hub-and-spoke\lang1049\f0 , \'e4\'eb\'ff \'f1\'ef\'ee\'ea\'ee\'e2\lang1033\f2\par
+\lang1049\f0\par
+\lang1033\f1\fs16 R1(config-router)# eigrp stub [receive-only|connected|static|summary]\lang1049\f0\fs20\par
+\'ef\'ee \'e4\'e5\'f4\'ee\'eb\'f2\'f3 \'f0\'e0\'e7\'f0\'e5\'f8\'e5\'ed\'ee \'ef\'e5\'f0\'e5\'e4\'e0\'e2\'e0\'f2\'fc \'ea\'ee\'ed\'ed\'e5\'ea\'f2\'e5\'e4 \'e8 \'f1\'f3\'ec\'ec\'e0\'f0\'e8\par
+\par
+\'f0\'e5\'f1\'e8\'e2 \'ee\'ed\'eb\'e8 \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e5\'f2 \'f4\'e8\'eb\'e8\'e0\'eb\'fc\'ed\'fb\'e9 \'ef\'ee\'eb\'ed\'ee\'f1\'f2\'fc\'fe "\'e7\'e0\'f2\'ea\'ed\'f3\'f2\'fc" (\'e1\'f3\'e4\'f3\'f2 \'f2\'ee\'eb\'fc\'ea\'ee \lang1033\f2 hello\lang1049\f0 ), \'ed\'ee \'f2\'ee\'e3\'e4\'e0 \'ed\'e0\'e4\'ee \'e1\'f3\'e4\'e5\'f2 \'ed\'e0 \'d6\'ce\'f8\'ed\'ee\'ec \'f1\'e4\'e5\'eb\'e0\'f2\'fc \'f1\'f2\'e0\'f2\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'e4\'ee \'e5\'e3\'ee \'f1\'e5\'f2\'ee\'ea \'e8 \'f0\'e5\'e4\'e8\'f1\'f2\'f0\'e8\'e1\'fc\'fe\'f2 \'f1\'f2\'e0\'f2\'e8\'ea - \'f1\'f3\'f9\'e5\'f1\'f2\'e2\'e5\'ed\'ed\'e0\'ff \'fd\'ea\'ee\'ed\'ee\'ec\'e8\'ff \'e7\'e0 \'f1\'f7\'b8\'f2 \'ed\'e5\'ed\'f3\'e6\'ed\'fb\'f5 \'ef\'e0\'ea\'e5\'f2\'ee\'e2 \'ef\'f0\'ee \'ee\'e4\'ed\'e8 \'e8 \'f2\'e5 \'e6\'e5 \'f4\'e8\'eb\'e8\'e0\'eb\'fc\'ed\'fb\'e5 \'ef\'ee\'e4\'f1\'e5\'f2\'ea\'e8\par
+\'ed\'ee \'f4\'e8\'eb\'e8\'e0\'eb\'fc\'ed\'fb\'e9 \'ef\'f0\'ee\'e4\'ee\'eb\'e6\'e8\'f2 \i\'ef\'ee\'eb\'f3\'f7\'e0\'f2\'fc\i0  \'ec\'e0\'f8\'f0\'f3\'f2\'ed\'f3\'fe \'e8\'ed\'f4\'f3 \'ee\'f2 \'d6\'ce\'f8\'ed\'ee\'e3\'ee\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:EIGRP\par
 \par
 }
  
