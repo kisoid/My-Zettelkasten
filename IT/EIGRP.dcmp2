@@ -54,6 +54,12 @@ The full name of the algorithm is DUAL finite-state machine (DUAL FSM)\par
 \lang1049\f0 4) \lang1033\f1 reply\par
 5) ACK\lang1049\f0\par
 \par
+\'e2\'f1\'e5\'e3\'ee 11 \'f2\'e8\'ef\'ee\'e2 \'ef\'e0\'ea\'e5\'f2\'ee\'e2\par
+\'f3\'ef\'ee\'ec\'e8\'ed\'e0\'e5\'f2\'f1\'ff \'e5\'f9\'b8 3:\par
+6) \'f4\'eb\'e0\'e6\'ee\'ea "\'ff \'f1\'f2\'e0\'e1"\par
+7) \lang1033\f1 SIA-query\par
+8) SIA-reply\lang1049\f0\par
+\par
 \ul\'d0\'e0\'f1\'f1\'f7\'b8\'f2 \'ec\'e5\'f2\'f0\'e8\'ea\'e8:\ulnone\par
 \lang1033\f1 metric = (K1*BW + ((K2*BW)/(256 - load)) + K3*delay)*(K5/(reliability + K4))\par
 \par
