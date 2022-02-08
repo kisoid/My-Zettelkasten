@@ -1,0 +1,74 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}{\f3\fnil\fcharset204 Lucida Console;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue205;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 VTP (VLAN Trunking Protocol)\b0\par
+\par
+\'f1\'e8\'ed\'f5\'f0\'ee\'ed\'e8\'e7\'e0\'f6\'e8\'ff \'e1\'e0\'e7\'fb \'e2\'eb\'e0\'ed\'ee\'e2 \'ec\'e5\'e6\'e4\'f3 \'f3\'f1\'f2\'f0\'ee\'e9\'f1\'f2\'e2\'e0\'ec\'e8\par
+\par
+\ul\'cc\'ee\'e4\'fb (\'f0\'e5\'e6\'e8\'ec\'fb):\ulnone\par
+1)\lang1033\f1  VTP server.\lang1049\f0  \'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'ff (\'f1\'ee\'e7\'e4., \'ec\'ee\'e4\'e8\'f4\'e8\'ea., \'f3\'e4\'e0\'eb\'e5\'ed\'e8\'e5 \'e2\'e8\'eb\'e0\'ed\'ee\'e2) \'f2\'ee\'eb\'fc\'ea\'ee \'ed\'e0 \lang1033\f1 VTP server\par
+\lang1049\f0\'f1\'e5\'f0\'e2\'e5\'f0\'ee\'e2 \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee\par
+\'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'ff \'ed\'e0 \'ee\'e4\'ed\'ee\'ec \'ef\'e5\'f0\'e5\'f2\'e8\'f0\'e0\'fe\'f2 \'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'ff \'ed\'e0 \'e4\'f0\'f3\'e3\'e8\'f5 \'f1\'e5\'f0\'e2\'e5\'f0\'e0\'f5\par
+\'e8\'ed\'f4\'e0 \'ee \'e2\'e8\'eb\'e0\'ed\'e0\'f5 \'f5\'f0\'e0\'ed\'e8\'f2\'f1\'ff \'e2 \lang1033\f1 vlan.dat\par
+\par
+2) VTP client. \lang1049\f0\'f5\'f0\'e0\'ed\'ff\'f2 \lang1033\f1 read-only \lang1049\f0\'e1\'e0\'e7\'f3 \'e2 \'ee\'ef\'e5\'f0\'e0\'f2\'e8\'e2\'ea\'e5, \'ee\'e1\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'ff \'ef\'f0\'e8\'f5\'ee\'e4\'ff\'f2 \'ef\'ee \'f1\'e5\'f2\'e8 (\'f0\'e5\'e3\'f3\'eb\'ff\'f0\'ed\'ee \lang1033\f1 refresh\lang1049\f0  + \'ea\'e0\'e6\'e4\'ee\'e5 \'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'e5)\par
+\par
+\lang1033\f1 3) VTP transparent \lang1049\f0\'f0\'e5\'f2\'f0\'e0\'ed\'f1\'eb\'e8\'f0\'f3\'e5\'f2 \'ef\'e0\'ea\'e5\'f2\'fb \lang1033\f1 vtp\lang1049\f0 , \'ed\'ee \'f1\'e0\'ec \'ed\'e5 \'f3\'f7\'e0\'f1\'f2\'e2\'f3\'e5\'f2 (\'ea\'e0\'ea \'ea\'eb\'e8\'e5\'ed\'f2 \'e8\'eb\'e8 \'f1\'e5\'f0\'e2\'e5\'f0)\par
+\lang1033\f1 VTP transparent \lang1049\f0\'ec\'ee\'e6\'e5\'f2 \'e2\'ed\'ee\'f1\'e8\'f2\'fc \'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'ff \'f2\'ee\'eb\'fc\'ea\'ee \'e2 \'f1\'e2\'ee\'fe \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'f3\'fe \'e1\'e0\'e7\'f3 \par
+\'e2 \'f0\'e5\'e6\'e8\'ec\'e5 \lang1033\f1 transparent \lang1049\f0\'f1\'e2\'e8\'f2\'f7 \'ef\'e5\'f0\'e5\'f1\'f2\'e0\'b8\'f2 \'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \lang1033\f1 vlan.dat \lang1049\f0\'e8 \'ed\'e0\'f7\'e8\'ed\'e0\'e5\'f2 \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'fc \'ea\'ee\'ed\'f4\'e8\'e3 \'ee\'f2 \'f2\'f0\'e0\'ed\'f1\'ef\'e0\'f0\'e5\'ed\'f2-\'f0\'e5\'e6\'e8\'ec\'e0 (\'ee\'e1\'fb\'f7\'ed\'fb\'e9 \'ea\'ee\'ed\'f4\'e8\'e3 \'f2.\'e5. \lang1033\f1 sh run\lang1049\f0 )\par
+\par
+\lang1033\f1 4) \lang1049\f0\'e2 \lang1033\f1 v3 \lang1049\f0\'ef\'ee\'ff\'e2\'e8\'eb\'e0\'f1\'fc \'f0\'ee\'eb\'fc \lang1033\f1 Off - vtp \lang1049\f0\'f2\'f0\'e0\'f4\'e8\'ea \'ee\'f2\'e1\'f0\'e0\'f1\'fb\'e2\'e0\'e5\'f2\'f1\'ff\par
+\par
+\'ef\'ee \'f3\'ec\'ee\'eb\'f7\'e0\'ed\'e8\'fe \'eb\'fe\'e1\'ee\'e9 \'ea\'ee\'ec\'ec\'f3\'f2\'e0\'f2\'ee\'f0 - \'f1\'e5\'f0\'e2\'e5\'f0\par
+\par
+\'f3\'ff\'e7\'e2\'e8\'ec\'ee\'f1\'f2\'fc \lang1033\f1 by design: \lang1049\f0\'ef\'f0\'e8\'f1\'fb\'eb\'e0\'fe\'f2 \'eb\'e5\'e2\'fb\'e5 \lang1033\f1 vtp-\lang1049\f0\'ef\'e0\'ea\'e5\'f2\'fb \'f1 \'ef\'f3\'f1\'f2\'ee\'e9 \'e1\'e0\'e7\'ee\'e9 \'e8 \'e3\'e8\'e3\'e0\'ed\'f2\'f1\'ea\'e8\'ec \'ed\'ee\'ec\'e5\'f0 \'e2\'e5\'f0\'f1\'e8\'e8\par
+\'e4\'ee\'ec\'e5\'ed+\'ef\'e0\'f1\'f1 \'ed\'e5 \'f1\'ef\'e0\'f1\'e0\'fe\'f2, \'f2.\'ea. \'ee\'f2 \'ed\'e8\'f5 \'e1\'e5\'f0\'b8\'f2\'f1\'ff \'f5\'fd\'f8 \lang1033\f1 md5 \lang1049\f0\'e8 \'f2\'f3\'ef\'ee \'e4\'ee\'e1\'e0\'e2\'eb\'ff\'e5\'f2\'f1\'ff \'e2 \lang1033\f1 vtp \lang1049\f0\'ef\'e0\'ea\'e5\'f2\par
+\'f2.\'e5. \'fd\'f2\'ee \'ef\'f0\'ee\'f1\'f2\'ee \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff, \'f7\'f2\'ee \'ed\'e0 \'e4\'e2\'f3\'f5 \'f1\'e2\'e8\'f2\'f7\'e0\'f5 \'ee\'e4\'e8\'ed\'e0\'ea\'ee\'e2\'fb\'e5 \'e4\'ee\'ec\'e5\'ed+\'ef\'e0\'f1\'f1 \'e2\'e1\'e8\'f2\'fb, \'ed\'ee \'ed\'e5 \'e2\'e5\'f0\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'ff \'f1\'e0\'ec\'ee\'e3\'ee \'ef\'e0\'ea\'e5\'f2\'e0.... \cf2\'c1\'d0\'c5\'c4 \'ea\'e0\'ea\'ee\'e9-\'f2\'ee\cf1\par
+\par
+\'f2\'f0\'e0\'f4\'e8\'ea \lang1033\f1 vtp \lang1049\f0\'f5\'ee\'e4\'e8\'f2 \'f2\'ee\'eb\'fc\'ea\'ee \'ef\'ee\'e2\'e5\'f0\'f5 \'f2\'f0\'e0\'ed\'ea\'ee\'e2\par
+\par
+\ul\'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'f0\'e5\'e6\'e8\'ec:\ulnone\par
+\lang1033\f2\fs16 sw#sh vtp status\lang1049\f0\fs20\par
+\par
+\ul\'e7\'e0\'e4\'e0\'b8\'ec \'e4\'ee\'ec\'e5\'ed\lang1033\f1  \lang1049\f0\'e8 \'ef\'e0\'f0\'ee\'eb\'fc:\ulnone\par
+\lang1033\f2\fs16 conf ter\par
+vtp domain CASESENSiTiVE #\lang1049\f3\'ef\'ee \'f3\'ec\'ee\'eb\'f7 \'ef\'f3\'f1\'f2\'ee\'e9, \'ef\'ee\'f2\'ee\'ec \'ec\'ee\'e6\'ed\'ee \'f2\'ee\'eb\'fc\'ea\'ee \'ef\'ee\'ec\'e5\'ed\'ff\'f2\'fc\f0\fs20\par
+\lang1033\f2\fs16 vtp password cisco #\lang1049\f3\'eb\'e5\'e6\'e8\'f2 \lang1033\f2 plain text \lang1049\f3\'e2 \lang1033\f2 vlan.dat \lang1049\f3\'ed\'e0 \'f4\'eb\'fd\'f8\'e5\f0\fs20\par
+\lang1033\f2\fs16 sw(config)#do sh vtp pass\lang1049\f0\fs20\par
+\par
+\ul\'e7\'e0\'e4\'e0\'b8\'ec \'e2\'e5\'f0\'f1\'e8\'fe \'e8 \'f0\'e5\'e6\'e8\'ec:\ulnone\par
+\lang1033\f2\fs16 vtp ver 2\lang1049\f0\fs20\par
+\lang1033\f2\fs16 vtp mode client\f1\fs20\par
+\lang1049\f0\par
+\'f7\'f2\'ee\'e1\'fb \'f3\'e1\'e8\'f2\'fc \lang1033\f1 vlan.dat \lang1049\f0\'ed\'e0\'e4\'ee \'e7\'e0\'f5\'ee\'e4\'e8\'f2\'fc \'e2 \lang1033\f1 ROMMON\lang1049\f0\par
+\cf3\ul linkto:\lang1033\f1 ROMMON (Cisco)\cf1\lang1049\ulnone\f0\par
+\par
+\'ef\'e5\'f0\'e5\'f5\'ee\'e4 \lang1033\f1 server -> transparent -> server\lang1049\f0  \'e2\'e5\'e4\'b8\'f2 \'ea \'ef\'ee\'f2\'e5\'f0\'e5 \'e2\'e8\'eb\'e0\'ed\'ee\'e2, \'f1\'ee\'e7\'e4\'e0\'ed\'ed\'fb\'f5 \'e2\'ee \'e2\'f0\'e5\'ec\'ff \lang1033\f1 transparent\lang1049\f0\par
+\par
+\lang1033\ul\f1 VTP v3\lang1049\ulnone\f0\par
+\par
+\'ef\'f0\'ee\'f2\'ee\'ea\'ee\'eb \'ec\'ee\'e4\'f3\'eb\'fc\'ed\'fb\'e9, \'f2.\'e5. \'ec\'ee\'e6\'e5\'f2 \'f2\'e5\'ef\'e5\'f0\'fc \'e5\'f9\'b8 \'ef\'e5\'f0\'e5\'e4\'e0\'e2\'e0\'f2\'fc \'ef\'ee\'ec\'e8\'ec\'ee \'e2\'eb\'e0\'ed\'ee\'e2 \'e4\'f0\'f3\'e3\'f3\'fe \'e8\'ed\'f4\'f3\par
+\'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \'e8\'ed\'f4\'f3 \'e4\'eb\'ff \lang1033\f1 MST\lang1049\f0  (\lang1033\f1 feature\lang1049\f0  \lang1033\f1 MST\lang1049\f0 )\par
+\par
+\lang1033\f1 feature UNKNOWN - \lang1049\f0\'e2\'f1\'b8 \'f2\'ee, \'f7\'f2\'ee \'ff \'ed\'e5 \'e7\'ed\'e0\'fe, \'ed\'ee \'f7\'f2\'ee \'e2 \lang1033\f1 vtp\lang1049\f0  \'f2\'f0\'e0\'f4\'e8\'ea\'e5 \'ef\'ee\'ef\'e0\'e4\'e0\'e5\'f2\'f1\'ff\par
+\par
+\'e4\'eb\'ff \'ea\'e0\'e6\'e4\'ee\'e9 \'f4\'e8\'f7\'e8 \'f1\'e2\'ee\'e9 \'f0\'e5\'e6\'e8\'ec. \'ef\'ee \'e4\'e5\'f4\'ee\'eb\'f2\'f3 \'f2\'f0\'e0\'ed\'f1\'ef\'e0\'f0\'e5\'ed\'f2\par
+\par
+\'e1\'ee\'eb\'e5\'e5 \'e1\'e5\'e7\'ee\'ef\'e0\'f1\'ed\'e0\'ff \'f0\'e0\'e1\'ee\'f2\'e0 \'f1 \'ef\'e0\'f1\'f1\'ee\'ec - \'ec\'ee\'e6\'ed\'ee\lang1033\f1  \lang1049\f0\'f2\'e5\'ef\'e5\'f0\'fc \'e2\'e2\'ee\'e4\'e8\'f2\'fc \lang1033\f1 hidden/secret\lang1049\f0\par
+\'e8 \lang1033\f1 sh vtp pass\lang1049\f0  \'e2\'fb\'e2\'ee\'e4\'e8\'f2 \'f5\'fd\'f8\par
+\par
+\ul\'ec\'ee\'e6\'ed\'ee \'e2\'fb\'f0\'f3\'e1\'e8\'f2\'fc \'e2\'e8\'f2\'e8\'ef\'e8 \'ed\'e0 \'f4\'e5\'e9\'f1\'e5:\ulnone\par
+\lang1033\f2\fs16 sw(config-if)#no vtp\lang1049\f0\fs20\par
+\par
+\'ef\'ee\'ff\'e2\'e8\'eb\'e8\'f1\'fc 2 \'f2\'e8\'ef\'e0 \'f1\'e5\'f0\'e2\'e5\'f0\'ee\'e2:\par
+\lang1033\f1 primary server - \lang1049\f0\'ea\'ee\'ed\'f4\'e8\'e3\'f3 \'ed\'e5\'eb\'fc\'e7\'ff \'e7\'e0\'f2\'e5\'f0\'e5\'f2\'fc \'f1 \'e4\'f0\'f3\'e3\'ee\'e3\'ee \'f1\'e5\'f0\'e2\'e5\'f0\'e0\lang1033\f1\par
+server\lang1049\f0\par
+\par
+\ul\'f1\'f2\'e0\'f2\'fc \'ef\'f0\'e8\'ec\'e0\'f0\'e8:\ulnone\par
+\lang1033\f2\fs16 sw#vtp primary vlan #\lang1049\f3\'ef\'e5\'f0\'e2\'e8\'f7\'ed\'fb\'e9 \'e4\'eb\'ff \'f4\'e8\'f7\'e8 \'e2\'eb\'e0\'ed\f0\fs20\par
+\par
+\'e7\'e0\'ef\'f0\'ee\'f1\'e8\'f2 \'ef\'e0\'f1\'f1, \'e1\'f3\'e4\'e5\'f2 \'e4\'e5\'eb\'e0\'f2\'fc \'ee\'ef\'f0\'ee\'f1, \'ed\'e5\'f2 \'eb\'e8 "\'ea\'ee\'ed\'ea\'f3\'f0\'e5\'ed\'f2\'ee\'e2"\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:VLAN\par
+\'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:ICND2 v3 (\'ca\'e0\'f0\'ec\'e0\'ed\'ee\'e2)\par
+}
+ 
