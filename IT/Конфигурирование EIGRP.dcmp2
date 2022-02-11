@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Lucida Console;}{\f2\fnil\fcharset0 Tahoma;}{\f3\fnil\fcharset204 Lucida Console;}}
-{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue205;}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red255\green0\blue0;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'ca\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 EIGRP\b0\par
 \par
 \b\i\'c1\'e0\'e7\'ee\'e2\'e0\'ff \'ed\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e0\b0\i0\par
@@ -7,14 +7,14 @@
 \lang1033\f1\fs16 router(config)# router eigrp as-number\lang1049\f0\fs20\par
 \par
 \lang1033\f2 as-number - \lang1049\f0\'ed\'ee\'ec\'e5\'f0 \'e0\'e2\'f2\'ee\'ed\'ee\'ec\'ed\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'ec\'fb, \'e4\'ee\'eb\'e6\'e5\'ed \'e1\'fb\'f2\'fc \'ee\'e4\'e8\'ed\'e0\'ea\'ee\'e2\'fb\'ec \'e4\'eb\'ff \'e2\'f1\'e5\'f5 \'f0\'ee\'f3\'f2\'e5\'f0\'ee\'e2\par
-65001 - \'f7\'e0\'f1\'f2\'ed\'e0\'ff - \cf2\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1\par
+65001 - \'f7\'e0\'f1\'f2\'ed\'e0\'ff\lang1033\f2  (1-65535, \lang1049\f0\'ef\'ee\'f1\'eb\'e5\'e4\'ed\'e8\'e5 1024 \'f8\'f2\'f3\'ea\'e8 - \'f7\'e0\'f1\'f2\'ed\'fb\'e5\lang1033\f2 )\lang1049\f0\par
 \par
 \lang1033\f1\fs16 router(config\lang1049\f3 -\lang1033\f1 router)# network net-number wildcard-mask\lang1049\f0\fs20\par
 \par
 \'e0\'ed\'ee\'ed\'f1\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'f1\'e5\'f2\'e8:\lang1033\f2\par
 net-number\lang1049\f0  - \'e4\'eb\'ff \'ea\'e0\'ea\'ee\'e9 \'f1\'e5\'f2\'e8 \lang1033\f2 (\lang1049\f0\'e8 \'e5\'b8 \'ef\'ee\'e4\'f1\'e5\'f2\'e5\'e9\lang1033\f2 ) \lang1049\f0\'e2\'ea\'eb\'fe\'f7\'e8\'f2\'fc \lang1033\f2 eigrp\par
 wildcard-mask\lang1049\f0  - \'ee\'e1\'f0\'e0\'f2\'ed\'e0\'ff \'ec\'e0\'f1\'ea\'e0, 0 - \lang1033\f2 match, 1 - don't care\lang1049\f0\par
-\cf3\ul linkto:\lang1033\f2 wildcard-mask (Cisco)\cf1\lang1049\ulnone\f0\par
+\cf2\ul linkto:\lang1033\f2 wildcard-mask (Cisco)\cf1\lang1049\ulnone\f0\par
 \par
 \lang1033\f1\fs16 no auto-summary\lang1049\f0\fs20\par
 \par
@@ -29,7 +29,7 @@ wildcard-mask\lang1049\f0  - \'ee\'e1\'f0\'e0\'f2\'ed\'e0\'ff \'ec\'e0\'f1\'ea\'
 \lang1033\f1\fs16 router\lang1049\f3 (\lang1033\f1 config-if\lang1049\f3 )\lang1033\f1 #\lang1049\f3  \lang1033\f1 bandwidth kilobits\lang1049\f0\fs20\par
 \par
 \'fd\'f2\'ee \i\'ed\'e5\i0  \'f8\'e5\'e9\'ef\'e8\'ed\'e3! \'f2\'ee\'eb\'fc\'ea\'ee \'e4\'eb\'ff \'f0\'e0\'f1\'f1\'f7\'b8\'f2\'e0 \'ec\'e5\'f2\'f0\'e8\'ea\'e8\par
-\'ed\'ee \'e4\'eb\'ff \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'fb\'f5 \'f4\'e5\'e9\'f1\'ee\'e2 \'e7\'e0\'e4\'e0\'e2\'e0\'f2\'fc \'ed\'e0\'e4\'ee (\lang1033\f2 serial \lang1049\f0 - \cf2\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 )\par
+\'ed\'ee \'e4\'eb\'ff \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'fb\'f5 \'f4\'e5\'e9\'f1\'ee\'e2 \'e7\'e0\'e4\'e0\'e2\'e0\'f2\'fc \'ed\'e0\'e4\'ee (\lang1033\f2 serial \lang1049\f0 - \cf3\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 )\par
 \par
 \lang1033\f1\fs16 ip default-network a.b.c.d\lang1049\f0\fs20\par
 \lang1033\i\f2 (ip default-network - \lang1049\f0\'fd\'f2\'ee \'ee\'e1\'f9\'e0\'ff \'ea\'ee\'ec\'e0\'ed\'e4\'e0, \'ed\'e5 \'e2 \'ea\'ee\'ed\'f2\'e5\'ea\'f1\'f2\'e5 \lang1033\f2 EIGRP)\lang1049\i0\f0\par
@@ -47,7 +47,7 @@ H - \lang1049\f0\'e2 \'ea\'e0\'ea\'ee\'ec \'ef\'ee\'f0\'ff\'e4\'ea\'e5 \'e4\'ee\
 \lang1033\f2 Address - \lang1049\f0\'f1 \'ea\'e0\'ea\'ee\'e3\'ee \'f4\'e0\'ea\'f2\'e8\'f7\'e5\'f1\'ea\'ee\'e3\'ee \'e0\'e4\'f0\'e5\'f1\'e0 \'ee\'f2\'ef\'f0\'e0\'e2\'eb\'e5\'ed \lang1033\f2 hello\lang1049\f0  (\lang1033\f2 primary\lang1049\f0 , \'e5\'f1\'eb\'e8 \'e8\'f5 \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee)\lang1033\f2\par
 Hold (sec) - hold time - \lang1049\f0\'e2\'f0\'e5\'ec\'ff, \'f7\'e5\'f0\'e5\'e7 \'ea\'ee\'f2\'ee\'f0\'ee\'e5 \'ec\'fb \'fd\'f2\'ee\'e3\'ee \'f1\'ee\'f1\'e5\'e4\'e0 \'f1\'ee\'f2\'f0\'b8\'ec, \'e5\'f1\'eb\'e8 \'ee\'ed \lang1033\f2 hello \lang1049\f0\'ed\'e5 \'ef\'f0\'e8\'f8\'eb\'b8\'f2\lang1033\f2\par
 SRTT (ms)\lang1049\f0  - \lang1033\f2 smooth (\lang1049\f0\'ee\'ea\'f0\'f3\'e3\'eb\'b8\'ed\'ed\'fb\'e9\lang1033\f2 /\lang1049\f0\'f1\'ec\'e0\'e7\'e0\'ed\'ed\'fb\'e9\lang1033\f2 )\lang1049\f0  \lang1033\f2 round trip time - \lang1049\f0\'f2\'ee\'f2 \'f1\'e0\'ec\'fb\'e9, \'ee\'f2 \'ea\'ee\'f2\'ee\'f0\'ee\'e3\'ee \lang1033\f2 delay \lang1049\f0\'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff (\lang1033\f2 ACK \lang1049\f0\'ec\'e8\'ed\'f3\'f1\lang1033\f2  update\lang1049\f0 )/2\lang1033\f2\par
-RTO\lang1049\f0  (\lang1033\f2 ms\lang1049\f0 )\lang1033\f2  - \lang1049\f0\'e2\'f0\'e5\'ec\'ff \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8 \'ef\'ee\'e2\'f2\'ee\'f0\'ed\'ee\'e3\'ee \'ef\'e0\'ea\'e5\'f2\'e0 \'ed\'e0 \'fe\'ed\'e8\'ea\'e0\'f1\'f2, \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'e2 \'e7\'e0\'e2\'e8\'f1\'e8\'ec\'ee\'f1\'f2\'e8 \'ee\'f2 \lang1033\f2 SRTT\lang1049\f0  (\'f4\'ee\'f0\'ec\'f3\'eb\'e0 \'ed\'e5 \'ef\'f3\'e1\'eb\'e8\'ea\'f3\'e5\'f2\'f1\'ff \'e2 \'ea\'f3\'f0\'f1\'e5 (\cf2\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 ))\lang1033\f2\par
+RTO\lang1049\f0  (\lang1033\f2 ms\lang1049\f0 )\lang1033\f2  - \lang1049\f0\'e2\'f0\'e5\'ec\'ff \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8 \'ef\'ee\'e2\'f2\'ee\'f0\'ed\'ee\'e3\'ee \'ef\'e0\'ea\'e5\'f2\'e0 \'ed\'e0 \'fe\'ed\'e8\'ea\'e0\'f1\'f2, \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'e2 \'e7\'e0\'e2\'e8\'f1\'e8\'ec\'ee\'f1\'f2\'e8 \'ee\'f2 \lang1033\f2 SRTT\lang1049\f0  (\'f4\'ee\'f0\'ec\'f3\'eb\'e0 \'ed\'e5 \'ef\'f3\'e1\'eb\'e8\'ea\'f3\'e5\'f2\'f1\'ff \'e2 \'ea\'f3\'f0\'f1\'e5 (\cf3\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 ))\lang1033\f2\par
 Q Cnt - query count - \lang1049\f0\'e4\'eb\'e8\'ed\'e0 \'ee\'f7\'e5\'f0\'e5\'e4\'e8 \'ed\'e0 \'e4\'e0\'ed\'ed\'ee\'e3\'ee \'f1\'ee\'f1\'e5\'e4\'e0 (\'ea\'ee\'eb\'e8\'f7\'e5\'f1\'f2\'e2\'ee \lang1033\f2 update'\lang1049\f0\'ee\'e2 \'ed\'e0 \'ee\'f2\'e4\'e0\'f7\'f3 \'fd\'f2\'ee\'ec\'f3 \'f1\'ee\'f1\'e5\'e4\'f3; \'ed\'ee\'f0\'ec\'e0 = 0; \'e5\'f1\'eb\'e8 \'ed\'e5 \lang1033\f2 0 - \lang1049\f0\'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee \'ea\'f2\'ee-\'f2\'ee \'e3\'e4\'e5-\'f2\'ee \'f2\'f3\'ef\'e8\'f2; \'ea\'e8\'ed\'f3\'eb\'e8 \'e0\'ef\'e4\'e5\'e9\'f2, \'e6\'e4\'b8\'ec \'e0\'ea\'ea, \'e2 \'fd\'f2\'ee\'f2 \'ec\'ee\'ec\'e5\'ed\'f2 \'ed\'ee\'e2\'fb\'e9 \'e0\'ef\'e4\'e5\'e9\'f2 \'f1\'f4\'ee\'f0\'ec\'e8\'f0\'ee\'e2\'e0\'eb\'f1\'ff, \'e7\'ed\'e0\'f7\'e8\'f2 +1)\lang1033\f2\par
 Seq Num\lang1049\f0  - \lang1033\f2 sequence number - \lang1049\f0\'e0\'ef\'e4\'e5\'e9\'f2\'fb \'ed\'f3\'ec\'e5\'f0\'f3\'fe\'f2\'f1\'ff \'ef\'ee\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'ed\'ee, \'f7\'f2\'ee\'e1\'fb \'ef\'f0\'e8\'ec\'e5\'ed\'ff\'f2\'fc\'f1\'ff \'f1\'f2\'f0\'ee\'e3\'ee \'e2 \'ef\'ee\'f0\'ff\'e4\'ea\'e5 \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8 (\'e0 \'ed\'e5 \'f1\'eb\'f3\'f7\'e0\'e9\'ed\'ee) - \'e5\'f1\'eb\'e8 \'ef\'f0\'e8\'e1\'e5\'e6\'e8\'f2 \'e0\'ef\'e4\'e5\'e9\'f2 \'f1 \'f3\'f1\'f2\'e0\'f0\'e5\'e2\'f8\'e8\'ec \'e8\'eb\'e8 \'e7\'e0\'e4\'f3\'e1\'eb\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'ec \'ed\'ee\'ec\'e5\'f0\'ee\'ec - \'e1\'f3\'e4\'e5\'f2 \'ef\'f0\'ee\'e8\'e3\'ed\'ee\'f0\'e8\'f0\'ee\'e2\'e0\'ed\par
 \par
@@ -63,7 +63,7 @@ hopcount \lang1049\f0\'f2\'e0\'ea\'e8 \'e5\'f1\'f2\'fc = 100 \'f3\'ec\'ee\'eb\'f
 \'ea\'ee\'f0\'ee\'f7\'e5, \'e5\'f1\'eb\'e8 \'e2\'f1\'b8 \'ef\'ee \'ed\'f3\'eb\'ff\'ec, \'f2\'ee \'f5\'ee\'f0\'ee\'f8\'ee\par
 \par
 \lang1033\f1\fs16 R1#sh ip eigrp topology [summary]\lang1049\f0\fs20\par
-\'ef\'f0\'ee\'e4\'ee\'eb\'e6\'e5\'ed\'e8\'e5 \'f1\'eb\'e5\'e4\'f3\'e5\'f2...\par
+\lang1033\f2 P (passive) - \lang1049\f0\'f5\'ee\'f0\'ee\'f8\'ee, \'e7\'ed\'e0\'f7\'e8\'f2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2 \'f3\'f1\'f2\'e0\'ea\'e0\'ed\'e5\'ed; \lang1033\f2 active - \lang1049\f0\'e7\'ed\'e0\'f7\'e8\'f2 \'ef\'e5\'f0\'e5\'f1\'f7\'e8\'f2\'fb\'e2\'e0\'e5\'f2\'f1\'ff \'ef\'f0\'ff\'ec \'f9\'e0\'f1 \'ef\'ee\'f7\'e5\'ec\'f3 \'f2\'ee\par
 \par
 \lang1033\f1\fs16 R1#sh ip eigrp traffic\lang1049\f0\fs20\par
 \'e2\'fb\'e2\'ee\'e4 \'f1\'f2\'e0\'f2\'e8\'f1\'f2\'e8\'ea\'e8\par
@@ -73,7 +73,7 @@ hopcount \lang1049\f0\'f2\'e0\'ea\'e8 \'e5\'f1\'f2\'fc = 100 \'f3\'ec\'ee\'eb\'f
 ip hold-time eigrp\lang1049\f0\fs20\par
 \par
 \b\i\'d0\'e0\'f1\'f8\'e8\'f0\'e5\'ed\'ed\'e0\'ff \'ed\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e0\b0\i0\par
-\lang1033\f2 part 2 13m40s \cf3\lang1049\ul\f0 linkto:Cisco ROUTE 1.0 (2012)\cf1\ulnone\par
+\lang1033\f2 part 2 13m40s \cf2\lang1049\ul\f0 linkto:Cisco ROUTE 1.0 (2012)\cf1\ulnone\par
 \par
 \lang1033\f1\fs16 auto-summary\lang1049\f0\fs20  - \'ef\'ee \'e4\'e5\'f4\'ee\'eb\'f2\'f3, \'e2\'fb\'ea\'eb\'fe\'f7\'e0\'f2\'fc \'ed\'e0\'f5\par
 \par
@@ -82,7 +82,7 @@ ip hold-time eigrp\lang1049\f0\fs20\par
 \ul\'ea\'ee\'f1\'f2\'fb\'eb\'fc:\ulnone\par
 \'ea\'eb\'e0\'f1\'f1\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'f0\'ee\'f3\'f2\'e8\'ed\'e3: \'e5\'f1\'eb\'e8 \'e5\'f1\'f2\'fc \'ee\'e1\'f9\'e0\'ff \'e8 \'ea\'ee\'ed\'ea\'f0\'e5\'f2\'ed\'e0\'ff \'f1\'e5\'f2\'e8 - \'ea\'ee\'ed\'ea\'f0\'e5\'f2\'ed\'e0\'ff \'eb\'f3\'f7\'f8\'e5\par
 \lang1033\f2 eigrp: \lang1049\f0\'e5\'f1\'eb\'e8 \'e5\'f1\'f2\'fc \'ee\'e1\'f9\'e0\'ff (\'f1\'f3\'ec\'ec\'e0\'f0\'e8\'e7\'e0\'f6\'e8\'ff) \'e8 \'ea\'ee\'ed\'ea\'f0\'e5\'f2\'ed\'e0\'ff - \'eb\'f3\'f7\'f8\'e5 \'ee\'e1\'f9\'e0\'ff (\'e7\'e0 \'f1\'f7\'b8\'f2 \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e3\'ee \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'ff = 5 (\'f4\'e0\'ea\'f2\'e8\'f7\'e5\'f1\'ea\'e8, 3-\'e5 \'e0\'e4\'ec. \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 \'f3 \lang1033\f2 EIGRP\lang1049\f0 ))\par
-\cf3\ul linkto:\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e5 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 (Cisco)\cf1\ulnone\par
+\cf2\ul linkto:\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e5 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 (Cisco)\cf1\ulnone\par
 \par
 \lang1033\f1\fs16 router(config\lang1049\f3 -\lang1033\f1 if)#ip summary-address eigrp as-number address mask [admin-distance]\lang1049\f0\fs20\par
 \par
@@ -162,6 +162,28 @@ ip hold-time eigrp\lang1049\f0\fs20\par
 \ul\'e7\'e0\'e4\'e0\'f2\'fc \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ea\'f3:\ulnone\par
 \lang1033\f1\fs16 R1(config-router)#distance eigrp \i INTERNAL\i0  \i EXTERNAL\lang1049\i0\f0\fs20\par
 \lang1033\f1\fs16 R1(config-router)#distance eigrp 90 170 #default\lang1049\f0\fs20\par
+\par
+\ul\'ee\'f2\'ea\'eb\'fe\'f7\'e8\'f2\'fc \'ef\'ee\'e8\'f1\'ea \'f1\'ee\'f1\'e5\'e4\'e5\'e9 \'ed\'e0 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'ed\'ee\'ec \'f4\'e5\'e9\'f1\'e5:\ulnone\par
+\lang1033\f1\fs16 conf t\par
+router eigrp 65001\par
+passive-interface loopback 0\lang1049\f0\fs20\par
+\lang1033\f2 (\lang1049\f0\'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \'e5\'f1\'eb\'e8 \'fd\'f2\'ee \'f4\'e5\'e9\'f1, \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'e3\'eb\'ff\'e4\'e8\'f2 \'ed\'e0 \'ef\'f0\'ee\'e2\'e0\'e9\'e4\'e5\'f0\'e0 \'e8\'eb\'e8 "\'ed\'e0\'f0\'e8\'f1\'ee\'e2\'e0\'ed\'ed\'fb\'e9"\lang1033\f2 )\par
+\lang1049\f0 (\'ef\'e0\'f1\'f1\'e8\'e2-\'f4\'e5\'e9\'f1 \'ee\'f2\'ea\'eb\'fe\'f7\'e0\'e5\'f2 \'ef\'ee\'e8\'f1\'ea \'f1\'ee\'f1\'e5\'e4\'e5\'e9, \'ed\'ee \'f1\'e5\'f2\'fc \'e7\'e0 \'fd\'f2\'e8\'ec \'f4\'e5\'e9\'f1\'ee\'ec \'ef\'f0\'ee\'e4\'ee\'eb\'e6\'e0\'e5\'f2 \'e0\'ed\'ee\'ed\'f1\'e8\'f0\'ee\'e2\'e0\'f2\'fc\'f1\'ff!)\par
+\lang1033\f1\fs16\par
+sh ip protocols\lang1049\f0\fs20\par
+\par
+\ul\'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e0 \'e8\'e4\'e5\'ed\'f2\'e8\'f4\'e8\'ea\'e0\'f2\'ee\'f0\'e0 \'f0\'ee\'f3\'f2\'e5\'f0\'e0:\ulnone\par
+\lang1033\f1\fs16 router eigrp 65001\par
+eigrp router-id 11.11.11.11\par
+\par
+sh ip eigrp topology\lang1049\f0\fs20\par
+\lang1033\f2 (\lang1049\f0\'eb\'f3\'f7\'f8\'e5 \'e7\'e0\'e4\'e0\'e2\'e0\'f2\'fc \'e5\'e3\'ee \'e4\'ee \'f2\'ee\'e3\'ee, \'ea\'e0\'ea \'ed\'e0\'f7\'ed\'e5\'f2\'f1\'ff \'f0\'e0\'e1\'ee\'f2\'e0, \'e0 \'f2\'ee \'ef\'ee\'f2\'ee\'ec \'ef\'f0\'e8 \'f1\'ec\'e5\'ed\'e5 \'e2\'f1\'e5 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'fb \'f1\'ee \'f1\'f2\'e0\'f0\'fb\'ec \'e0\'e9\'e4\'e8 \'ef\'f0\'ee\'f2\'f3\'f5\'e0\'fe\'f2\lang1033\f2 )\lang1049\f0\par
+(\'ef\'ee \'f3\'ec\'ee\'eb\'f7 \'e1\'e5\'f0\'b8\'f2\'f1\'ff \'f1\'f2\'e0\'f0\'f8\'e8\'e9 \'e0\'e9\'ef\'e8 \'f1 \'ea\'e0\'ea\'ee\'e3\'ee \'ef\'ee\'ef\'e0\'eb\'ee \'f4\'e5\'e9\'f1\'e0 \'e8\'eb\'e8 \'f1 \'eb\'f3\'ef\'e1\'fd\'ea\'e0 \'ef\'f0\'e5\'e4\'ef\'ee\'f7\'f2\'e8\'f2\'e5\'eb\'fc\'ed\'e5\'e5)\par
+(\'ef\'ee\'f5\'ee\'e6 \'ed\'e0 \'e0\'e9\'ef\'e8, \'ed\'ee \'fd\'f2\'ee \'ed\'e5 \'e7\'ed\'e0\'f7\'e8\'f2, \'f7\'f2\'ee \'fd\'f2\'ee \'ee\'ed; \'e4\'ee\'eb\'e6\'e5\'ed \'e1\'fb\'f2\'fc \'ef\'f0\'ee\'f1\'f2\'ee \'ed\'e0\'e3\'eb\'ff\'e4\'ed\'fb\'ec (\'e4\'eb\'ff \'ee\'f2\'eb\'e0\'e4\'ea\'e8))\par
+\par
+\'e5\'f9\'b8 \'ec\'ee\'e6\'ed\'ee \'e4\'e5\'eb\'e0\'f2\'fc \'e8\'ec\'e5\'ed\'ee\'e2\'e0\'ed\'ed\'fb\'e5 \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0\'fb \lang1033\f2 EIGRP\par
+\lang1049\f0\'e2\'ed\'f3\'f2\'f0\'e8 \'ed\'e8\'f5 \'f5\'f0\'e0\'ed\'e8\'f2\'fc \lang1033\f2 IPv4+IPv6\par
+\lang1049\f0\'e8 \'f3\'e4\'ee\'e1\'ed\'ee \'fd\'f2\'ee \'f1\'ea\'f0\'e8\'ef\'f2\'ee\'e2\'e0\'f2\'fc...\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:EIGRP\par
 \par
