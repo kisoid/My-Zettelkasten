@@ -46,7 +46,7 @@
 \'c8\'ed\'ee\'e3\'e4\'e0 \'e2\'fb\'e1\'e8\'f0\'e0\'e5\'f2 "\'eb\'b8\'e3\'ea\'e8\'e9 \'ef\'f3\'f2\'fc" \'e0\'e4\'e0\'ef\'f2\'e0\'f6\'e8\'e8, \'ea\'ee\'e3\'e4\'e0 \'f7\'e0\'f1\'f2\'fc \'ef\'f0\'ee\'f2\'e8\'e2\'ee\'f0\'e5\'f7\'e8\'e2\'ee\'e9 \'e8\'ed\'f4\'fb \'ef\'f0\'ee\'f1\'f2\'ee \'f3\'e4\'e0\'eb\'ff\'e5\'f2\'f1\'ff.\par
 \cf2\ul linkto:\'cf\'f3\'f2\'fc \'ed\'e0\'e8\'ec\'e5\'ed\'fc\'f8\'e5\'e3\'ee \'f1\'ee\'ef\'f0\'ee\'f2\'e8\'e2\'eb\'e5\'ed\'e8\'ff\cf1\ulnone\par
 \par
-\'c7\'ed\'e0\'f7\'e8\'f2, \'c1\'c7 \'f2\'ee\'e6\'e5 \'f0\'e0\'e7\'e2\'e8\'e2\'e0\'e5\'f2\'f1\'ff \'e2\'f1\'eb\'e5\'e4 \'e7\'e0 \'cc\'cc, \'ed\'ee \'ef\'f0\'e8 \'fd\'f2\'ee\'ec \'ee\'e1\'eb\'e0\'e4\'e0\'e5\'f2 \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'ee\'e9 \'f1\'f2\'e0\'f2\'e8\'f7\'ed\'ee\'f1\'f2\'fc\'fe, \'f7\'f2\'ee \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e5\'f2 \cf3\i\'e7\'e0\'ea\'f0\'e5\'ef\'e8\'f2\'fc \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\cf1\i0 , \'e8 \'e2 \'f2\'ee \'e6\'e5 \'e2\'f0\'e5\'ec\'ff \'f3\'ef\'f0\'ee\'f1\'f2\'e8\'f2\'fc \'e0\'e4\'e0\'ef\'f2\'e0\'f6\'e8\'fe.\par
+\'c7\'ed\'e0\'f7\'e8\'f2, \'c1\'c7 \'f2\'ee\'e6\'e5 \'f0\'e0\'e7\'e2\'e8\'e2\'e0\'e5\'f2\'f1\'ff \'e2\'f1\'eb\'e5\'e4 \'e7\'e0 \'cc\'cc, \'ed\'ee \'ef\'f0\'e8 \'fd\'f2\'ee\'ec \'ee\'e1\'eb\'e0\'e4\'e0\'e5\'f2 \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'ee\'e9 \'f1\'f2\'e0\'f2\'e8\'f7\'ed\'ee\'f1\'f2\'fc\'fe, \'f7\'f2\'ee \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e5\'f2 \cf3\i\'e7\'e0\'ea\'f0\'e5\'ef\'e8\'f2\'fc \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2/\'f1\'e4\'e5\'eb\'e0\'f2\'fc \'f7\'e5\'ea\'ef\'ee\'e9\'ed\'f2\cf1\i0 , \'e8 \'e2 \'f2\'ee \'e6\'e5 \'e2\'f0\'e5\'ec\'ff \'f3\'ef\'f0\'ee\'f1\'f2\'e8\'f2\'fc \'e0\'e4\'e0\'ef\'f2\'e0\'f6\'e8\'fe.\par
 \cf2\ul linkto:\'c0\'e4\'e0\'ef\'f2\'e0\'f6\'e8\'ff\cf1\ulnone\par
 \par
 \'c7\'e0\'ea\'f0\'e5\'ef\'eb\'e5\'ed\'e8\'e5 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e0 - \'fd\'f2\'ee \'ee\'e4\'ed\'ee \'e8\'e7 \'ef\'ee\'eb\'e5\'e7\'ed\'fb\'f5 \'f1\'e2\'ee\'e9\'f1\'f2\'e2 \'c1\'c7, \'ea\'e0\'ea \'fd\'ea\'e7\'ee\'ea\'ee\'f0\'f2\'e5\'ea\'f1\'e0, \'f3\'f1\'e8\'eb\'e8\'e2\'e0\'fe\'f9\'e8\'f5 \'ec\'fb\'f8\'eb\'e5\'ed\'e8\'e5.\par
@@ -57,6 +57,15 @@
 \par
 \'ca\'e0\'ea \'ed\'e0\'ef\'e8\'f1\'e0\'ed\'ee \'e2 \'f2\'e5\'ea\'f1\'f2\'e5 - \'f2\'e0\'ea \'e8 \'e1\'f3\'e4\'e5\'f2, \'ef\'ee\'ea\'e0 \'ed\'e5 \'ef\'e5\'f0\'e5\'ef\'e8\'f8\'e5\'f8\'fc. \'d7\'f2\'ee \'ed\'e0\'ef\'e8\'f1\'e0\'ed\'ee \'ef\'e5\'f0\'ee\'ec - \'ed\'e5 \'e2\'fb\'f0\'f3\'e1\'e8\'f8\'fc \'f2\'ee\'ef\'ee\'f0\'ee\'ec.\par
 \'c0 \'ef\'e5\'f0\'e5\'ef\'e8\'f1\'fb\'e2\'e0\'ed\'e8\'e5 \'ec\'ee\'e7\'e3\'e0 - \'e3\'ee\'f0\'e0\'e7\'e4\'ee \'e1\'ee\'eb\'e5\'e5 \'eb\'b8\'e3\'ea\'e0\'ff \'e7\'e0\'e4\'e0\'f7\'e0.\par
+\par
+\lang1033\f1 ---\par
+\par
+\lang1049\f0\'c8\'f2\'e0\'ea, \'cc\'cc (\'f7\'e5\'eb\'ee\'e2\'e5\'ea) \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e8\'f0\'f3\'e5\'f2 (\'e2\'e5\'e4\'b8\'f2) \'c1\'c7, \'e0 \'c1\'c7 \'ef\'ee\'f2\'ee\'ec \'e2\'ee\'e7\'e4\'e5\'e9\'f1\'f2\'e2\'f3\'e5\'f2 \'ed\'e0 \'cc\'cc \'f7\'e5\'f0\'e5\'e7 \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'ee\'e5 \'e2\'f0\'e5\'ec\'ff. \'dd\'f2\'ee \'f1\'e2\'ee\'e5\'e3\'ee \'f0\'ee\'e4\'e0\par
+\cf2\ul linkto:\'d1\'e0\'ec\'ee\'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5\cf1\ulnone\par
+\par
+\'d2.\'e5. \'e2\'e5\'e4\'e5\'ed\'e8\'e5 \'c1\'c7 \'ea\'e0\'ea \'f0\'e0\'e7\'f0\'e0\'e1\'ee\'f2\'ea\'e0 - \'fd\'f2\'ee \'f1\'e0\'ec\'ee\'f0\'e0\'e7\'f0\'e0\'e1\'ee\'f2\'ea\'e0, \'f1\'e0\'ec\'ee\'f0\'e0\'e7\'e2\'e8\'f2\'e8\'e5, \lang1033\f1 self-development\lang1049\f0 .\par
+\par
+\'d7\'e5\'eb\'ee\'e2\'e5\'ea \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e8\'f0\'f3\'e5\'f2 \'f1\'e0\'ec\'ee\'e3\'ee \'f1\'e5\'e1\'ff \'e2 \'e1\'f3\'e4\'f3\'f9\'e5\'ec. \'cc\'e0\'ea\'f1\'e8\'ec\'e0\'eb\'fc\'ed\'ee \'f0\'e0\'f6\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'ee \'ef\'ee\'e4\'f5\'ee\'e4\'e8\'f2 \'ea \'f1\'e0\'ec\'ee\'ee\'e1\'f3\'f7\'e5\'ed\'e8\'fe.\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:\'cf\'f0\'e8\'ed\'f6\'e8\'ef\'fb \'e8 \'ef\'f0\'e0\'e2\'e8\'eb\'e0 \'dd\'d2\'ce\'c9 \'e1\'e0\'e7\'fb \'e7\'ed\'e0\'ed\'e8\'e9\par
 linkto:\'c2\'e5\'e4\'e5\'ed\'e8\'e5 \'e1\'e0\'e7\'fb \'e7\'ed\'e0\'ed\'e8\'e9 \'ea\'e0\'ea \'f2\'e2\'ee\'f0\'f7\'e5\'f1\'ea\'e8\'e9 \'ef\'f0\'ee\'f6\'e5\'f1\'f1\par
