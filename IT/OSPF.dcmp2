@@ -10,6 +10,7 @@
 \'cf\'f0\'ee\'f1\'f2\'ee \'e8\'ed\'ea\'f0\'e5\'ec\'e5\'ed\'f2\'e8\'f2\'f1\'ff \'e2\'e5\'f0\'f1\'e8\'ff \'f3 \'e8\'ec\'e5\'fe\'f9\'e8\'f5\'f1\'ff \lang1033\f1 LSA\lang1049\f0 -\'e5\'ea\lang1033\f1  (\lang1049\f0\'ef\'f0\'e5\'e4\'ef\'ee\'eb\'ee\'e6\'e5\'ed\'e8\'e5: \'f0\'ee\'f3\'f2\'e5\'f0-\'f5\'ee\'e7\'ff\'e8\'ed \'f3\'e2\'e5\'eb\'e8\'f7\'e8\'e2\'e0\'e5\'f2 \'e2\'e5\'f0\'f1\'e8\'fe \'e4\'eb\'ff \lang1033\f1 LSA \lang1049\f0\'f1\'e2\'ee\'e8\'f5 \'f4\'e5\'e9\'f1\'ee\'e2\lang1033\f1 )\lang1049\f0 .\par
 \par
 \'cf\'f0\'e8 \'f1\'f2\'e0\'f0\'f2\'e5 \'f0\'ee\'f3\'f2\'e5\'f0\'e0, \'ee\'ed \'f4\'ee\'f0\'ec\'e8\'f0\'f3\'e5\'f2 \lang1033\f1 LSA1\lang1049\f0  \'e4\'eb\'ff \'ea\'e0\'e6\'e4\'ee\'e3\'ee \'f1\'e2\'ee\'e5\'e3\'ee \'f4\'e5\'e9\'f1\'e0 (\'f3\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'f2 \'e5\'ec\'f3 \'e2\'e5\'f0\'f1\'e8\'fe 1) \'e8 \'f0\'e0\'f1\'f1\'fb\'eb\'e0\'e5\'f2 \'e2\'f1\'e5\'ec \'f1\'ee\'f1\'e5\'e4\'ff\'ec (\lang1033\f1 LSA flooding\lang1049\f0 ).\par
+\cf2\ul linkto:Flood LSA\cf1\ulnone\par
 \par
 3) \'d0\'ee\'f3\'f2\'e5\'f0 \'ed\'e5 \'e4\'e5\'f0\'e6\'e8\'f2 \'e2 \'e3\'ee\'eb\'ee\'e2\'e5 \'ef\'ee\'eb\'ed\'f3\'fe \'f2\'ee\'ef\'ee\'eb\'ee\'e3\'e8\'fe \'f1\'e5\'f2\'e8. \'d2\'ee\'eb\'fc\'ea\'ee \'f1\'e2\'ee\'e5\'e3\'ee \'f0\'e5\'e3\'e8\'ee\'ed\'e0 (\lang1033\f1 area\lang1049\f0 ).\par
 \lang1033\f1 [\lang1049\f0\'f1\'f0\'e0\'e2\'ed\'e5\'ed\'e8\'e5: \lang1033\f1 eigrp \lang1049\f0\'ed\'e8\'f7\'e5\'e3\'ee \'ed\'e5 \'e7\'ed\'e0\'e5\'f2 \'ee \'f2\'ee\'ef\'ee\'eb\'ee\'e3\'e8\'e8, \'ed\'ee \'f3 \'ed\'e5\'e3\'ee \'e2\'f1\'ff \'f1\'e5\'f2\'fc - \'ee\'e4\'e8\'ed \'e1\'ee\'eb\'fc\'f8\'ee\'e9 \'f0\'e5\'e3\'e8\'ee\'ed\lang1033\f1 ]\lang1049\f0\par
@@ -19,6 +20,8 @@
 \par
 \cf2\ul linkto:\'c0\'eb\'e3\'ee\'f0\'e8\'f2\'ec \'c4\'e5\'e9\'ea\'f1\'f2\'f0\'fb\cf1\ulnone\par
 \par
+\cf2\lang1033\ul\f1 linkto:\lang1049\f0\'cf\'e0\'ea\'e5\'f2\'fb \lang1033\f1 OSPF\par
+\lang1049\f0 linkto:\lang1033\f1 Hello-\lang1049\f0\'ef\'e0\'ea\'e5\'f2 \lang1033\f1 OSPF\cf1\lang1049\ulnone\f0\par
 \cf2\ul linkto:\lang1033\f1 LSA (Link-state advertisement)\cf1\lang1049\ulnone\f0\par
 \cf2\ul linkto:\lang1033\f1 LSDB (Link State Data Base)\cf1\lang1049\ulnone\f0\par
 \par
@@ -36,7 +39,6 @@
 \par
 \cf2\ul linkto:\'c1\'e0\'e7\'ee\'e2\'ee\'e5 \'ea\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \lang1033\f1 OSPF\cf1\lang1049\ulnone\f0\par
 \cf2\ul linkto:\'d0\'e5\'e3\'e8\'ee\'ed\'fb \lang1033\f1 (area) OSPF\cf1\lang1049\ulnone\f0\par
-\cf2\ul linkto:\lang1033\f1 Hello-\lang1049\f0\'ef\'e0\'ea\'e5\'f2 \lang1033\f1 OSPF\cf1\lang1049\ulnone\f0\par
 \par
 \'f1\'f2\'ee\'e8\'ec\'ee\'f1\'f2\'fc \'f4\'e5\'e9\'f1\'e0 \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'ea\'e0\'ea\par
 \lang1033\f1 cost = 100 000 000/bandwidth\par
@@ -48,5 +50,6 @@ linkto:Cisco ROUTE 1.0 (2012)\par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:ICND2 v3 (\'ca\'e0\'f0\'ec\'e0\'ed\'ee\'e2)\par
 \par
 linkto:\'d0\'e0\'f1\'f8\'e8\'f0\'e5\'ed\'ed\'ee\'e5 \'ea\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 OSPF\par
+\par
 }
  
