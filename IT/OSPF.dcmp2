@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue205;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 OSPF\b0\par
 \par
@@ -43,6 +43,12 @@
 \'f1\'f2\'ee\'e8\'ec\'ee\'f1\'f2\'fc \'f4\'e5\'e9\'f1\'e0 \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'ea\'e0\'ea\par
 \lang1033\f1 cost = 100 000 000/bandwidth\par
 \lang1049\f0\'ef\'ee \'f3\'ec\'ee\'eb\'f7\'e0\'ed\'e8\'fe\par
+\par
+\ul\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee\'e5 \'e2\'fb\'ea\'eb\'fe\'f7\'e5\'ed\'e8\'e5:\ulnone\par
+\'e2 \'ea\'ee\'ed\'f2\'e5\'ea\'f1\'f2\'e5 \lang1033\f1 router ospf N\par
+\f2\fs16 shu\lang1049\f0\fs20\par
+\par
+\lang1033\f1 (\lang1049\f0\'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e5\'f2 \'ee\'e1\'ee\'e9\'f2\'e8\'f1\'fc \'e1\'e5\'e7 \lang1033\f2\fs16 no router ospf\f1\fs20 )\lang1049\f0\par
 \par
 linkto:\'cf\'f0\'ee\'f2\'ee\'ea\'ee\'eb\'fb\lang1033\f1  \lang1049\f0\'f1\'ee\'f1\'f2\'ee\'ff\'ed\'e8\'ff\lang1033\f1  \lang1049\f0\'ea\'e0\'ed\'e0\'eb\'ee\'e2\lang1033\f1  \lang1049\f0\'f1\'e2\'ff\'e7\'e8\par
 \'cd\'e0\'e7\'e0\'e4 - linkto:Interior Gateway Protocols\par
