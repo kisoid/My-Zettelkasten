@@ -1,0 +1,55 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+{\colortbl ;\red0\green0\blue0;\red255\green0\blue0;\red0\green0\blue205;\red0\green128\blue0;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'d1\'ee\'e7\'e4\'e0\'ed\'e8\'e5 \'ee\'f2\'ea\'e0\'e7\'ee\'f3\'f1\'f2\'ee\'e9\'f7\'e8\'e2\'ee\'e3\'ee \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0 MS SQL Server\b0\par
+\par
+\ul *** \'d7\'f2\'ee \'ed\'f3\'e6\'ed\'ee \'f1\'f2\'e0\'e2\'e8\'f2\'fc \'f1\'ed\'e0\'f7\'e0\'eb\'e0: \'f4\'e8\'f7\'f3 FC \'e8\'eb\'e8 SQL Server?\ulnone\par
+\'f1\'ed\'e0\'f7\'e0\'eb\'e0 \'f4\'e8\'f7\'f3\par
+\par
+\'f5\'ee\'f2\'ff \'e1\'fb \'e8\'e7 \'f2\'e5\'f5 \'f1\'ee\'ee\'e1\'f0\'e0\'e6\'e5\'ed\'e8\'e9, \'f7\'f2\'ee \'e2\'ee \'e2\'f0\'e5\'ec\'ff \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e8 \lang1033\f1 SQL \lang1049\f0\'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee \'e2\'fb\'e1\'f0\'e0\'f2\'fc \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'ed\'fb\'e9 \'e4\'e8\'f1\'ea\'ee\'e2\'fb\'e9 \'f0\'e5\'f1\'f3\'f0\'f1 (\'e3\'e4\'e5 \'e1\'f3\'e4\'f3\'f2 \'f5\'f0\'e0\'ed\'e8\'f2\'fc\'f1\'ff \'e4\'e0\'ed\'ed\'fb\'e5), \'e0 \'ee\'ed \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'ed\'fb\'ec \'f2\'ee\'eb\'fc\'ea\'ee \'e5\'f1\'eb\'e8 \'f4\'e8\'f7\'e0 \'f3\'e6\'e5 \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e0, \'ea\'eb\'e0\'f1\'f2\'e5\'f0 \'f1\'ee\'e1\'f0\'e0\'ed \'e8 \'e4\'e8\'f1\'ea \'e4\'ee\'e1\'e0\'e2\'eb\'e5\'ed \'e2 \'f1\'ef\'e8\'f1\'ee\'ea \'e4\'ee\'f1\'f2\'f3\'ef\'ed\'fb\'f5\par
+\par
++ \'e8\'e4\'b8\'f2 \'ef\'f0\'ee\'e2\'e5\'f0\'ea\'e0 \'ef\'f0\'e5\'f0\'e5\'ea\'e2\'e8\'e7\'e8\'f2\'ee\'e2 \'e8 \'f2\'e0\'ec \'e5\'f1\'f2\'fc \'ef\'f3\'ed\'ea\'f2 "\'ee\'f2\'f1\'f3\'f2\'f1\'f2\'e2\'e8\'e5 \'ee\'f8\'e8\'e1\'ee\'ea/\'ef\'f0\'e5\'e4\'f3\'ef\'f0\'e5\'e6\'e4\'e5\'ed\'e8\'e9 \'e2 \'f2\'e5\'f1\'f2\'e5 \'e2\'e0\'eb\'e8\'e4\'e0\'f6\'e8\'e8 \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0", \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0\par
+\par
+\ul *** \'d1\'ea\'ee\'eb\'fc\'ea\'ee \'ef\'ee\'f2\'f0\'e5\'e1\'f3\'e5\'f2\'f1\'ff LUN'\'ee\'e2?\ulnone\par
+\'ea\'e0\'ea \'ec\'e8\'ed\'e8\'ec\'f3\'ec 1\par
+\'ed\'e5 \'ef\'f0\'ee\'e2\'e5\'f0\'ff\'eb, \'ec\'ee\'e6\'ed\'ee \'eb\'e8 \i\'e2\'ee \'e2\'f0\'e5\'ec\'ff \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e8\i0  \'e2\'fb\'e1\'f0\'e0\'f2\'fc \'e1\'ee\'eb\'e5\'e5 1-\'e3\'ee \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'ed\'ee\'e3\'ee \'e4\'e8\'f1\'ea\'e0, \'ed\'ee \'e2\'e8\'e4\'e5\'eb \'e2\'ea\'eb\'e0\'e4\'ea\'f3, \'e3\'e4\'e5 \'ef\'f0\'ee\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2\'f1\'ff \'ef\'f3\'f2\'e8 \'ea \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'ff\'ec \'f1 \'f4\'e0\'e9\'eb\'e0\'ec\'e8 \'c1\'c4, \'eb\'ee\'e3\'e0\'ec\'e8, \'e1\'fd\'ea\'e0\'ef\'e0\'ec\'e8 \'e8 \'f2.\'e4.\par
+\'ed\'e0\'e2\'e5\'f0\'ed\'ff\'ea\'e0, \'f2\'e0\'ec \'ec\'ee\'e6\'ed\'ee \'e2\'f1\'b8 \'ef\'ee\'ec\'e5\'ed\'ff\'f2\'fc \'e8 \'f0\'e0\'f1\'ef\'f0\'e5\'e4\'e5\'eb\'e8\'f2\'fc \'ef\'ee \'e4\'e8\'f1\'ea\'e0\'ec\par
+\'ed\'e5 \'f1\'ee\'ee\'e1\'f0\'e0\'e7\'e8\'eb \'f1\'e4\'e5\'eb\'e0\'f2\'fc 2 \'eb\'f3\'ed\'e0, \'e2 \'ee\'e1\'f9\'e5\'ec...\par
+\par
+\cf2\'e2 \'f1\'eb\'e5\'e4. \'f0\'e0\'e7, \'e5\'f1\'eb\'e8 \'e1\'f3\'e4\'f3 \'f2\'e5\'f1\'f2\'e8\'f2\'fc, \'ed\'e0\'e4\'ee \'e1\'f3\'e4\'e5\'f2 \'f1\'e4\'e5\'eb\'e0\'f2\'fc 2\cf1\par
+\par
+\'e4\'f0\'f3\'e3\'ee\'e9 \'e2\'ee\'ef\'f0\'ee\'f1: \'e0 \'f1\'ec\'fb\'f1\'eb? \'ee\'f2\'e4\'e5\'eb\'e5\'ed\'e8\'e5 \'eb\'ee\'e3\'ee\'e2 \'ee\'f2 \'c1\'c4 \'e8\'ec\'e5\'e5\'f2 \'f1\'ec\'fb\'f1\'eb \'e4\'eb\'ff \'ee\'f2\'ea\'e0\'e7\'ee\'f3\'f1\'f2\'ee\'e9\'f7\'e8\'e2\'ee\'f1\'f2\'e8 \'e2 \'f0\'e0\'ec\'ea\'e0\'f5 \'ee\'e4\'ed\'ee\'e3\'ee \'f1\'e5\'f0\'e2\'e5\'f0\'e0... \'ed\'e0 \'f2\'ee\'f2 \'f1\'eb\'f3\'f7\'e0\'e9, \'e5\'f1\'eb\'e8 \'f1\'e4\'ee\'f5\'ed\'e5\'f2 \'e4\'e8\'f1\'ea \'f1 \'c1\'c4, \'f7\'f2\'ee\'e1\'fb \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'e8\'f2\'fc \'e5\'e3\'ee \'e8\'e7 \'e1\'fd\'ea\'e0\'ef\'e0 \'e8 \'ef\'f0\'ee\'e8\'e3\'f0\'e0\'f2\'fc \'eb\'ee\'e3\'e8\par
+\'e0 \'e5\'f1\'eb\'e8 \'f0\'e5\'f7\'fc \'ee \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e5, \'f2\'ee \'f1\'e4\'ee\'f5\'f8\'e8\'e9 \'eb\'f3\'ed \'f1 \'c1\'c4 = \'f1\'e4\'ee\'f5\'f8\'e5\'e9 \'f5\'f0\'e0\'ed\'e8\'eb\'ea\'e5\par
+\'e7\'ed\'e0\'f7\'e8\'f2 \'e4\'ee\'eb\'e6\'ed\'e0 \'ec\'ee\'ec\'e5\'ed\'f2\'e0\'eb\'fc\'ed\'ee \'ef\'ee\'e4\'ed\'ff\'f2\'fc\'f1\'ff \'f0\'e5\'e7\'e5\'f0\'e2\'ed\'e0\'ff \'f5\'f0\'e0\'ed\'e8\'eb\'ea\'e0\par
+\par
+\ul\'cf\'ee\'f7\'e5\'ec\'f3 \'ed\'e5 \'f1\'f2\'e0\'e2\'e8\'eb\'f1\'ff SQL 2008 \lang1033\f1 R2\lang1049\f0  \'e2 \'ea\'eb\'e0\'f1\'f2\'e5\'f0 \'e2\'ee \'e2\'f0\'e5\'ec\'ff \'f2\'e5\'f1\'f2\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'ff?\ulnone\par
+\'ec\'e0\'eb\'ee\'e2\'e5\'f0\'ee\'ff\'f2\'ed\'ee, \'f7\'f2\'ee \'e4\'e8\'f1\'f2\'f0 \'ea\'ee\'f6\'e0\'ed\'ed\'fb\'e9 (\'f5\'ee\'f2\'fc \'e8 \'f1\'ea\'e0\'f7\'e0\'ed \'f1 \'d0\'d2)\par
+\'ed\'ee \'e2 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e5 \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e8 \'ed\'e0\'e2\'e5\'f0\'ed\'ff\'ea\'e0 \'e1\'e0\'e3\'e8\lang1033\f1  (\lang1049\f0\'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'f2\'e5\'ee\'f0\'e5\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'eb\'e5\'f7\'e0\'f2\'f1\'ff \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \lang1033\f1 slipstream)\lang1049\f0  + \'ed\'e5\'ee\'e1\'ed\'ee\'e2\'eb\'b8\'ed\'ed\'e0\'ff \'e2\'e8\'ed\'e4\'e0\par
+\cf3\ul linkto:Slipstream (MS SQL Server)\cf1\ulnone\par
+\'f2\'e0\'ea \'f7\'f2\'ee, \'ed\'e0\'e8\'e1\'ee\'eb\'e5\'e5 \'e2\'e5\'f0\'ee\'ff\'f2\'ed\'ee, \'ed\'e5\'f5\'e2\'e0\'f2\'ea\'e0 \'ee\'e1\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e9\par
+\'f2\'e5\'ec \'e1\'ee\'eb\'e5\'e5 \'f5\'e0\'f0\'e0\'ea\'f2\'e5\'f0 \'ee\'f8\'e8\'e1\'ee\'ea \'ed\'e0 \'fd\'f2\'ee \'f3\'ea\'e0\'e7\'fb\'e2\'e0\'e5\'f2: \lang1033\f1 kerberos, bsod\lang1049\f0\par
+\par
+\'e7\'e0\'f2\'ee \'ea\'e0\'ea \'ef\'ee \'ec\'e0\'f1\'eb\'f3 \'ef\'ee\'f8\'b8\'eb 20\lang1033\f1 12 R2 \lang1049\f0\'f1\'ee \'e2\'f1\'e5\'ec\'e8 \'ee\'e1\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'ff\'ec\'e8 + 2014 \lang1033\f1 SQL \lang1049\f0\'ed\'e0 \lang1033\f1 Hyper-V\lang1049\f0\par
+\par
+https://www.mssqltips.com/sqlservertip/1687/install-sql-server-2008-on-a-windows-server-2008-cluster-part-1/\par
+https://www.mssqltips.com/sqlservertip/1698/install-sql-server-2008-on-a-windows-server-2008-cluster-part-2/\par
+https://www.mssqltips.com/sqlservertip/1709/install-sql-server-2008-on-a-windows-server-2008-cluster-part-3/\par
+https://www.mssqltips.com/sqlservertip/1721/install-sql-server-2008-on-a-windows-server-2008-cluster-part-4/\par
+\ul\'cf\'ee\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'ed\'ee\'f1\'f2\'fc \'f8\'e0\'e3\'ee\'e2:\ulnone\par
+1) \'ee\'e1\'ed\'ee\'e2\'e8\'f2\'fc \'e2\'f1\'b8\par
+2) \'ef\'ee\'f1\'f2\'e0\'e2\'e8\'f2\'fc \'f4\'e8\'f7\'f3 \lang1033\f1 FC\lang1049\f0 , \'f1\'ee\'e7\'e4\'e0\'f2\'fc \'ea\'eb\'e0\'f1\'f2\'e5\'f0\par
+\cf3\ul linkto:\'cf\'ee\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'ed\'ee\'f1\'f2\'fc \'f1\'ee\'e7\'e4\'e0\'ed\'e8\'ff \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0 (WS FC)\cf1\ulnone\par
+\par
+3) \'ef\'ee\'f1\'f2\'e0\'e2\'e8\'f2\'fc \lang1033\f1 Application server + \lang1049\f0\'ea\'ee\'ec\'ef\'ee\'ed\'e5\'f2\'fb \'f0\'ee\'eb\'e8 \lang1033\f1 incoming/outgoing transactions\lang1049\f0  \'ed\'e0 \'e2\'f1\'e5\'f5 \'f3\'e7\'eb\'e0\'f5\lang1033\f1\par
+4) \lang1049\f0\'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e8\'e7\'ee\'e2\'e0\'f2\'fc \lang1033\f1 MS DTC (\lang1049\f0\'ef\'ee\'f2\'f0\'e5\'e1\'f3\'e5\'f2\'f1\'ff \'eb\'f3\'ed\lang1033\f1 )\par
+\lang1049\f0 5) \'e7\'e0\'ef\'f3\'f1\'f2\'e8\'f2\'fc \'f1\'ee\'e7\'e4\'e0\'ed\'e8\'e5 \'ed\'ee\'e2\'ee\'e3\'ee \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0 \lang1033\f1 SQL (\lang1049\f0\'ef\'ee\'f2\'f0\'e5\'e1\'f3\'e5\'f2\'f1\'ff \'e4\'ee\'ec\'e5\'ed\'ed\'e0\'ff \'f3\'f7\'b8\'f2\'ea\'e0 \'e4\'eb\'ff 2-\'f5 \'f1\'eb\'f3\'e6\'e1; \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee \'e2\'fb\'f1\'f2\'e0\'e2\'e8\'f2\'fc \lang1033\f1 binding \lang1049\f0\'e4\'eb\'ff \'f1\'e5\'f2\'e5\'e2\'fb\'f5 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'ee\'e2 - \'f2\'ee\'f2, \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'e3\'eb\'ff\'e4\'e8\'f2 \'e2 \'e4\'ee\'ec\'e5\'ed, \'e4\'ee\'eb\'e6\'e5\'ed \'e1\'fb\'f2\'fc \'ef\'e5\'f0\'e2\'fb\'ec\lang1033\f1 )\par
+\lang1049\f0 6) \'ee\'e1\'ed\'ee\'e2\'e8\'f2\'fc \'e2\'f1\'b8 \'ed\'e0 \'ef\'e5\'f0\'e2\'ee\'ec \'f3\'e7\'eb\'e5\par
+7) \'ed\'e0 2-\'ec \'f3\'e7\'eb\'e5 \'e7\'e0\'ef\'f3\'f1\'f2\'e8\'f2\'fc \lang1033\f1 add node to cluster (\lang1049\f0\'ef\'ee\'f2\'f0\'e5\'e1\'f3\'e5\'f2\'f1\'ff \'ef\'e0\'f1\'f1 \'ee\'f2 \'f0\'e0\'ed\'e5\'e5 \'f1\'ee\'e7\'e4\'e0\'ed\'ed\'ee\'e9 \'f3\'f7\'b8\'f2\'ea\'e8; \'ef\'e0\'f1\'f1 \'ed\'e0\'e4\'ee \'f5\'f0\'e0\'ed\'e8\'f2\'fc, \'e5\'f1\'eb\'e8 \'e1\'f3\'e4\'f3\'f2 \'e4\'ee\'e1-\'f1\'ff \'ed\'ee\'e2\'fb\'e5 \'f3\'e7\'eb\'fb \'e2 \'e1\'f3\'e4\'f3\'f9\'e5\'ec, \'eb\'e8\'e1\'ee \'ed\'e0\'e4\'ee \'e1\'f3\'e4\'e5\'f2 \'ee\'f7\'e5\'ed\'fc \'e0\'ea\'ea\'f3\'f0\'e0\'f2\'ed\'ee \'e5\'e3\'ee \'ec\'e5\'ed\'ff\'f2\'fc - \cf4\'ec\'ee\'e6\'ed\'ee \'ef\'ee\'f2\'e5\'f1\'f2\'e8\'f2\'fc! \lang1033\f1 linkto#\lang1049\f0\'d1\'ec\'e5\'ed\'e0 \'ef\'e0\'f0\'ee\'eb\'ff \'ee\'f2 \'f3\'f7. \'e7\'e0\'ef\'e8\'f1\'e5\'e9 \'f1\'eb\'f3\'e6\'e1 \lang1033\f1 SQL Server \lang1049\f0\'e2 \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e5\cf1 )\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:MS SQL Server\par
+linkto:\'d1\'ee\'e1\'f1\'f2\'e2\'e5\'ed\'ed\'fb\'e5 \'ed\'e0\'e1\'eb\'fe\'e4\'e5\'ed\'e8\'ff \'ef\'ee \'f2\'e5\'f1\'f2\'ee\'e2\'ee\'e9 \'f1\'f0\'e5\'e4\'e5 (WS FC)\par
+linkto:Failover Clustering (Windows Server)\par
+\par
+\par
+\par
+}
+ 
