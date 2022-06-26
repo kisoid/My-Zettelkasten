@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red255\green0\blue0;}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red255\green0\blue0;\red0\green128\blue0;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'c3\'f0\'e0\'f4 \'e2\'ee\'ef\'f0\'ee\'f1\'ee\'e2 aka \'ca\'e0\'f0\'f2\'e0 \'ed\'e5\'e7\'ed\'e0\'ed\'e8\'e9\b0\par
 \par
 \'ed\'e0\'ea\'ee\'ed\'e5\'f6-\'f2\'e0\'ea\'e8 \'ec\'ee\'e4\'f3\'eb\'ff\'f0\'ed\'ee\'f1\'f2\'fc \'e8\'eb\'e8 \'f6\'e5\'ed\'f2\'f0\'e0\'eb\'fc\'ed\'ee\'f1\'f2\'fc \'ef\'f0\'e8\'ed\'e5\'f1\'b8\'f2 \'ea\'e0\'ea\'f3\'fe-\'f2\'ee \'ef\'ee\'eb\'fc\'e7\'f3!\par
@@ -115,8 +115,9 @@
 \'e2\'fb\'e4\'e5\'eb\'ff\'f2\'fc \'ea\'f0\'e0\'f1\'ed\'fb\'ec - \'ef\'ee\'eb\'ee\'e2\'e8\'ed\'e0 \'f0\'e5\'f8\'e5\'ed\'e8\'ff; \'ed\'f3\'e6\'ed\'ee \'ed\'e0 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'e5\'f9\'b8 \'e7\'e0\'e9\'f2\'e8, \'f7\'f2\'ee\'e1\'fb \'f3\'e2\'e8\'e4\'e5\'f2\'fc \'ea\'f0\'e0\'f1\'ed\'fb\'e9 \'e2\'ee\'ef\'f0\'ee\'f1\par
 \par
 \'f2.\'e5. \'ea\'e0\'ea \'f4\'ee\'f0\'ec\'e0 \lang1033\f1 TODO\lang1049\f0  \'fd\'f2\'ee \'ed\'e5 \'f2\'e0\'ea \'f5\'ee\'f0\'ee\'f8\'ee, \'ea\'e0\'ea \'c1\'cd\'c7\par
-\cf3\'cc\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ef\'f0\'e8\'e4\'f3\'ec\'e0\'f2\'fc \'f2\'e5\'e3 (\'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0, \lang1033\f1 #\lang1049\f0\'e0\'ea\'f2\'e2\'ee\'ef\'f0\'ee\'f1)?\cf1\par
-\'c8 \'f2\'ee\'e3\'e4\'e0 \'e7\'e0\'ea\'f0\'fb\'f2\'e8\'e5 \'e2\'ee\'ef\'f0\'ee\'f1\'e0 \'e1\'f3\'e4\'e5\'f2 \'ee\'e7\'ed\'e0\'f7\'e0\'f2\'fc \'f1\'ec\'e5\'ed\'e0 \'ea\'f0\'e0\'f1\'ed\'ee\'e3\'ee \'ed\'e0 \'f7\'b8\'f0\'ed\'fb\'e9 + \'f3\'e4\'e0\'eb\'e5\'ed\'e8\'e5 \'f2\'e5\'e3\'e0\par
+\cf4\'cc\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ef\'f0\'e8\'e4\'f3\'ec\'e0\'f2\'fc \'f2\'e5\'e3?\cf1\par
+ \'c4\'e0, \'ef\'f0\'e8\'e4\'f3\'ec\'e0\'ed \'f2\'e5\'e3 "\'e0\'ea\'f2\'e2\'ee\'ef\'f0\'ee\'f1".\par
+\'c8 \'f2\'ee\'e3\'e4\'e0 \'e7\'e0\'ea\'f0\'fb\'f2\'e8\'e5 \'e2\'ee\'ef\'f0\'ee\'f1\'e0 \'e1\'f3\'e4\'e5\'f2 \'ee\'e7\'ed\'e0\'f7\'e0\'f2\'fc \'f1\'ec\'e5\'ed\'e0 \'ea\'f0\'e0\'f1\'ed\'ee\'e3\'ee \'ed\'e0 \'f7\'b8\'f0\'ed\'fb\'e9/\'e7\'e5\'eb\'b8\'ed\'fb\'e9 + \'f3\'e4\'e0\'eb\'e5\'ed\'e8\'e5 \'f2\'e5\'e3\'e0\par
 \par
 linkto:\'c2\'fb\'e1\'ee\'f0 \'ed\'e0\'ef\'f0\'e0\'e2\'eb\'e5\'ed\'e8\'ff \'e8 \'f1\'f2\'e5\'ef\'e5\'ed\'e8 \'e3\'eb\'f3\'e1\'e8\'ed\'fb \'ef\'f0\'ee\'f0\'e0\'e1\'ee\'f2\'ea\'e8 \'ef\'f0\'e8 \'ee\'e1\'f3\'f7\'e5\'ed\'e8\'e8 \'e2 \'f3\'f1\'eb\'ee\'e2\'e8\'ff\'f5 \'ed\'e5\'ee\'ef\'f0\'e5\'e4\'e5\'eb\'b8\'ed\'ed\'ee\'f1\'f2\'e8\par
 linkto:\'c2\'ee\'ef\'f0\'ee\'f1\'fb (\'ea\'e0\'ea \'ef\'ee\'ed\'ff\'f2\'e8\'e5)\par
