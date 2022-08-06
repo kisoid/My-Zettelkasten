@@ -1,4 +1,4 @@
-{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}{\f3\fnil\fcharset204 Lucida Console;}}
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}}
 {\colortbl ;\red0\green0\blue0;\red0\green0\blue205;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 STP (Spanning Tree Protocol)\b0\par
 \par
@@ -104,22 +104,8 @@ sh spanning-tree vlan 1\lang1049\f0\fs20\par
 \'ed\'e5\'e6\'e5\'eb\'e0\'f2 \'ed\'e0 \'fd\'ea\'f1\'e5\'f1\'f1, \'f2.\'ea. \'ea\'f2\'ee-\'ed\'e8\'e1\'f3\'e4\'fc \'ec\'ee\'e6\'e5\'f2 \'e4\'e2\'e5 \'f0\'ee\'e7\'e5\'f2\'ea\'e8 \'ef\'e0\'f2\'f7-\'ea\'ee\'f0\'e4\'ee\'ec \'f1\'ee\'e5\'e4\'e8\'ed\'e8\'f2\'fc\par
 \par
 \i\'e5\'f1\'eb\'e8 \'ea\'f2\'ee-\'ed\'e8\'f2\'fc \'ef\'f0\'e8\'ed\'e5\'f1\'b8\'f2 \'f1\'e2\'e8\'f2\'f7, \'e2\'f1\'f2\'e0\'e2\'e8\'f2 \'e2 \'f0\'ee\'e7\'e5\'f2\'ea\'f3 \'e8 \'f1\'e4\'e5\'eb\'e0\'e5\'f2 \lang1033\f1 priority 0:\i0\par
-BPDU guard - \lang1049\f0\'f3\'e2\'e8\'e4\'e8\'f2 \'e2\'f5\'ee\'e4\'ff\'f9\'f3\'fe \lang1033\f1 bpdu \lang1049\f0\'e8 \'e2\'fb\'ea\'eb\'fe\'f7\'e8\'f2 \'f4\'e5\'e9\'f1, \'e8 \'ef\'ee\'f8\'eb\'b8\'f2 \'f2\'f0\'e0\'ef\par
-\lang1033\f1 BPDU filter - \lang1049\f0\'f1\'f0\'e5\'e7\'e0\'e5\'f2 \lang1033\f1 bpdu\lang1049\f0 -\'f8\'ea\'f3\lang1033\f1  \lang1049\f0\'ec\'ee\'eb\'f7\'e0; \'e4\'e0\'f2\'e0\'f6\'e5\'ed\'f2\'f0, \'ea\'eb\'e8\'e5\'ed\'f2 \'f1\'e4\'e5\'eb\'e0\'eb \'ed\'e0 \'e3\'e8\'ef\'e5\'f0\'e2\'e8\'e7\'ee\'f0\'e5 \'e2\'e8\'f0\'f2\'f3\'e0\'eb\'fc\'ed\'fb\'e9 \'f1\'e2\'e8\'f2\'f7 (\'e3\'e8\'ef\'e5\'f0\'e2\'e8\'e7\'ee\'f0 \'f1\'ec\'ee\'f2\'f0\'e8\'f2 \'e2 \'f0\'e5\'e0\'eb\'fc\'ed\'fb\'e9 \'f1\'e2\'e8\'f2\'f7 \'f2\'f0\'e0\'ed\'ea\'ee\'ec)\par
-\par
-\ul\'e2\'ea\'eb\'fe\'f7\'e0\'e5\'ec \'ed\'e0 \'f4\'e5\'e9\'f1\'e5:\ulnone\par
-\f3\fs16 (\lang1033\f2 config-if\lang1049\f3 )\lang1033\f2 #spanning-tree portfast\lang1049\f3\par
-(\lang1033\f2 config-if\lang1049\f3 )\lang1033\f2 #spanning-tree bpduguard enable\lang1049\f0\fs20\par
-\par
-\ul\'e3\'eb\'ee\'e1\'e0\'eb\'fc\'ed\'ee:\ulnone\par
-\f3\fs16 (\lang1033\f2 config\lang1049\f3 )\lang1033\f2 #spanning-tree portfast bpduguard default\lang1049\f3\par
-(\lang1033\f2 config\lang1049\f3 )\lang1033\f2 #spanning-tree portfast default\lang1049\f0\fs20\par
-\par
-\ul\'ef\'f0\'ee\'e2\'e5\'f0\'ff\'e5\'ec:\ulnone\par
-\lang1033\f2\fs16 sh running-config interface fa0/1\par
-sh spanning-tree summary\par
-sh spaning-tree interface fa0/1 portfast\lang1049\f0\fs20\par
-\par
+\cf2\lang1049\ul\f0 linkto:BPDU guard \'e8 BPDU filter\cf1\lang1033\ulnone\f1\par
+\lang1049\f0\par
 \'cd\'e0\'e7\'e0\'e4 - linkto:\'cf\'e5\'f2\'eb\'e8 \'ea\'ee\'ec\'ec\'f3\'f2\'e0\'f6\'e8\'e8\par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto\lang1033\f1 #\lang1049\f0 ICND2 v2 (\'ca\'e0\'f0\'ec\'e0\'ed\'ee\'e2)\par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:ICND2 v3 (\'ca\'e0\'f0\'ec\'e0\'ed\'ee\'e2)\par
@@ -127,5 +113,6 @@ linkto:\'c4\'e5\'f0\'e5\'e2\'ee (\'f2\'e5\'ee\'f0\'e8\'ff \'e3\'f0\'e0\'f4\'ee\'
 linkto:\'c8\'e7\'e1\'fb\'f2\'ee\'f7\'ed\'ee\'f1\'f2\'fc (redundancy)\par
 \par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'cd\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e0 \'ea\'ee\'ec\'ec\'f3\'f2\'e0\'f6\'e8\'e8\par
+\par
 }
  
