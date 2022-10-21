@@ -5,6 +5,7 @@
 \'f1\'ee\'e7\'e4\'e0\'b8\'f2\'f1\'ff \'ed\'e0 \'ee\'f1\'ed\'ee\'e2\'e5 \'ef\'e0\'f0\'ee\'eb\'ff \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\par
 \i\'ca\'ee\'e3\'e4\'e0 \'c0\'eb\'e8\'f1\'e0 \'ef\'f0\'ee\'f5\'ee\'e4\'e8\'f2 \'f0\'e5\'e3\'e8\'f1\'f2\'f0\'e0\'f6\'e8\'fe, \'ea\'eb\'e8\'e5\'ed\'f2 Kerberos, \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'ed\'fb\'e9 \'ed\'e0 \'e5\'e5 \'f0\'e0\'e1\'ee\'f7\'e5\'e9 \'f1\'f2\'e0\'ed\'f6\'e8\'e8, \'ef\'f0\'ee\'ef\'f3\'f1\'ea\'e0\'e5\'f2 \'f3\'ea\'e0\'e7\'e0\'ed\'ed\'fb\'e9 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'ec \'ef\'e0\'f0\'ee\'eb\'fc \'f7\'e5\'f0\'e5\'e7 \'f4\'f3\'ed\'ea\'f6\'e8\'fe \'f5\'e5\'f8\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'ff (\'e2\'f1\'e5 \'f0\'e5\'e0\'eb\'e8\'e7\'e0\'f6\'e8\'e8 \'ef\'f0\'ee\'f2\'ee\'ea\'ee\'eb\'e0 Kerberos 5 \'e4\'ee\'eb\'e6\'ed\'fb \'ee\'e1\'ff\'e7\'e0\'f2\'e5\'eb\'fc\'ed\'ee \'ef\'ee\'e4\'e4\'e5\'f0\'e6\'e8\'e2\'e0\'f2\'fc \'e0\'eb\'e3\'ee\'f0\'e8\'f2\'ec DES-CBC-MD5, \'f5\'ee\'f2\'ff \'ec\'ee\'e3\'f3\'f2 \'ef\'f0\'e8\'ec\'e5\'ed\'ff\'f2\'fc\'f1\'ff \'e8 \'e4\'f0\'f3\'e3\'e8\'e5 \'e0\'eb\'e3\'ee\'f0\'e8\'f2\'ec\'fb). \'c2 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e5 \'f4\'ee\'f0\'ec\'e8\'f0\'f3\'e5\'f2\'f1\'ff \'ea\'f0\'e8\'ef\'f2\'ee\'e3\'f0\'e0\'f4\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'ea\'eb\'fe\'f7.\i0\par
 \cf2\ul linkto:\'d5\'fd\'f8\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5\cf1\ulnone\par
+\cf2\ul linkto:\'d0\'e5\'e6\'e8\'ec \'f8\'e8\'f4\'f0\'ee\'e2\'e0\'ed\'e8\'ff Cipher Block Chaining (CBC)\cf1\ulnone\par
 \par
 \'e4\'ee\'eb\'e3\'ee\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'fb\'e9 \'ea\'eb\'fe\'f7 - \'fd\'f2\'ee \'ee\'e1\'f9\'e8\'e9 \'f1\'e5\'ea\'f0\'e5\'f2 \'e0\'e1\'ee\'ed\'e5\'ed\'f2\'e0 (\'ea\'eb\'e8\'e5\'ed\'f2\'e0 \'e8\'eb\'e8 \'f1\'e5\'f0\'e2\'e5\'f0\'e0) \'e8 \lang1033\f1 KDC\lang1049\f0 , \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'ec\'fb\'e9 \'e2 \'ec\'ee\'ec\'e5\'ed\'f2 \'e0\'f3\'f2\'e5\'ed\'f2\'e8\'f4\'e8\'ea\'e0\'f6\'e8\'e8 \'ea\'eb\'e8\'e5\'ed\'f2\'e0 (\'eb\'ee\'e3\'ee\'ed\'e0) \'e8 \'e4\'eb\'ff \'f0\'e0\'f1\'f8\'e8\'f4\'f0\'ee\'e2\'ea\'e8 \'f1\'e5\'e0\'ed\'f1\'ee\'e2\'fb\'f5 \'e1\'e8\'eb\'e5\'f2\'ee\'e2 \'f1\'e5\'f0\'e2\'e5\'f0\'e0\'ec\'e8 (\'e2 \'f2\'ee\'ec \'f7\'e8\'f1\'eb\'e5 \'f1\'e0\'ec\'e8\'ec \lang1033\f1 KDC\lang1049\f0 , \'ea\'ee\'e3\'e4\'e0 \'ee\'ed "\'c1\'ee\'e1")\par
 \cf2\ul linkto:\'d1\'e5\'e0\'ed\'f1\'ee\'e2\'fb\'e9 \'e1\'e8\'eb\'e5\'f2 (session ticket) (Kerberos)\cf1\ulnone\par
@@ -43,6 +44,7 @@
 \'cd\'e0\'e7\'e0\'e4 - linkto:Kerberos\par
 \par
 \cf2\ul linkto:\'d1\'e5\'e0\'ed\'f1\'ee\'e2\'fb\'e9 \'ea\'eb\'fe\'f7 (session key) (Kerberos)\cf1\ulnone\par
+\par
 \par
 \par
 }
