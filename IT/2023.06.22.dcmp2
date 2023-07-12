@@ -15,6 +15,7 @@
 \lang1033\f1 2) \lang1049\f0\'ef\'ee\'f1\'f2\'e0\'e2\'e8\'eb \'ed\'ee\'e2\'f3\'fe 7\par
 \lang1033\f1 3) \lang1049\f0\'f1\'e8\'e6\'f3, \'ef\'fb\'f2\'e0\'fe\'f1\'fc \'e2\'f1\'b8 \'ed\'e0 7 \'e2\'ee\'f1\'f1\'ee\'e7\'e4\'e0\'f2\'fc, \'ea\'e0\'ea \'e1\'fb\'eb\'ee...\par
 4) \'e7\'e0\'e1\'e8\'eb \lang1033\f1 EFI FAT\lang1049\f0  (\lang1033\f1 /boot/efi\lang1049\f0 )\lang1033\f1  \lang1049\f0\'f0\'e0\'e7\'e4\'e5\'eb \'ed\'e0 \lang1033\f1 M2-SSD\lang1049\f0  \'ef\'ee\'f7\'f2\'e8 \'ef\'ee\'e4 \'e7\'e0\'e2\'ff\'e7\'ea\'f3 (\'f1\'e2\'ee\'e1\'ee\'e4\'ed\'ee 512 \'e1\'e0\'e9\'f2)\lang1033\f1  (\lang1049\f0\'f7\'e5\'ec \'e0\'f3\'ea\'ed\'e5\'f2\'f1\'ff \'ef\'ee\'f2\'ee\'ec?\lang1033\f1 )\lang1049\f0 , \'ea\'ee\'e3\'e4\'e0 \'f2\'e5\'f1\'f2\'ee\'e2\'ee \'f1\'f2\'e0\'e2\'e8\'eb \lang1033\f1 Ubuntu\par
+\cf2\lang1049\ul\f0 linkto:ESP (EFI system partition)\cf1\lang1033\ulnone\f1\par
 \lang1049\f0 (\'ef\'ee-\'f5\'ee\'f0\'ee\'f8\'e5\'ec\'f3 \'ed\'e0\'e4\'ee \'e1\'fb\'eb\'ee \'ee\'f2\'ea\'eb\'fe\'f7\'e8\'f2\'fc \lang1033\f1 M2 \lang1049\f0\'e8 \'f1\'ea\'ee\'f0\'ec\'e8\'f2\'fc \'d3\'e1\'f3\'ed\'f2\'e5 \'e2\'e5\'f1\'fc \lang1033\f1 SATA-SSD - \lang1049\f0\'ef\'f3\'f1\'f2\'fc \'f1\'e0\'ec\'e0 \'f1\'ee\'e7\'e4\'e0\'b8\'f2 \'e2\'f1\'e5 \'f2\'f0\'e5\'e1\'f3\'e5\'ec\'fb\'e5 \'e4\'eb\'ff \lang1033\f1 EFI/swap \lang1049\f0\'e8 \'f2.\'e4.\lang1033\f1  \lang1049\f0\'f0\'e0\'e7\'e4\'e5\'eb\'fb; \'ff \'e6\'e5... \'f1\'ea\'e0\'e7\'e0\'eb \'e4\'e5\'eb\'e0\'f2\'fc\lang1033\f1  \lang1049\f0\'f2\'ee\'eb\'fc\'ea\'ee \lang1033\f1 / \lang1049\f0\'e2 \lang1033\f1 ext4... \lang1049\f0\'e2 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e5 \'f7\'e5\'e3\'ee \'ee\'ed\'e0 \'ec\'ed\'e5 \'e2 \'ea\'ee\'ed\'f6\'e5 \'e2\'fb\'e4\'e0\'eb\'e0 \'ee\'f8\'e8\'e1\'ea\'f3 "\'ed\'e5\'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'e8\'f2\'fc \lang1033\f1 GRUB\lang1049\f0 ", \'e0 \'ef\'ee \'f4\'e0\'ea\'f2\'f3 \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'e8\'eb\'e0 \'e5\'e3\'ee \'ed\'e0 \lang1033\f1 M2\lang1049\f0 )\lang1033\f1\par
 \par
 (\lang1049\f0\'f1\'ee\'e7\'e4\'e0\'ed\'e8\'e5 \'f4\'eb\'fd\'f8\'ea\'e8:\par
@@ -74,6 +75,7 @@ Win7AndW2K8R2-KB3191566-x64.msu\f1\fs20\par
 \cf2\ul linkto:\'ca\'e0\'ea \'f3\'f1\'e8\'eb\'e8\'f2\'fc \'fd\'ef\'e8\'e7\'ee\'e4\'e8\'f7\'e5\'f1\'ea\'f3\'fe \'ef\'e0\'ec\'ff\'f2\'fc \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \'e1\'e0\'e7\'fb \'e7\'ed\'e0\'ed\'e8\'e9\cf1\ulnone\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:2023.06\par
+\par
 \par
 \par
 }
