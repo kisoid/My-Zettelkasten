@@ -27,6 +27,8 @@ conv="fsync" - \lang1049\f3\'ec\'e5\'e4\'eb\'e5\'ed\'ed\'ee, \'ef\'e8\'ef\'e5\'f
 \lang1049\ul\f0\'ed\'e0 \'ef\'e0\'ec\'ff\'f2\'fc:\ulnone\par
 \lang1033\f2\fs16 [shift + F10]\f1\fs20  - \lang1049\f0\'ec\'ee\'e6\'ed\'ee \'e2\'ee \'e2\'f0\'e5\'ec\'ff \'e2\'fb\'e1\'ee\'f0\'e0 \'f0\'e0\'e7\'e4\'e5\'eb\'e0, \'ed\'ee \'ee\'e4\'ed\'e0 \'f4\'e8\'e3 \'f0\'e0\'e7\'ed\'e8\'f6\'e0, \'ef\'f0\'e8\'f8\'eb\'ee\'f1\'fc \'ef\'e5\'f0\'e5\'e7\'e0\'e3\'f0\'f3\'e6\'e0\'f2\'fc\'f1\'ff \'e2 \lang1033\f1 EMS enabled install (\lang1049\f0\'f2.\'e5. \'f1\'f2\'e0\'e2\'e8\'f2\'fc\'f1\'ff \'f1 \'f0\'e0\'e7\'e4\'e5\'eb\'e0\lang1033\f1 )\lang1049\f0  (\'e2\'fb\'ed\'e8\'ec\'e0\'ed\'e8\'e5 \'f4\'eb\'e5\'f8\'ea\'e8 \'ed\'e5 \'ef\'ee\'ec\'ee\'e3\'eb\'ee)\lang1033\f1\par
 \par
+\cf2\lang1049\ul\f0 linkto:\'d3\'f2\'e8\'eb\'e8\'f2\'e0 diskpart (Windows)\cf1\lang1033\ulnone\f1\par
+\par
 \f2\fs16 diskpart\par
 list disk\par
 select disk 0\par
@@ -75,7 +77,6 @@ Win7AndW2K8R2-KB3191566-x64.msu\f1\fs20\par
 \cf2\ul linkto:\'ca\'e0\'ea \'f3\'f1\'e8\'eb\'e8\'f2\'fc \'fd\'ef\'e8\'e7\'ee\'e4\'e8\'f7\'e5\'f1\'ea\'f3\'fe \'ef\'e0\'ec\'ff\'f2\'fc \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \'e1\'e0\'e7\'fb \'e7\'ed\'e0\'ed\'e8\'e9\cf1\ulnone\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:2023.06\par
-\par
 \par
 \par
 }
