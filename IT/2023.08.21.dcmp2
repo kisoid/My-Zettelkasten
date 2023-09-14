@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Lucida Console;}{\f2\fnil\fcharset0 Tahoma;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red255\green0\blue0;\red0\green128\blue0;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 2023.08.21\b0\par
 \par
 \'c4\'ed\'ff 3 \'ed\'e0\'e7\'e0\'e4 \'ef\'f0\'e8\'f8\'eb\'e0 \'e8\'e4\'e5\'ff \'e4\'ee\'e1\'e0\'e2\'e8\'f2\'fc \'ed\'ee\'e2\'f3\'fe \'f4\'f3\'ed\'ea\'f6\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'ee\'f1\'f2\'fc \'e2 \'e1\'e0\'e7\'f3 \'e7\'ed\'e0\'ed\'e8\'e9 \'f1\'e8\'ec\'e8\'eb\'ff\'f0\'ee\'e2. \'c2\'f7\'e5\'f0\'e0-\'f1\'e5\'e3\'ee\'e4\'ed\'ff \'e7\'e0\'ef\'e8\'eb\'e8\'eb.\par
@@ -51,6 +51,24 @@
 \'e0 \'e7\'e0\'f7\'e5\'ec \'ec\'ed\'e5 \'e5\'f9\'b8 "\'e4\'ed\'e5\'e2\'ed\'e8\'ea" \'e2\'ed\'f3\'f2\'f0\'e8 \'ed\'e5\'b8 - \'ed\'e5\'ef\'ee\'ed\'ff\'f2\'ed\'ee...\par
 \par
 \'ed\'ee \'f2\'ee\'f0\'ee\'ef\'e8\'f2\'fc\'f1\'ff \'f1 \'ef\'f0\'e8\'ed\'ff\'f2\'e8\'e5\'ec \'f0\'e5\'f8\'e5\'ed\'e8\'ff \'ed\'e5 \'e1\'f3\'e4\'f3! (\'ed\'e0\'e4\'ee \'ef\'ee\'e4\'f3\'ec\'e0\'f2\'fc, \'e2\'e4\'f0\'f3\'e3 \'e4\'ed\'e5\'e2\'ed\'e8\'ea \'f2\'ee\'e6\'e5 \'ef\'ee\'eb\'e5\'e7\'e5\'ed)\par
+\par
+\lang1033\f2 ~~~\lang1049\f0\par
+\cf3\lang1033\f2 UPDATE\cf1\lang1049\f0\par
+\cf2\ul linkto:2023.09.14\cf1\ulnone\par
+\'c0 \'ef\'ee\'eb\'f3\'f7\'e8\'eb\'ee\'f1\'fc \'e2 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e5, \'f7\'f2\'ee \'ff \'ed\'e5 \'f2\'ee\'eb\'fc\'ea\'ee \'ed\'e5 \'ee\'f2\'ea\'e0\'e7\'e0\'eb\'f1\'ff, \'ed\'ee \'e8 \'f0\'e5\'f8\'e8\'eb \'f2\'e5\'ef\'e5\'f0\'fc \'e2\'f1\'e5 \'f3\'e7\'eb\'fb \'ef\'e5\'f0\'e5\'ed\'ee\'f1\'e8\'f2\'fc \'e2\'ee \'e2\'f0\'e5\'ec\'e5\'ed\'ed\'d3\'fe \'e8\'e5\'f0\'e0\'f0\'f5\'e8\'fe \'e2\'ec\'e5\'f1\'f2\'ee \'e8\'e5\'f0\'e0\'f0\'f5\'e8\'e8 \'f2\'e8\'ef\'ee\'e2...\par
+\'c8 \'ed\'ee\'e2\'fb\'e5, \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e5\'ed\'ed\'ee, \'f1\'ee\'e7\'e4\'e0\'e2\'e0\'f2\'fc \'e2 \'ed\'e5\'e9.\par
+\par
+\'d1 \'ee\'e4\'ed\'ee\'e9 \'f1\'f2\'ee\'f0\'ee\'ed\'fb, \'fd\'f2\'ee "\'e2\'e4\'ee\'f5\'ed\'ee\'e2\'eb\'e5\'ed\'ed\'ee" \'e8\'e4\'e5\'e5\'e9\par
+\cf2\ul linkto:\'c4\'eb\'ff \'e2\'e5\'e4\'e5\'ed\'e8\'ff ZK \'e4\'ee\'f1\'f2\'e0\'f2\'ee\'f7\'ed\'ee \'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2\'e5\'e9 \'f4\'e0\'e9\'eb\'ee\'e2\'fb\'f5 \'f1\'e8\'f1\'f2\'e5\'ec\cf1\ulnone\par
+- \'ec\'ed\'e5 \'e7\'e0\'f5\'ee\'f2\'e5\'eb\'ee\'f1\'fc \'ef\'ee\'ef\'f0\'ee\'e1\'ee\'e2\'e0\'f2\'fc, \'ea\'e0\'ea\'ee\'e2\'ee \'fd\'f2\'ee, \'e5\'f1\'eb\'e8 \'e7\'e0\'ec\'e5\'f2\'ea\'e8 \'f1\'ee\'e7\'e4\'e0\'fe\'f2\'f1\'ff \'e2\'ed\'f3\'f2\'f0\'e8 \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'e9-\'e4\'ed\'e5\'e9, \'ed\'ee \'ed\'e5 \'e7\'e0\'f5\'ee\'f2\'e5\'eb\'ee\'f1\'fc \'ea\'ee\'f0\'b8\'e6\'e8\'f2\'fc \'fd\'f2\'f3 \'c1\'c7/\'ee\'f2\'ea\'e0\'e7\'fb\'e2\'e0\'f2\'fc\'f1\'ff \'ee\'f2 \'ed\'e5\'b8...\par
+\'f1 \'e4\'f0\'f3\'e3\'ee\'e9 \'f1\'f2\'ee\'f0\'ee\'ed\'fb, \'fd\'f2\'ee \'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2\'fc \'f0\'e0\'e7\'e3\'f0\'f3\'e7\'e8\'f2\'fc \'e1\'ee\'eb\'fc\'f8\'e8\'e5 "\'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'e8" \'e2\'ed\'f3\'f2\'f0\'e8 \'c1\'c7 \'f1\'e8\'ec\'e8\'eb\'ff\'f0\'ee\'e2\par
+\'e8 \'e5\'f9\'b8 \'fd\'f2\'ee \'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2\'fc \'f3\'ef\'f0\'ee\'f1\'f2\'e8\'f2\'fc \'ef\'ee\'e8\'f1\'ea \'f3\'e7\'eb\'ee\'e2 \'e2\'ee \'e2\'f0\'e5\'ec\'ff \'e3\'e5\'ed\'e5\'f0\'e0\'f6\'e8\'e8 \lang1033\f2 GML\lang1049\f0  - \'f2.\'ea. \'f2\'e5\'ef\'e5\'f0\'fc \'e4\'ee\'f1\'f2\'e0\'f2\'ee\'f7\'ed\'ee \'ef\'f0\'ee\'f1\'f2\'ee "\'ef\'f0\'ee\'e1\'e5\'e6\'e0\'f2\'fc\'f1\'ff" \'ef\'ee \lang1033\f2 YYYY / YYYY.MM / YYYY.MM.DD\par
+\par
+\cf4\lang1049\f0\'cd\'e0\'e4\'ee \'e5\'f9\'b8 \'f3\'ef\'ee\'ec\'ff\'ed\'f3\'f2\'fc, \'f7\'f2\'ee \'e8\'e4\'e5\'ff \'ee\'f0\'e3\'e0\'ed\'e8\'e7\'e0\'f6\'e8\'e8 \'ea\'ee\'ed\'f2\'e5\'ed\'f2\'e0 \'ef\'ee \'e4\'ed\'ff\'ec - \'fd\'f2\'ee \'e8\'f1\'f2\'ee\'f0\'e8\'f7\'e5\'f1\'ea\'e8 \'ef\'e5\'f0\'e2\'ee\'e5 \'f0\'e5\'f8\'e5\'ed\'e8\'e5, \'ea\'ee\'f2\'ee\'f0\'ee\'e5 \'ec\'ed\'e5 \'ef\'f0\'e8\'f8\'eb\'ee \'e2 \'e3\'ee\'eb\'ee\'e2\'f3 (\'e3\'e4\'e5-\'f2\'ee \'e2 2006 \'e3\'ee\'e4\'f3 \'e8\'eb\'e8 \'f2\'e8\'ef\'e0 \'f2\'ee\'e3\'ee...)\par
+\'c8 \'ee\'ed\'ee \'ee\'ea\'e0\'e7\'e0\'eb\'ee\'f1\'fc \'ee\'f7\'e5\'ed\'fc \'e6\'e8\'e2\'f3\'f7\'e8\'ec, \'ea \'f2\'ee\'ec\'f3 \'e6\'e5! \'d2.\'ea. \'ff \'e4\'ee \'f1\'e8\'f5 \'ef\'ee\'f0 \'f1\'ee\'e7\'e4\'e0\'fe \'ef\'e0\'ef\'ea\'e8 \lang1033\f2 by_dates.\cf1\lang1049\f0\par
+\lang1033\f2\par
+\lang1049\f0\'d2\'e0\'ea \'f7\'f2\'ee \'fd\'f2\'ee \'f1\'e2\'ee\'e5\'e3\'ee \'f0\'ee\'e4\'e0 "\'e2\'ee\'e7\'e2\'f0\'e0\'f9\'e5\'ed\'e8\'e5 \'ea \'e8\'f1\'f2\'ee\'ea\'e0\'ec" :)\lang1033\f2\par
+~~~\lang1049\f0\par
 \par
 \'e2 \'f2\'ee \'e6\'e5 \'e2\'f0\'e5\'ec\'ff \'e4\'ed\'e5\'e2\'ed\'e8\'ea \'e2\'ed\'f3\'f2\'f0\'e8 \i\'fd\'f2\'ee\'e9 \'c1\'c7\i0  \'ea\'f0\'e0\'e9\'ed\'e5 \'ef\'ee\'eb\'e5\'e7\'e5\'ed!\par
 \'ef\'ee\'f2\'ee\'ec\'f3 \'f7\'f2\'ee \'eb\'e5\'e3\'ea\'ee \'e2\'ee\'f2 \'f2\'e0\'ea \'ec\'ee\'e6\'ed\'ee \'f4\'e8\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'f2\'fc "\'ef\'ee\'f2\'ee\'ea \'f1\'ee\'e7\'ed\'e0\'ed\'e8\'ff"\par
