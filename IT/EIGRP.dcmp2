@@ -1,6 +1,10 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}}
-{\colortbl ;\red0\green0\blue0;\red0\green0\blue205;\red255\green0\blue0;}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;\red255\green0\blue0;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 EIGRP\lang1033\f1  (Enhanced Interior Gateway Routing Protocol)\lang1049\b0\f0\par
+\cf2\lang1033\f1 #review:12\par
+\lang1049\f0\'fd\'f2\'e0 \'e7\'e0\'ec\'e5\'f2\'ea\'e0 \'f1\'eb\'e8\'f8\'ea\'ee\'ec \'e1\'ee\'eb\'fc\'f8\'e0\'ff, \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee \'e4\'e5\'ea\'ee\'ec\'ef\'ee\'e7\'e8\'f0\'ee\'e2\'e0\'f2\'fc\par
+\'e7\'e0\'ee\'e4\'ed\'ee \'e8 \'ef\'e5\'f0\'e5\'f4\'f0\'e0\'e7\'e8\'f0\'ee\'e2\'e0\'f2\'fc \'f7\'f2\'ee-\'ed\'e8\'e1\'f3\'e4\'fc...\par
+\'fd\'f2\'ee \'ef\'f0\'ee\'f6\'e5\'f1\'f1 \'ed\'e5\'e1\'fb\'f1\'f2\'f0\'fb\'e9 \'ef\'ee\'eb\'f3\'f7\'e8\'f2\'f1\'ff, \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'e2 \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'f8\'e0\'e3\'ee\'e2-\'f0\'e5\'e2\'fc\'fe \'f1 \'f0\'e0\'e7\'ed\'e8\'f6\'e5\'e9 \'e2\'ee \'e2\'f0\'e5\'ec\'e5\'ed\'e8\cf1\par
 \par
 \'ef\'f0\'ee\'ef\'f0\'e8\'e5\'f2\'e0\'f0\'ed\'fb\'e9 \'f6\'e8\'f1\'ea\'ee\'e2\'f1\'ea\'e8\'e9\par
 \'f3\'f5\'ee\'e4\'e8\'f2 :(, \'e5\'f1\'eb\'e8 \'e2\'e5\'f0\'e8\'f2\'fc \'ea\'f3\'f0\'f1\'f3 2012 \'e3.\par
@@ -13,7 +17,7 @@ part 5 - 02:38:40 EIGRP \lang1049\f0\'f2\'e5\'ef\'e5\'f0\'fc \'ee\'ef\'f3\'e1\'e
 \lang1033\f1 (\lang1049\f0\'f2\'e5\'ee\'f0\'e5\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'ec\'ee\'e3\'f3\'f2 \'e1\'fb\'f2\'fc \'ed\'e5\'f1\'ee\'f1\'f2\'fb\'ea\'ee\'e2\'ea\'e8 \'ec\'e5\'e6\'e4\'f3 \'ee\'f7\'e5\'ed\'fc \'f1\'f2\'e0\'f0\'fb\'ec\'e8 \'e8 \'ee\'f7\'e5\'ed\'fc \'ed\'ee\'e2\'fb\'ec\'e8 \'f6\'e8\'f1\'ea\'e0\'ec\'e8\lang1033\f1 )\lang1049\f0\par
 \par
 \lang1033\f1 "advanced" distance vector\lang1049\f0\par
-\cf2\ul linkto:\'c4\'e8\'f1\'f2\'e0\'ed\'f6\'e8\'ee\'ed\'ed\'ee-\'e2\'e5\'ea\'f2\'ee\'f0\'ed\'e0\'ff \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8\'e7\'e0\'f6\'e8\'ff\cf1\ulnone\par
+\cf3\ul linkto:\'c4\'e8\'f1\'f2\'e0\'ed\'f6\'e8\'ee\'ed\'ed\'ee-\'e2\'e5\'ea\'f2\'ee\'f0\'ed\'e0\'ff \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8\'e7\'e0\'f6\'e8\'ff\cf1\ulnone\par
 \par
 \lang1033\f1 EIGRP\lang1049\f0  \'e4\'e5\'f0\'e6\'e8\'f2 \'e2 \'e3\'ee\'eb\'ee\'e2\'e5 \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'ee\'e2 \'ea \'ea\'e0\'e6\'e4\'ee\'e9 \'f1\'e5\'f2\'e8 \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'ff, \'f1\'ee\'f0\'f2\'e8\'f0\'f3\'e5\'f2 \'e8\'f5 \'ef\'ee \'ec\'e5\'f2\'f0\'e8\'ea\'e5, \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2 \'f1\'e0\'ec\'fb\'e9 \'eb\'f3\'f7\'f8\'e8\'e9 \'e2 \'ed\'e0\'f1\'f2\'ee\'ff\'f9\'e8\'e9 \'ec\'ee\'ec\'e5\'ed\'f2 (\lang1033\f1 successor\lang1049\f0 ), \'e0 \'e5\'f1\'eb\'e8 \lang1033\f1 next-hop\lang1049\f0  \'f1\'e4\'ee\'f5\'ed\'e5\'f2 - \i\'e1\'fb\'f1\'f2\'f0\'ee\i0  \'ef\'e5\'f0\'e5\'f5\'ee\'e4\'e8\'f2 \'ea \'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e5\'ec\'f3 \'ea\'e0\'ed\'e4\'e8\'e4\'e0\'f2\'f3\lang1033\f1  (feasible successor)\lang1049\f0\par
 \'ef\'ee\'fd\'f2\'ee\'ec\'f3\lang1033\f1  nonstop forwarding/fast convergence\lang1049\f0\par
@@ -21,7 +25,7 @@ part 5 - 02:38:40 EIGRP \lang1049\f0\'f2\'e5\'ef\'e5\'f0\'fc \'ee\'ef\'f3\'e1\'e
 \lang1033\ul\f1 3 \lang1049\f0\'f1\'eb\'f3\'f7\'e0\'ff, \'ea\'ee\'e3\'e4\'e0 \lang1033\f1 next-hop \lang1049\f0\'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'f1\'e4\'ee\'f5\'f8\'e8\'ec\lang1033\f1  (\lang1049\f0\'ea\'f0\'e8\'f2\'e5\'f0\'e8\'e8 \'ee\'f2\'ea\'e0\'e7\'e0 \lang1033\f1 next-hop'\lang1049\f0\'e0\lang1033\f1 )\lang1049\f0 :\ulnone\par
 1\lang1033\f1 ) next-hop \lang1049\f0\'ed\'e5 \'e4\'ee\'f1\'f2\'f3\'ef\'e5\'ed \'ef\'ee \lang1033\f1 arp (\lang1049\f0\'ed\'e5\'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee \'f0\'e0\'e7\'f0\'e5\'f8\'e8\'f2\'fc \lang1033\f1 IP\lang1049\f0  \'e0\'e4\'f0\'e5\'f1 \'e2 \lang1033\f1 MAC)\lang1049\f0 , \lang1033\f1 "\lang1049\f0\'ef\'f0\'e5\'e2\'f0\'e0\'f2\'e8\'eb\'f1\'ff \'e2 \lang1033\f1 black hole router"\par
 2) \lang1049\f0\'eb\'b8\'e3 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1, \'f7\'e5\'f0\'e5\'e7 \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'ec\'fb \'f1\'ec\'ee\'f2\'f0\'e8\'ec \'ed\'e0 \'fd\'f2\'ee\'f2 \'f0\'ee\'f3\'f2\'e5\'f0\par
-3) \'e4\'ee \'fd\'f2\'ee\'e3\'ee \'f0\'ee\'f3\'f2\'e5\'f0\'e0 \'ef\'f0\'ee\'ef\'e0\'eb\'e0 \lang1033\f1 connected \lang1049\f0\'f1\'e5\'f2\'fc\lang1033\f1  (\cf3\lang1049\f0\'ed\'e0 \'ed\'e0\'f8\'e5\'ec \lang1033\f1 IP \lang1049\f0\'e0\'e4\'f0\'e5\'f1 \'ef\'ee\'ec\'e5\'ed\'ff\'eb\'e8?\cf1\lang1033\f1 )\lang1049\f0  (\lang1033\f1 connected - \lang1049\f0\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e0\'ff \'ef\'ee\'f1\'eb\'e5 \lang1033\f1 static \lang1049\f0\'ef\'ee \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'ec\'f3 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'fe \'e8\'eb\'e8 \'e4\'e0\'e6\'e5 \'ea\'f0\'f3\'f7\'e5 - \cf3\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 )\par
+3) \'e4\'ee \'fd\'f2\'ee\'e3\'ee \'f0\'ee\'f3\'f2\'e5\'f0\'e0 \'ef\'f0\'ee\'ef\'e0\'eb\'e0 \lang1033\f1 connected \lang1049\f0\'f1\'e5\'f2\'fc\lang1033\f1  (\cf4\lang1049\f0\'ed\'e0 \'ed\'e0\'f8\'e5\'ec \lang1033\f1 IP \lang1049\f0\'e0\'e4\'f0\'e5\'f1 \'ef\'ee\'ec\'e5\'ed\'ff\'eb\'e8?\cf1\lang1033\f1 )\lang1049\f0  (\lang1033\f1 connected - \lang1049\f0\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e0\'ff \'ef\'ee\'f1\'eb\'e5 \lang1033\f1 static \lang1049\f0\'ef\'ee \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'ec\'f3 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'fe \'e8\'eb\'e8 \'e4\'e0\'e6\'e5 \'ea\'f0\'f3\'f7\'e5 - \cf4\'f3\'f2\'ee\'f7\'ed\'e8\'f2\'fc\cf1 )\par
 \par
 \lang1033\f1 feasible successor - \lang1049\f0\'fd\'f2\'ee \'e2\'f1\'e5\'e3\'e4\'e0 \'e4\'f0\'f3\'e3\'ee\'e9 \'f8\'eb\'fe\'e7, \'f7\'e5\'ec \lang1033\f1 successor\par
 \lang1049\f0\'e2\'e0\'f0\'e8\'e0\'ed\'f2\'ee\'e2 \'ec\'e0\'f0\'f8\'f0\'f3\'f2\'ee\'e2 \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'ec\'ed\'ee\'e3\'ee \'f7\'e5\'f0\'e5\'e7 \'ee\'e4\'e8\'ed \'f0\'ee\'f3\'f2\'e5\'f0, \'ed\'ee \'e2 \'e0\'eb\'fc\'f2\'e5\'f0\'ed\'e0\'f2\'e8\'e2\'f3 \'e7\'e0\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2\'f1\'ff \'f2\'ee\'eb\'fc\'ea\'ee \'ef\'ee \'f3\'ed\'e8\'ea\'e0\'eb\'fc\'ed\'fb\'ec \'f1\'ee\'f1\'e5\'e4\'ff\'ec:\par
@@ -40,7 +44,7 @@ part 5 - 02:38:40 EIGRP \lang1049\f0\'f2\'e5\'ef\'e5\'f0\'fc \'ee\'ef\'f3\'e1\'e
 \par
 \lang1033\f1 DUAL - Diffusing update algorithm\lang1049\f0\par
 The full name of the algorithm is DUAL finite-state machine (DUAL FSM)\par
-\cf2\ul linkto:\'ca\'ee\'ed\'e5\'f7\'ed\'fb\'e9 \'e0\'e2\'f2\'ee\'ec\'e0\'f2\cf1\ulnone\par
+\cf3\ul linkto:\'ca\'ee\'ed\'e5\'f7\'ed\'fb\'e9 \'e0\'e2\'f2\'ee\'ec\'e0\'f2\cf1\ulnone\par
 \par
 \lang1033\f1 FD = AD + cost to next-hop\lang1049\f0\par
 \par
@@ -53,8 +57,8 @@ The full name of the algorithm is DUAL finite-state machine (DUAL FSM)\par
 \par
 \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \lang1033\f1 EIGRP \lang1049\f0\'f2\'ee\'f7\'ed\'e5\'e5 \lang1033\f1 OSPF\lang1049\f0  \'e8 \'e5\'e3\'ee \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e5 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 \'ec\'e5\'ed\'fc\'f8\'e5 (90 \lang1033\f1 < 110\lang1049\f0 )\par
 (\'f3 \lang1033\f1 OSPF \lang1049\f0 (\'e8 \lang1033\f1 RIP\lang1049\f0 )\lang1033\f1  \lang1049\f0\'ef\'f0\'ee\'f1\'f2\'ee \'f1\'f3\'ec\'ec\'e0\'f0\'e8\'e7\'e0\'f6\'e8\'ff \'f1\'f2\'ee\'e8\'ec\'ee\'f1\'f2\'e5\'e9 \'f0\'b8\'e1\'e5\'f0 \'e2 \'e3\'f0\'e0\'f4\'e5)\par
-\cf2\ul linkto:\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e5 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 (\lang1033\f1 Cisco\lang1049\f0 )\cf1\ulnone\par
-\cf2\ul linkto:VRF (Virtual Routing and Forwarding)\lang1033\f1  (Cisco)\cf1\lang1049\ulnone\f0\par
+\cf3\ul linkto:\'c0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'e8\'e2\'ed\'ee\'e5 \'f0\'e0\'f1\'f1\'f2\'ee\'ff\'ed\'e8\'e5 (\lang1033\f1 Cisco\lang1049\f0 )\cf1\ulnone\par
+\cf3\ul linkto:VRF (Virtual Routing and Forwarding)\lang1033\f1  (Cisco)\cf1\lang1049\ulnone\f0\par
 \par
 \'e4\'e5\'eb\'fd\'e9 \'f1\'f7\'e8\'f2\'e0\'e5\'f2\'f1\'ff \'ea\'e0\'ea \'e2\'f0\'e5\'ec\'ff_\'ef\'ee\'e4\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff_\'ef\'ee\'eb\'f3\'f7\'e5\'ed\'e8\'ff/2 - \'f2.\'e5. \'f0\'ee\'f3\'f2\'e5\'f0 \'ef\'ee\'f1\'f2\'ee\'ff\'ed\'ed\'ee \'f1\'f7\'e8\'f2\'e0\'e5\'f2 \'f4\'e0\'ea\'f2\'e8\'f7\'e5\'f1\'ea\'f3\'fe \'e7\'e0\'e4\'e5\'f0\'e6\'ea\'f3\par
 \'e8 \'e5\'f1\'eb\'e8 \'ed\'e0 \'e4\'f0\'f3\'e3\'ee\'e9 \'f1\'f2\'ee\'f0\'ee\'ed\'e5 \'f3 \'f0\'ee\'f3\'f2\'e5\'f0\'e0 \'ef\'f0\'ee\'f6 \'e7\'e0\'e3\'f0\'f3\'e6\'e5\'ed \'ed\'e0 100% \'e8 \'ee\'ed \'ee\'f2\'f1\'fb\'eb\'e0\'e5\'f2 \'ef\'ee\'e4\'f2\'e2\'e5\'f0\'e6\'e4\'e5\'ed\'e8\'ff \'e4\'ee\'eb\'fc\'f8\'e5 - \'e7\'e0\'e4\'e5\'f0\'e6\'ea\'e0 \'e2\'fb\'f0\'e0\'f1\'f2\'e5\'f2\par
@@ -84,7 +88,7 @@ delay = sum of delays in \i tens of micro\i0 seconds * 256\lang1049\f0\par
 \lang1033\f1 load - \lang1049\f0\'e2 \'e1\'e0\'e9\'f2-\'ef\'f0\'ee\'f6\'e5\'ed\'f2\'e0\'f5 (\'ee\'f2 0 \'e4\'ee 255) - \'f1\'f0\'e5\'e4\'ed\'e5\'e5 \'e0\'f0\'e8\'f4\'ec\'e5\'f2\'e8\'f7\'e5\'f1\'ea\'ee\'e5 \'ec\'e5\'e6\'e4\'f3 \lang1033\f1 txload \lang1049\f0\'e8 \lang1033\f1 rxload\lang1049\f0\par
 \lang1033\f1 reliability \lang1049\f0\'f3\'ec\'e5\'ed\'fc\'f8\'e0\'e5\'f2\'f1\'ff \'ee\'f2 \'ee\'f8\'e8\'e1\'ee\'ea \lang1033\f1 crc, \lang1049\f0\'ef\'ee\'f2\'e5\'f0\'e8 \'ed\'e5\'f1\'f3\'f9\'e5\'e9, \'ef\'ee\'e7\'e4\'ed\'e5\'e9 \'ea\'ee\'eb\'eb\'e8\'e7\'e8\'e8 \'e8 \'f2.\'e4.\par
 \par
-\cf2\ul linkto:\'ca\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \lang1033\f1 EIGRP\cf1\lang1049\ulnone\f0\par
+\cf3\ul linkto:\'ca\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \lang1033\f1 EIGRP\cf1\lang1049\ulnone\f0\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:Interior Gateway Protocols\par
 \par
