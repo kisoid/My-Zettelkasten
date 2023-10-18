@@ -1,7 +1,7 @@
 {\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
-{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;\red255\green0\blue0;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20 2023.10.02\b0\par
-\cf2\lang1033\f1 #review:5\cf1\lang1049\f0\par
+\cf2\lang1033\f1 #review:\lang1049\f0 10\cf1\par
 \par
 \'ef\'ee\'f1\'eb\'e5\'e4\'ed\'e8\'e5 \'e4\'ed\'ff 3 \'e7\'e0\'ed\'e8\'ec\'e0\'eb\'f1\'ff \'e8\'e7\'ec\'e5\'ed\'e5\'ed\'e8\'e5\'ec \'eb\'ee\'e3\'e8\'ea\'e8 \'f0\'e0\'e1\'ee\'f2\'fb \'ea\'ed\'ee\'ef\'ea\'e8 \'d0\'e5\'e2\'fc\'fe...\par
 \par
@@ -43,6 +43,10 @@
 \'f1\'ec\'ee\'f2\'f0\'e8\'ec \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'fb \'f3 \'e2\'f1\'e5\'f5 \'e7\'e0\'ec\'e5\'f2\'ee\'ea, \'e5\'f1\'eb\'e8 \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0 \'e1\'ee\'eb\'fc\'f8\'e5 20, \'f2\'ee \'e2\'e8\'f0\'f2\'f3\'e0\'eb\'fc\'ed\'ee \'f3\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'ec 20\par
 \'e2\'f1\'e5 \'e7\'e0\'ec\'e5\'f2\'ea\'e8, \'f3 \'ea\'ee\'f2. \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0 \lang1033\f1 <= \lang1049\f0 "\'ec\'e0\'e3\'e8\'f7\'e5\'f1\'ea\'ee\'e5 \'f7\'e8\'f1\'eb\'ee", \'e4\'ee\'e1\'e0\'e2\'eb\'ff\'e5\'ec \'e2 \'f1\'ef\'e8\'f1\'ee\'ea \'ea\'e0\'ed\'e4\'e8\'e4\'e0\'f2\'ee\'e2 \'ed\'e0 \'f0\'e5\'e2\'fc\'fe\par
 \'e8\'e7 \'f1\'ef\'e8\'f1\'ea\'e0 \'ea\'e0\'ed\'e4\'e8\'e4\'e0\'f2\'ee\'e2 \'ef\'e5\'f0\'e5\'ea\'e8\'e4\'fb\'e2\'e0\'e5\'ec \'ed\'e0 \'f1\'eb\'f3\'f7. \'e7\'e0\'ec\'e5\'f2\'ea\'f3\par
+\par
+\cf4\lang1033\f1 UPD 2023.10.18\par
+\lang1049\f0\'f3\'e6\'e5 \'f1\'e1\'e8\'eb\'f1\'ff \'f1\'ee \'f1\'f7\'b8\'f2\'e0, \'f1\'ea\'ee\'eb\'fc\'ea\'ee \'e2\'e0\'f0\'e8\'e0\'ed\'f2\'ee\'e2 \'ef\'e5\'f0\'e5\'ef\'f0\'ee\'e1\'ee\'e2\'e0\'eb... :)\par
+\'f1\'e5\'e9\'f7\'e0\'f1 \'e2\'e5\'f0\'ed\'f3\'eb\'f1\'ff \'ea \'e8\'f1\'f5\'ee\'e4\'ed\'ee\'e9 \'eb\'ee\'e3\'e8\'ea\'e5 (\'e4\'ed\'e8) + \'ef\'ee\'ec\'e8\'ed\'f3\'f2\'ed\'fb\'e5 \'f8\'f2\'f0\'e0\'f4\'fb + \'ed\'e5\'ea\'e0\'ff \'f0\'e0\'ed\'e4\'ee\'ec\'ed\'ee\'f1\'f2\'fc\cf1\par
 \par
 \ul\'e4\'ee\'f1\'f2\'ee\'e8\'ed\'f1\'f2\'e2\'e0:\ulnone\par
 - \'e1\'e5\'f1\'ea\'ee\'ed\'e5\'f7\'ed\'fb\'e9 \'f1\'ef\'e8\'f1\'ee\'ea \'ed\'e0 \'f0\'e5\'e2\'fc\'fe\par
