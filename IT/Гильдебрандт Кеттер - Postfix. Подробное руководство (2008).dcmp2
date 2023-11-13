@@ -31,20 +31,7 @@ https://www.postfix.org/MAILLOG_README.html\lang1049\f0\par
 \b --- /\'e2\'ee\'ef\'f0\'ee\'f1\'fb \'ef\'ee \'f5\'ee\'e4\'f3 \'f7\'f2\'e5\'ed\'e8\'ff --\b0\par
 \par
 \b --- \'f7\'e5\'f0\'ed\'ee\'e2\'e8\'ea ---\lang1033\b0\f1\par
-\lang1049\f0\'f0\'ee\'14\par
-\'e3\'f0\'e0\'ec\'ec\'fb, \'f0\'e0\'e1\'ee\'f2\'e0\'fe\'f9\'e8\'e5 \'e2 \'f4\'ee\'ed\'ee\'e2\'ee\'ec \'f0\'e5\'e6\'e8\'ec\'e5, \'f3\'ef\'f0\'e0\'e2\'eb\'ff\'fe\'f2\'f1\'ff \'e4\'e5\'ec\'ee\'ed\'ee\'ec master.\par
-\'d0\'e0\'e1\'ee\'f2\'e0 \'e4\'e5\'ec\'ee\'ed\'e0 master \'f1\'ee\'f1\'f2\'ee\'e8\'f2 \'e2 \'f2\'ee\'ec, \'f7\'f2\'ee\'e1\'fb \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'ff\'f2\'fc, \'ea\'e0\'ea\'f3\'fe \'e7\'e0\'e4\'e0\'f7\'f3\par
-\'f1\'eb\'e5\'e4\'f3\'e5\'f2 \'e2\'fb\'ef\'ee\'eb\'ed\'e8\'f2\'fc, \'e8 \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'f2\'fc \'e4\'eb\'ff \'e5\'e5 \'e2\'fb\'ef\'ee\'eb\'ed\'e5\'ed\'e8\'ff \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'fe\'f9\'f3\'fe\par
-\'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'f3.\par
-\par
-\'c4\'e5\'ec\'ee\'ed master \f1\endash  \f0\'f3\'ef\'f0\'e0\'e2\'eb\'ff\'fe\'f9\'e0\'ff \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 Postfix; \'ee\'ed \'ee\'f1\'f3\'f9\'e5\'f1\'f2\'e2\'eb\'ff\'e5\'f2\par
-\'ea\'ee\'ed\'f2\'f0\'ee\'eb\'fc \'ed\'e0\'e4 \'e2\'f1\'e5\'ec\'e8 \'ee\'f1\'f2\'e0\'eb\'fc\'ed\'fb\'ec\'e8 \'e4\'e5\'ec\'ee\'ed\'e0\'ec\'e8 Postfix. \'c4\'e5\'ec\'ee\'ed master\par
-\'ee\'e6\'e8\'e4\'e0\'e5\'f2 \'ef\'ee\'f1\'f2\'f3\'ef\'eb\'e5\'ed\'e8\'ff \'e2\'f5\'ee\'e4\'ff\'f9\'e8\'f5 \'e7\'e0\'e4\'e0\'ed\'e8\'e9 \'e4\'eb\'ff \'ef\'e5\'f0\'e5\'e4\'e0\'f7\'e8 \'e8\'f5 \'ef\'ee\'e4\'f7\'e8\'14\par
-\'ed\'e5\'ed\'ed\'fb\'ec \'e4\'e5\'ec\'ee\'ed\'e0\'ec. \'c5\'f1\'eb\'e8 \'f0\'e0\'e1\'ee\'f2\'fb \'ec\'ed\'ee\'e3\'ee, \'f2\'ee master \'ec\'ee\'e6\'e5\'f2 \'e2\'fb\'e7\'e2\'e0\'f2\'fc \'ed\'e5\'14\par
-\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0\'ee\'e2 \'e4\'e5\'ec\'ee\'ed\'e0. \'c2\'fb \'ec\'ee\'e6\'e5\'f2\'e5 \'e7\'e0\'e4\'e0\'f2\'fc \'ea\'ee\'eb\'e8\'f7\'e5\'f1\'f2\'e2\'ee \'ee\'e4\'ed\'ee\'14\par
-\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee \'f0\'e0\'e1\'ee\'f2\'e0\'fe\'f9\'e8\'f5 \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0\'ee\'e2 \'e4\'e5\'ec\'ee\'ed\'e0, \'f7\'e0\'f1\'f2\'ee\'f2\'f3 \'e8\'f5 \'ef\'ee\'e2\'f2\'ee\'f0\'ed\'ee\'e3\'ee\par
-\'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff \'e8 \'e2\'e5\'eb\'e8\'f7\'e8\'ed\'f3 \'ef\'e5\'f0\'e8\'ee\'e4\'e0 \'ef\'f0\'ee\'f1\'f2\'ee\'ff, \'ef\'ee\'f1\'eb\'e5 \'ea\'ee\'f2\'ee\'f0\'ee\'e3\'ee \'ef\'f0\'ee\'14\par
-\'e8\'e7\'ee\'e9\'e4\'e5\'f2 \'ee\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e0 \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0\'e0.\par
+\lang1049\f0\par
 \lang1033\f1 ---\par
 Postfix \f0\'e4\'e5\'eb\'e0\'e5\'f2 \'f2\'ee \'e6\'e5 \'f1\'e0\'ec\'ee\'e5 \'f1 \'ef\'ee\'f7\'f2\'ee\'e9\par
 (\'f0\'e8\'f1. 5.1): \'f1\'ec\'ee\'f2\'f0\'e8\'f2 \'ed\'e0 \'ec\'e5\'f1\'f2\'ee \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'ff \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff (\'ef\'ee\'eb\'f3\'f7\'e0\'f2\'e5\'eb\'ff \'ea\'ee\'ed\'14\par
@@ -56,46 +43,32 @@ Postfix \f0\'e4\'e5\'eb\'e0\'e5\'f2 \'f2\'ee \'e6\'e5 \'f1\'e0\'ec\'ee\'e5 \'f1 
 \'f1\'f2\'ee\'ec \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'ff \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'fb\'e9 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e9 \'ff\'f9\'e8\'ea, \'e8\'f1\'f5\'ee\'e4\'ff\'f9\'e5\'e5\par
 SMTP\'14 \'e8\'eb\'e8 LMTP\'14\'f1\'ee\'e5\'e4\'e8\'ed\'e5\'ed\'e8\'e5, \'ea\'e0\'ed\'e0\'eb \'e2 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'f3 \'e8 \'f2. \'e4. (\'f0\par
 \par
-\'ca\'e0\'f0\'f2\'fb \f1\endash  \f0\'fd\'f2\'ee \'f2\'e0\'e1\'eb\'e8\'f6\'fb \'ef\'ee\'e8\'f1\'ea\'e0 \f1\'ab\f0\'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8\'e7\'e0\'f2\'ee\'f0\'e0\f1\'bb Postfix\par
+\'ca\'e0\'f0\'f2\'fb \f1 - \f0\'fd\'f2\'ee \'f2\'e0\'e1\'eb\'e8\'f6\'fb \'ef\'ee\'e8\'f1\'ea\'e0 \f1\'ab\f0\'ec\'e0\'f0\'f8\'f0\'f3\'f2\'e8\'e7\'e0\'f2\'ee\'f0\'e0\f1\'bb Postfix\par
 ostfix \f0\'e8\'f1\'14\par
 \'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2 \'ea\'e0\'f0\'f2\'fb \'ed\'e5 \'f2\'ee\'eb\'fc\'ea\'ee \'e4\'eb\'ff \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'e5\'ed\'e8\'ff \'f2\'ee\'e3\'ee, \'ea\'f3\'e4\'e0 \'ee\'f2\'ef\'f0\'e0\'e2\'e8\'f2\'fc \'ef\'ee\'f7\'14\par
 \'f2\'f3, \'ed\'ee \'e8 \'e4\'eb\'ff \'e2\'e2\'e5\'e4\'e5\'ed\'e8\'ff \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 \lang1049\par
 \lang1033\f1 ---\par
-\f0\'e0\'e3\'e5\'ed\'f2\'ee\'ec \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'e8 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e9, \'ea\'e0\'ea local \'e8\'eb\'e8\par
-smtp. \f1\par
 ---\par
-\f0\'c4\'e5\'ec\'ee\'ed qmgr \'f3\'ef\'f0\'e0\'e2\'eb\'ff\'e5\'f2 \'ee\'f7\'e5\'f0\'e5\'e4\'ff\'ec\'e8 Postfix; \'fd\'f2\'ee \'f1\'e5\'f0\'e4\'f6\'e5 \'ef\'ee\'f7\'f2\'ee\'e2\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'14\par
-\'ec\'fb Postfix. \'ce\'ed \'f0\'e0\'f1\'ef\'f0\'e5\'e4\'e5\'eb\'ff\'e5\'f2 \'e7\'e0\'e4\'e0\'f7\'e8 \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'e8 \'ec\'e5\'e6\'e4\'f3 \'e4\'e5\'ec\'ee\'ed\'e0\'ec\'e8 local,\par
-smtp, lmtp \'e8 pipe. \'cf\'ee\'f1\'eb\'e5 \'f2\'ee\'e3\'ee \'ea\'e0\'ea \'e8\'f1\'ef\'ee\'eb\'ed\'e8\'f2\'e5\'eb\'fc \'e7\'e0\'e4\'e0\'f7\'e8 \'e2\'fb\'e1\'f0\'e0\'ed, \'e4\'e5\'ec\'ee\'ed\par
-qmgr \'ef\'e5\'f0\'e5\'e4\'e0\'e5\'f2 \'e5\'ec\'f3 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'fe \'ee\'e1 \'e8\'ec\'e5\'ed\'e8 \'e8 \'ef\'f3\'f2\'e8 \'f4\'e0\'e9\'eb\'e0 \'e8\'e7 \'ee\'f7\'e5\'f0\'e5\'e4\'e8,\par
-\'e0\'e4\'f0\'e5\'f1 \'ee\'f2\'ef\'f0\'e0\'e2\'e8\'f2\'e5\'eb\'ff \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff, \'f5\'ee\'f1\'f2 \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'ff (\'e4\'eb\'ff \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e9 \'f3\'e4\'e0\'14\par
-\'eb\'e5\'ed\'ed\'fb\'ec \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\'ec) \'e8 \'ee\'e4\'e8\'ed \'e8\'eb\'e8 \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'e0\'e4\'f0\'e5\'f1\'ee\'e2 \'ef\'ee\'eb\'f3\'f7\'e0\'f2\'e5\'eb\'e5\'e9.\par
-\par
-qmgr \'ef\'ee\'e4\'e4\'e5\'f0\'e6\'e8\'e2\'e0\'e5\'f2 \'ec\'e0\'eb\'e5\'ed\'fc\'ea\'f3\'fe \'ee\'f7\'e5\'f0\'e5\'e4\'fc active, \'e2 \'ea\'ee\'f2\'ee\'f0\'ee\'e9 \'ee\'e6\'e8\'e4\'e0\'14\par
-\'fe\'f2 \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e8 \'e1\'f3\'ea\'e2\'e0\'eb\'fc\'ed\'ee \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e9. \'dd\'f2\'e0 \'ee\'f7\'e5\'f0\'e5\'e4\'fc \'f4\'e0\'ea\'14\par
-\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'e2\'fb\'ef\'ee\'eb\'ed\'ff\'e5\'f2 \'f0\'ee\'eb\'fc \'ed\'e5\'e1\'ee\'eb\'fc\'f8\'ee\'e3\'ee \'ee\'ea\'ed\'e0 \'e4\'eb\'ff \'ef\'ee\'f2\'e5\'ed\'f6\'e8\'e0\'eb\'fc\'ed\'ee\par
-\'e1o\'eb\'fc\'f8\'e8\'f5 \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9 incoming \'e8 deferred, \'ef\'f0\'e5\'e4\'ee\'f2\'e2\'f0\'e0\'f9\'e0\'ff \'ed\'e5\'f5\'e2\'e0\'f2\'ea\'f3\par
-\'ef\'e0\'ec\'ff\'f2\'e8 qmgr \'ef\'f0\'e8 \'e1\'ee\'eb\'fc\'f8\'ee\'e9 \'e7\'e0\'e3\'f0\'f3\'e6\'e5\'ed\'ed\'ee\'f1\'f2\'e8\f1\par
 ---\par
 \f0\'e4\'e5\'ec\'ee\'ed local \'ee\'f2\'e2\'e5\'f7\'e0\'e5\'f2 \'e7\'e0 \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'f3 \'e2 \'eb\'ee\'14\par
 \'ea\'e0\'eb\'fc\'ed\'fb\'e5 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e5 \'ff\'f9\'e8\'ea\'e8. Postfix\'14\'e4\'e5\'ec\'ee\'ed local \'ec\'ee\'e6\'e5\'f2 \'e7\'e0\'ef\'e8\'f1\'fb\'e2\'e0\'f2\'fc\par
 \'e4\'e0\'ed\'ed\'fb\'e5 \'e2 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e5 \'ff\'f9\'e8\'ea\'e8 \'f4\'ee\'f0\'ec\'e0\'f2\'ee\'e2 mbox \'e8 Maildir.2 \'ca\par
 \par
 \'c2 \'ea\'e0\'f7\'e5\'f1\'f2\'e2\'e5 \'e0\'eb\'fc\'f2\'e5\'f0\'ed\'e0\'f2\'e8\'e2\'fb \'e4\'e5\'ec\'ee\'ed local \'ec\'ee\'e6\'e5\'f2 \'ef\'e5\'f0\'e5\'e4\'e0\'f2\'fc \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'f3 \'e2 \'ef\'ee\'f7\'14\par
-\'f2\'ee\'e2\'fb\'e5 \'ff\'f9\'e8\'ea\'e8 \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'ee\'ec\'f3 \'e0\'e3\'e5\'ed\'f2\'f3 \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'e8 (local delivery agent \f1\endash\par
+\'f2\'ee\'e2\'fb\'e5 \'ff\'f9\'e8\'ea\'e8 \'eb\'ee\'ea\'e0\'eb\'fc\'ed\'ee\'ec\'f3 \'e0\'e3\'e5\'ed\'f2\'f3 \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'e8 (local delivery agent \f1 -\par
 LDA), \f0\'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'e8\'ec\'e5\'e5\'f2 \'e1\'ee\'eb\'e5\'e5 \'f8\'e8\'f0\'ee\'ea\'e8\'e5 \'e2\'ee\'e7\'ec\'ee\'e6\'ed\'ee\'f1\'f2\'e8, \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0 \'ef\'ee\'e4\'14\par
 \'e4\'e5\'f0\'e6\'e8\'e2\'e0\'e5\'f2 \'f4\'e8\'eb\'fc\'f2\'f0\'e0\'f6\'e8\'fe. \'ce\'e1\'f9\'e5\'f0\'e0\'f1\'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'e5\'ed\'ed\'fb\'ec\'e8 \'ff\'e2\'eb\'ff\'fe\'f2\'f1\'ff \'f2\'e0\'ea\'e8\'e5\par
 LDA, \'ea\'e0\'ea procmail (http://www.procmail.org) \'e8 maildrop\par
 \par
 \'cf\'ee\'f7\'f2\'ee\'e2\'fb\'e5 \'ff\'f9\'e8\'ea\'e8 \'ec\'ee\'e3\'f3\'f2 \'e8\'ec\'e5\'f2\'fc \'f0\'e0\'e7\'ed\'f3\'fe \'f1\'f2\'f0\'f3\'ea\'f2\'f3\'f0\'f3, \'e8 \'e2\'e0\'e6\'ed\'ee, \'f7\'f2\'ee\'e1\'fb \'e2\'f1\'e5 \'ef\'f0\'ee\'14\par
-\'e3\'f0\'e0\'ec\'ec\'fb \f1\endash  \f0\'e8 \'f2\'e5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e7\'e0\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2 \'ed\'ee\'e2\'fb\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'e2 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e9 \'ff\'f9\'e8\'ea,\par
-\'e8 \'f2\'e5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e8\'e7\'e2\'eb\'e5\'ea\'e0\'fe\'f2 \'e8\'f5 \'e8\'e7 \'ff\'f9\'e8\'ea\'e0 \'e8 \'e4\'ee\'f1\'f2\'e0\'e2\'eb\'ff\'fe\'f2 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fe, \f1\endash  \f0\'ef\'ee\'ed\'e8\'14\par
+\'e3\'f0\'e0\'ec\'ec\'fb \f1 - \f0\'e8 \'f2\'e5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e7\'e0\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2 \'ed\'ee\'e2\'fb\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'e2 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e9 \'ff\'f9\'e8\'ea,\par
+\'e8 \'f2\'e5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e8\'e7\'e2\'eb\'e5\'ea\'e0\'fe\'f2 \'e8\'f5 \'e8\'e7 \'ff\'f9\'e8\'ea\'e0 \'e8 \'e4\'ee\'f1\'f2\'e0\'e2\'eb\'ff\'fe\'f2 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fe, \f1 - \f0\'ef\'ee\'ed\'e8\'14\par
 \'ec\'e0\'eb\'e8 \'fd\'f2\'f3 \'f1\'f2\'f0\'f3\'ea\'f2\'f3\'f0\'f3 \'ee\'e4\'e8\'ed\'e0\'ea\'ee\'e2\'ee. \'cd\'e0\'e8\'e1\'ee\'eb\'e5\'e5 \'f0\'e0\'f1\'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'e5\'ed\'fb \'f4\'ee\'f0\'ec\'e0\'f2\'fb mbox\par
 (\'e2\'f1\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'f5\'f0\'e0\'ed\'ff\'f2\'f1\'ff \'e2 \'ee\'e4\'ed\'ee\'ec \'f4\'e0\'e9\'eb\'e5 \'e8 \'ee\'f2\'e4\'e5\'eb\'e5\'ed\'fb \'e4\'f0\'f3\'e3 \'ee\'f2 \'e4\'f0\'f3\'e3\'e0 \'ef\'f3\'f1\'f2\'ee\'e9\par
 \'f1\'f2\'f0\'ee\'ea\'ee\'e9) \'e8 maildir (\'ea\'e0\'e6\'e4\'ee\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e5 \'f5\'f0\'e0\'ed\'e8\'f2\'f1\'ff \'e2 \'ee\'f2\'e4\'e5\'eb\'fc\'ed\'ee\'ec \'f4\'e0\'e9\'eb\'e5, \'ef\'ee\'e4\'f0\'ee\'e1\'14\par
 \'ed\'e5\'e5 \'f1\'ec. http://www.dataloss.nl/breakage/maildir/\f1\par
 ---\par
-\f0\'c4\'e5\'ec\'ee\'ed smtp \f1\endash  \f0\'fd\'f2\'ee \'ea\'eb\'e8\'e5\'ed\'f2\'f1\'ea\'e0\'ff \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 Postfix, \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ef\'e5\'f0\'e5\'e4\'e0\'e5\'f2\par
+\f0\'c4\'e5\'ec\'ee\'ed smtp \f1 - \f0\'fd\'f2\'ee \'ea\'eb\'e8\'e5\'ed\'f2\'f1\'ea\'e0\'ff \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 Postfix, \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ef\'e5\'f0\'e5\'e4\'e0\'e5\'f2\par
 \'e8\'f1\'f5\'ee\'e4\'ff\'f9\'e8\'e5 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'f3\'e4\'e0\'eb\'e5\'ed\'ed\'fb\'ec \'e0\'e4\'f0\'e5\'f1\'e0\'f2\'e0\'ec. SMTP\'14\'ea\'eb\'e8\'e5\'ed\'f2 \'e8\'f9\'e5\'f2\par
 \'ef\'ee\'f7\'f2\'ee\'e2\'fb\'e5 \'f1\'e5\'f0\'e2\'e5\'f0\'fb \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'ff, \'f1\'ee\'f0\'f2\'e8\'f0\'f3\'e5\'f2 \'f1\'ef\'e8\'f1\'ee\'ea \'ef\'ee \'ef\'f0\'e5\'e4\'ef\'ee\'f7\'f2\'e5\'ed\'e8\'ff\'ec\par
 \'e8 \'ef\'f0\'ee\'e2\'e5\'f0\'ff\'e5\'f2 \'ea\'e0\'e6\'e4\'fb\'e9 \'e0\'e4\'f0\'e5\'f1 \'e4\'ee \'f2\'e5\'f5 \'ef\'ee\'f0, \'ef\'ee\'ea\'e0 \'ed\'e5 \'ed\'e0\'e9\'e4\'e5\'f2 \'f1\'e5\'f0\'e2\'e5\'f0, \'ea\'ee\'f2\'ee\'14\par
@@ -139,7 +112,7 @@ smtpd \'ef\'e5\'f0\'e5\'e4\'e0\'e5\'f2 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e5 \'e4
 \'ea\'ee\'e2 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e9. \'c4\'e5\'ec\'ee\'ed cleanup \'ef\'ee\'ec\'e5\'f9\'e0\'e5\'f2 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2 \'e2 \'ee\'f7\'e5\'f0\'e5\'e4\'fc incoming,\par
 \'e7\'e0\'f2\'e5\'ec \'f3\'e2\'e5\'e4\'ee\'ec\'eb\'ff\'e5\'f2 \'e4\'e8\'f1\'ef\'e5\'f2\'f7\'e5\'f0 \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9 \'ee \'ef\'f0\'e8\'e1\'fb\'f2\'e8\'e8 \'ed\'ee\'e2\'ee\'e3\'ee \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff\f1\par
 ---\par
-sendmail \endash  \f0\'fd\'f2\'ee \'ea\'ee\'ec\'e0\'ed\'e4\'e0 Postfix, \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ef\'ee\'e4\'ec\'e5\'ed\'ff\'e5\'f2 \'f1\'ee\'e1\'ee\'e9 MTA Send\'14\par
+sendmail - \f0\'fd\'f2\'ee \'ea\'ee\'ec\'e0\'ed\'e4\'e0 Postfix, \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ef\'ee\'e4\'ec\'e5\'ed\'ff\'e5\'f2 \'f1\'ee\'e1\'ee\'e9 MTA Send\'14\par
 mail \'dd\'f0\'e8\'ea\'e0 \'ce\'eb\'eb\'ec\'e0\'ed\'e0 (Eric Allman). \'c5\'e5 \'e7\'e0\'e4\'e0\'f7\'e0 \'e7\'e0\'ea\'eb\'fe\'f7\'e0\'e5\'f2\'f1\'ff \'e2 \'ef\'f0\'e5\'e4\'ee\'14\par
 \'f1\'f2\'e0\'e2\'eb\'e5\'ed\'e8\'e8 \'f1\'ee\'e2\'ec\'e5\'f1\'f2\'e8\'ec\'ee\'e3\'ee \'f1 Sendmail \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1\'e0 \'e4\'eb\'ff \'ef\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'e9,\par
 \'f1\'ef\'ee\'f1\'ee\'e1\'ed\'fb\'f5 \'f2\'ee\'eb\'fc\'ea\'ee \'e2\'fb\'e7\'fb\'e2\'e0\'f2\'fc /usr/sbin/sendmail. \'ce\'ed\'e0 \'e2\'e7\'e0\'e8\'ec\'ee\'e4\'e5\'e9\'f1\'f2\'e2\'f3\'14\par
@@ -174,7 +147,7 @@ pickup \'ef\'f0\'ee\'f1\'ec\'e0\'f2\'f0\'e8\'e2\'e0\'e5\'f2 \'e8 \'e7\'e0\'e1\'e
 \'e8\'e7 \'ee\'f7\'e5\'f0\'e5\'e4\'e8 maildrop \'ef\'e5\'f0\'e8\'ee\'e4\'e8\'f7\'e5\'f1\'ea\'e8, \'e0 \'f2\'e0\'ea\'e6\'e5 \'ef\'ee \'f3\'e2\'e5\'e4\'ee\'ec\'eb\'e5\'ed\'e8\'fe \'ee\'f2 \'ef\'f0\'ee\'14\par
 \'e3\'f0\'e0\'ec\'ec\'fb postdrop.\par
 \par
-\'cf\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 postdrop \f1\endash  \f0\'fd\'f2\'ee setgid\'14\'ef\'ee\'ec\'ee\'f9\'ed\'e8\'ea, \'ea\'ee\'f2\'ee\'14\par
+\'cf\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e0 postdrop \f1 - \f0\'fd\'f2\'ee setgid\'14\'ef\'ee\'ec\'ee\'f9\'ed\'e8\'ea, \'ea\'ee\'f2\'ee\'14\par
 \'f0\'fb\'e9 \'ef\'ee\'e7\'e2\'ee\'eb\'ff\'e5\'f2 \'ed\'e5\'ef\'f0\'e8\'e2\'e8\'eb\'e5\'e3\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'ee\'e9 \'ef\'f0\'ee\'e3\'f0\'e0\'ec\'ec\'e5 sendmail \'f1\'f2\'e0\'e2\'e8\'f2\'fc\par
 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'e2 \'ee\'f7\'e5\'f0\'e5\'e4\'fc maildrop \'e8 \'f3\'e2\'e5\'e4\'ee\'ec\'eb\'ff\'f2\'fc \'f1\'eb\'f3\'e6\'e1\'f3 pickup \'ee \'ef\'ee\'f1\'f2\'f3\'ef\'14\par
 \'eb\'e5\'ed\'e8\'e8 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff\f1\par
@@ -187,9 +160,9 @@ pickup \'ef\'f0\'ee\'f1\'ec\'e0\'f2\'f0\'e8\'e2\'e0\'e5\'f2 \'e8 \'e7\'e0\'e1\'e
 tive. \'c8\'ed\'f2\'e5\'f0\'e2\'e0\'eb \'ec\'e5\'e6\'e4\'f3 \'ef\'f0\'ee\'f1\'ec\'ee\'f2\'f0\'e0\'ec\'e8 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'ff\'e5\'f2\'f1\'ff \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'ee\'ec \'ea\'ee\'ed\'14\par
 \'f4\'e8\'e3\'f3\'f0\'e0\'f6\'e8\'e8 queue_run_delay\f1\par
 ---\par
-\f0\'c4\'e8\'f1\'ef\'e5\'f2\'f7\'e5\'f0 \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9 \f1\endash  \f0\'fd\'f2\'ee \'ef\'eb\'e0\'ed\'e8\'f0\'ee\'e2\'f9\'e8\'ea \'e0\'e3\'e5\'ed\'f2\'ee\'e2 \'e4\'ee\'f1\'f2\'e0\'e2\'ea\'e8\f1\par
+\par
 ---\par
-\f0\'ee\'f7\'e5\'f0\'e5\'e4\'fc active \f1\endash  \f0\'fd\'f2\'ee \'ed\'e0\'e1\'ee\'f0 \'f1\'f2\'f0\'f3\'ea\'f2\'f3\'f0 \'e4\'e0\'ed\'ed\'fb\'f5\par
+\f0\'ee\'f7\'e5\'f0\'e5\'e4\'fc active \f1 - \f0\'fd\'f2\'ee \'ed\'e0\'e1\'ee\'f0 \'f1\'f2\'f0\'f3\'ea\'f2\'f3\'f0 \'e4\'e0\'ed\'ed\'fb\'f5\par
 \'e2 \'ef\'e0\'ec\'ff\'f2\'e8 \'e4\'e8\'f1\'ef\'e5\'f2\'f7\'e5\'f0\'e0 \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9\f1  \lang1049\f0\'e0 \'ed\'e5 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\lang1033\f1\par
 ---\par
 \f0\'f1\'ea\'eb\'fe\'14\par
@@ -204,10 +177,10 @@ tive. \'c8\'ed\'f2\'e5\'f0\'e2\'e0\'eb \'ec\'e5\'e6\'e4\'f3 \'ef\'f0\'ee\'f1\'ec
 ---\par
 \'ca\'e0\'f2\'e0\'eb\'ee\'e3 corrupt \'f1\'ee\'e4\'e5\'f0\'e6\'e8\'f2 \'ef\'ee\'e2\'f0\'e5\'e6\'e4\'e5\'ed\'ed\'fb\'e5 \'f4\'e0\'e9\'eb\'fb \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9. \'c2\'ec\'e5\'f1\'f2\'ee\par
 \'f2\'ee\'e3\'ee \'f7\'f2\'ee\'e1\'fb \'f3\'e4\'e0\'eb\'ff\'f2\'fc \'e8\'f5, Postfix \'f1\'ee\'f5\'f0\'e0\'ed\'ff\'e5\'f2 \'e8\'f5 \'e4\'eb\'ff \'f2\'ee\'e3\'ee, \'f7\'f2\'ee\'e1\'fb \'f7\'e5\'eb\'ee\'14\par
-\'e2\'e5\'ea \f1\endash  \f0\'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'ef\'ee\'f7\'f2\'ee\'e2\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'ec\'fb \f1\endash  \f0\'ec\'ee\'e3 \'e8\'f1\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'fc \'e8\'f5 \'f1 \'ef\'ee\'14\par
+\'e2\'e5\'ea \f1 - \f0\'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0 \'ef\'ee\'f7\'f2\'ee\'e2\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'ec\'fb \f1 - \f0\'ec\'ee\'e3 \'e8\'f1\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'fc \'e8\'f5 \'f1 \'ef\'ee\'14\par
 \'ec\'ee\'f9\'fc\'fe postcat\par
 ---\par
-\'ca\'e0\'f0\'f2\'fb \f1\endash  \f0\'fd\'f2\'ee \'f4\'e0\'e9\'eb\'fb \'e8 \'e1\'e0\'e7\'fb \'e4\'e0\'ed\'ed\'fb\'f5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 Postfix \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2 \'e4\'eb\'ff \'ef\'ee\'14\par
+\'ca\'e0\'f0\'f2\'fb \f1 - \f0\'fd\'f2\'ee \'f4\'e0\'e9\'eb\'fb \'e8 \'e1\'e0\'e7\'fb \'e4\'e0\'ed\'ed\'fb\'f5, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 Postfix \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2 \'e4\'eb\'ff \'ef\'ee\'14\par
 \'e8\'f1\'ea\'e0 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'e8. \'ca\'e0\'f0\'f2\'fb \'ec\'ee\'e3\'f3\'f2 \'e8\'ec\'e5\'f2\'fc \'f0\'e0\'e7\'ed\'ee\'e5 \'ed\'e0\'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e5, \'ed\'ee \'f3 \'ed\'e8\'f5 \'e5\'f1\'f2\'fc\par
 \'ee\'e1\'f9\'e8\'e9 \'ef\'f0\'e8\'e7\'ed\'e0\'ea: \'eb\'e5\'e2\'e0\'ff \'f1\'f2\'ee\'f0\'ee\'ed\'e0 (left\'14hand side, LHS), \'ed\'e0\'e7\'fb\'e2\'e0\'e5\'ec\'e0\'ff \'ea\'eb\'fe+\par
 \'f7\'ee\'ec, \'e8 \'ef\'f0\'e0\'e2\'e0\'ff \'f1\'f2\'ee\'f0\'ee\'ed\'e0 (right\'14hand side, RHS), \'ed\'e0\'e7\'fb\'e2\'e0\'e5\'ec\'e0\'ff \'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e5\'ec.\par
@@ -216,7 +189,7 @@ tive. \'c8\'ed\'f2\'e5\'f0\'e2\'e0\'eb \'ec\'e5\'e6\'e4\'f3 \'ef\'f0\'ee\'f1\'ec
 \'e2\'e0\'f8 Postfix, \'e2\'fb\'ef\'ee\'eb\'ed\'e8\'f2\'e5 \'e2 \'ea\'ee\'ec\'e0\'ed\'e4\'ed\'ee\'e9 \'f1\'f2\'f0\'ee\'ea\'e5 \'ea\'ee\'ec\'e0\'ed\'e4\'f3 postconf \'02m. \'c1\'f3\'e4\'e5\'f2\par
 \'e2\'fb\'e2\'e5\'e4\'e5\'ed \'ef\'e5\'f0\'e5\'f7\'e5\'ed\'fc \'f2\'e8\'ef\'ee\'e2 \'ea\'e0\'f0\'f2\par
 ---\par
-\'c8\'ed\'e4\'e5\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb hash, btree, \f1\endash  \f0\'fd\'f2\'ee \'e4\'e2\'ee\'e8\'f7\'ed\'fb\'e5 \'e1\'e0\'e7\'fb \'e4\'e0\'ed\'ed\'fb\'f5, \'f1\'ee\'e7\'e4\'e0\'ed\'ed\'fb\'e5 \'e8\'e7\par
+\'c8\'ed\'e4\'e5\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb hash, btree, \f1 - \f0\'fd\'f2\'ee \'e4\'e2\'ee\'e8\'f7\'ed\'fb\'e5 \'e1\'e0\'e7\'fb \'e4\'e0\'ed\'ed\'fb\'f5, \'f1\'ee\'e7\'e4\'e0\'ed\'ed\'fb\'e5 \'e8\'e7\par
 \'ee\'e1\'fb\'f7\'ed\'fb\'f5 \'f2\'e5\'ea\'f1\'f2\'ee\'e2\'fb\'f5 \'f4\'e0\'e9\'eb\'ee\'e2 \'ef\'ee\'f1\'f0\'e5\'e4\'f1\'f2\'e2\'ee\'ec \'f2\'e0\'ea\'e8\'f5 \'ea\'ee\'ec\'e0\'ed\'e4, \'ea\'e0\'ea newaliases,\par
 postalias \'e8 postmap. \'c4\'e2\'ee\'e8\'f7\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb \'e8\'ed\'e4\'e5\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'ed\'fb, \'f2\'e0\'ea \'f7\'f2\'ee Postfix\par
 \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f1\'f2\'f0\'ee \'e8\'e7\'e2\'eb\'e5\'ea\'e0\'f2\'fc \'e7\'ed\'e0\'f7\'e5\'ed\'e8\'e5, \'f1\'ee\'ef\'ee\'f1\'f2\'e0\'e2\'eb\'e5\'ed\'ed\'ee\'e5 \'ea\'eb\'fe\'f7\'f3. \'c4\'eb\'ff \'f3\'eb\'f3\'f7\'14\par
@@ -233,7 +206,7 @@ postalias \'e8 postmap. \'c4\'e2\'ee\'e8\'f7\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb \'
 \'f1\'f2\'ee\'e2\'fb\'f5 \'f4\'e0\'e9\'eb\'ee\'e2 aliases, virtual, transport, relocated \'e8 sasl_passwd\par
 ---\par
 \'cb\'e8\'ed\'e5\'e9\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb (PCRE, regexp, CIDR \'e8 \'ee\'e1\'fb\'f7\'ed\'fb\'e5 \'f4\'e0\'e9\'eb\'fb\par
-\'cb\'e8\'ed\'e5\'e9\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb \f1\endash  \f0\'fd\'f2\'ee \'ee\'e1\'fb\'f7\'ed\'fb\'e5 \'f2\'e5\'ea\'f1\'f2\'ee\'e2\'fb\'e5 \'f4\'e0\'e9\'eb\'fb. Postfix \'f7\'e8\'f2\'e0\'e5\'f2 \'f2\'e0\'ea\'e8\'e5\par
+\'cb\'e8\'ed\'e5\'e9\'ed\'fb\'e5 \'ea\'e0\'f0\'f2\'fb \f1 - \f0\'fd\'f2\'ee \'ee\'e1\'fb\'f7\'ed\'fb\'e5 \'f2\'e5\'ea\'f1\'f2\'ee\'e2\'fb\'e5 \'f4\'e0\'e9\'eb\'fb. Postfix \'f7\'e8\'f2\'e0\'e5\'f2 \'f2\'e0\'ea\'e8\'e5\par
 \'f4\'e0\'e9\'eb\'fb \'f1\'e2\'e5\'f0\'f5\'f3 \'e2\'ed\'e8\'e7, \'f7\'f2\'ee \'ee\'f2\'eb\'e8\'f7\'e0\'e5\'f2 \'e8\'f5 \'ee\'f2 \'e8\'ed\'e4\'e5\'ea\'f1\'e8\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'f5 \'ea\'e0\'f0\'f2. \'dd\'f2\'ee\par
 \'e2\'e5\'f1\'fc\'ec\'e0 \'e2\'e0\'e6\'ed\'ee\'e5 \'ee\'f2\'eb\'e8\'f7\'e8\'e5, \'f2. \'ea. \'ef\'e5\'f0\'e2\'ee\'e5 \'f1\'ee\'e2\'ef\'e0\'e4\'e5\'ed\'e8\'e5 \'e2 \'f4\'e0\'e9\'eb\'e5 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'ff\'e5\'f2 \'f2\'ee\par
 \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'e5, \'ea\'ee\'f2\'ee\'f0\'ee\'e5 \'e2\'fb\'ef\'ee\'eb\'ed\'e8\'f2 Postfix. \'cf\'ee\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e8\'e5 \'e7\'e0\'ef\'e8\'f1\'e8 Postfix \'e8\'e3\'ed\'ee\'14\par
@@ -288,7 +261,7 @@ ess_limit), \'f0\'e0\'e2\'ed\'fb\'ec 100. \'cf\'f0\'e8 \'ef\'e8\'ea\'ee\'e2\'ee\
 \'e2 \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e2\'fb\'ef\'ee\'eb\'ed\'ff\'e5\'f2 \'e7\'e0\'ef\'e8\'f1\'fc Postfix, \'e0 \'e7\'e0\'f2\'e5\'ec \'e8\'f1\'ef\'ee\'eb\'ed\'ff\'e5\'f2 \'ea\'ee\'ec\'e0\'ed\'e4\'f3, \'f3\'e4\'e5\'f0\'14\par
 \'e6\'e8\'e2\'e0\'ff \'e1\'eb\'ee\'ea\'e8\'f0\'ee\'e2\'ea\'f3\par
 ---\par
-\'ca\'ee\'ec\'e0\'ed\'e4\'e0 postqueue \f1\endash  \f0\'fd\'f2\'ee \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'f1\'ea\'e8\'e9 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e4\'eb\'ff \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9\par
+\'ca\'ee\'ec\'e0\'ed\'e4\'e0 postqueue \f1 - \f0\'fd\'f2\'ee \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'f1\'ea\'e8\'e9 \'e8\'ed\'f2\'e5\'f0\'f4\'e5\'e9\'f1 \'e4\'eb\'ff \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9\par
 Postfix\par
 \par
 postqueue \'f1 \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'ee\'ec \'02f \'ef\'f0\'ee\'f1\'e8\'f2 \'e4\'e8\'f1\'ef\'e5\'f2\'f7\'e5\'f0 \'ee\'f7\'e5\'f0\'e5\'e4\'e5\'e9 \'e4\'ee\'14\par
