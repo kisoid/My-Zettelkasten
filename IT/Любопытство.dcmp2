@@ -1,7 +1,7 @@
-{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}}
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
 {\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;}
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'cb\'fe\'e1\'ee\'ef\'fb\'f2\'f1\'f2\'e2\'ee\b0\par
-\cf2 #review:1\cf1\par
+\cf2 #review:\lang1033\f1 2\cf1\lang1049\f0\par
 \par
 \'f1\'e2\'ee\'e5\'e3\'ee \'f0\'ee\'e4\'e0 \'f1\'e8\'ed\'ee\'ed\'e8\'ec\par
 \cf3\ul linkto:\'c8\'ed\'f2\'e5\'f0\'e5\'f1\cf1\ulnone\par
@@ -49,6 +49,8 @@
 ---\par
 \'eb\'fe\'e1\'ee\'e5 \'ee\'e1\'f3\'f7\'e5\'ed\'e8\'e5 \'e8\'e4\'b8\'f2 \'ed\'e0 \'f4\'ee\'ed\'e5 \'f3\'e4\'ee\'e2\'eb\'e5\'f2\'e2\'ee\'f0\'e5\'ed\'e8\'ff \'ef\'ee\'f2\'f0\'e5\'e1\'ed\'ee\'f1\'f2\'e8 \'fd\'ec\'ee\'f6\'e8\'e8 (\'c4\'f3\'e1\'fb\'ed\'e8\'ed)\par
 \'e8 \'f2\'e0\'ea\'e8\'ec \'ee\'e1\'f0\'e0\'e7\'ee\'ec \'ea\'e0\'f7\'e5\'f1\'f2\'e2\'ee \'ee\'e1\'f3\'f7\'e5\'ed\'e8\'ff \'ef\'e0\'e4\'e0\'e5\'f2, \'e5\'f1\'eb\'e8 \'ed\'e5\'f2 \'fd\'f2\'ee\'e9 \'f1\'e0\'ec\'ee\'e9 \'fd\'ec\'ee\'f6\'e8\'e8, \'f2.\'e5. \'eb\'fe\'e1\'ee\'ef\'fb\'f2\'f1\'f2\'e2\'e0...\par
+\par
+\lang1033\f1 [\lang1049\f0\'ef\'eb\'fe\'f1 \'fd\'ec\'ee\'f6\'e8\'ee\'ed\'e0\'eb\'fc\'ed\'ee \'ee\'ea\'f0\'e0\'f8\'e5\'ed\'ed\'fb\'e5 \'f1\'ee\'e1\'fb\'f2\'e8\'ff \'e7\'e0\'ef\'ee\'ec\'e8\'ed\'e0\'fe\'f2\'f1\'ff \'eb\'f3\'f7\'f8\'e5\lang1033\f1 ]\lang1049\f0\par
 \par
 \'ed\'ee\'e2\'e0\'ff, \'ed\'e5\'ee\'e1\'fb\'f7\'ed\'e0\'ff \'e8\'ed\'f4\'e0, \'f2.\'e5. \'e8\'ed\'f4\'e0, \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ed\'e5 \'ef\'f0\'e5\'e4\'f1\'f2\'e0\'e2\'eb\'e5\'ed\'e0 \'e2\par
 \cf3\ul linkto:\'cc\'e5\'ed\'f2\'e0\'eb\'fc\'ed\'e0\'ff \'ec\'ee\'e4\'e5\'eb\'fc\cf1\ulnone\par
