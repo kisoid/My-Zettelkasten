@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset204 Lucida Console;}{\f2\fnil\fcharset0 Tahoma;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'d2\'f0\'e8\'e3\'e3\'e5\'f0\'fb \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 (Postfix)\b0\par
+\cf2 #review:1\cf1\par
+\par
+\'f1 \'f2\'ee\'f7\'ea\'e8 \'e7\'f0\'e5\'ed\'e8\'ff \'ea\'ee\'ed\'f4\'e8\'e3\'f3\'f0\'e0\'f6\'e8\'ee\'ed\'ed\'fb\'f5 \'f4\'e0\'e9\'eb\'ee\'e2 \'f2\'f0\'e8\'e3\'e3\'e5\'f0 - \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0 \'ea\'ee\'ed\'f4. \'f4\'e0\'e9\'eb\'e0\par
+\cf3\ul linkto:\'cf\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'fb \'f4\'e8\'eb\'fc\'f2\'f0\'e0\'f6\'e8\'e8 (Postfix)\cf1\ulnone\par
+\par
+\'fd\'f2\'ee\'ec\'f3 \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'f3 \'ed\'e0\'e7\'ed\'e0\'f7\'e0\'e5\'f2\'f1\'ff \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'b8\'ed\'ed\'fb\'e9 \'ed\'e0\'e1\'ee\'f0 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 (\'f1\'ef\'e8\'f1\'ee\'ea \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9)\par
+\par
+\'ef\'ee\'f0\'ff\'e4\'ee\'ea \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 \'e2 \'f1\'ef\'e8\'f1\'ea\'e5 \'e8\'e3\'f0\'e0\'e5\'f2 \'f1\'f3\'f9\'e5\'f1\'f2\'e2\'e5\'ed\'ed\'f3\'fe \'f0\'ee\'eb\'fc\par
+\'f1\'e5\'f0\'e2\'e5\'f0 \'ef\'f0\'ee\'f1\'ec\'e0\'f2\'f0\'e8\'e2\'e0\'e5\'f2 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff \'e2 \'ed\'e0\'e1\'ee\'f0\'e5 \'f1\'eb\'e5\'e2\'e0-\'ed\'e0\'ef\'f0\'e0\'e2\'ee, \'f1\'e2\'e5\'f0\'f5\'f3-\'e2\'ed\'e8\'e7 (\'e2 \'e7\'e0\'e2\'e8\'f1\'e8\'ec\'ee\'f1\'f2\'e8 \'ee\'f2 \'f2\'ee\'e3\'ee, \'ea\'e0\'ea \'e7\'e0\'ef\'e8\'f1\'e0\'ed\'ee \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e5):\par
+\par
+\f1\fs16\'f2\'f0\'e8\'e3\'e3\'e5\'f0_\'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 = \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e51, \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e52, \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e53, \'ee\'e3\'f0\'e0\'ed\'e8\'f7_\'ef\'ee_\'f3\'ec\'ee\'eb\'f7 \par
+\par
+\'f2\'f0\'e8\'e3\'e3\'e5\'f0_\'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 =\par
+ \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e51\par
+ \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e52\par
+ \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e53\par
+ \'ee\'e3\'f0\'e0\'ed\'e8\'f7_\'ef\'ee_\'f3\'ec\'ee\'eb\'f7\f0\fs20\par
+\par
+\'e4\'e5\'e9\'f1\'f2\'e2\'e8\'e5, \'ea\'ee\'f2\'ee\'f0\'ee\'e5 \'e2\'ee\'e7\'ed\'e8\'ea\'eb\'ee \'e2 \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e5 \'f1\'f0\'e0\'e1\'e0\'f2\'fb\'e2\'e0\'ed\'e8\'ff/\'ed\'e5\'f1\'f0\'e0\'e1\'e0\'f2\'fb\'e2\'e0\'ed\'e8\'ff \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff \'e2\'eb\'e8\'ff\'e5\'f2 \'ed\'e0 \'f2\'ee, \'e1\'f3\'e4\'f3\'f2 \'eb\'e8 \'ee\'e1\'f0\'e0\'e1\'e0\'f2\'fb\'e2\'e0\'f2\'fc\'f1\'ff \'ef\'ee\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e8\'e5 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff \'e2 \i\'fd\'f2\'ee\'ec\i0  \'ed\'e0\'e1\'ee\'f0\'e5, \'e2 \i\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e5\'ec\i0  \'ed\'e0\'e1\'ee\'f0\'e5 (\'f1\'eb\'e5\'e4. \'f2\'f0\'e8\'e3\'e3\'e5\'f0\'e5) \'e8\'eb\'e8 \'e2\'ee\'ee\'e1\'f9\'e5\par
+\cf3\ul linkto:\'ce\'e1\'f9\'e8\'e5 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff \'e8 \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'ff \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 (Postfix)\cf1\ulnone\par
+\'e2 \'ea\'e0\'f7\'e5\'f1\'f2\'e2\'e5 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff \'ef\'ee \'f3\'ec\'ee\'eb\'f7\'e0\'ed\'e8\'fe \'ee\'e1\'fb\'f7\'ed\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'fe\'f2 "\'ee\'e1\'f9\'e5\'e5 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e5"\lang1033\f2  (\lang1049\f0\'e1\'e5\'e7\'f3\'f1\'eb\'ee\'e2\'ed\'ee\'e5\lang1033\f2 )\lang1049\f0  (\'f2.\'e5. \lang1033\f2 permit \lang1049\f0\'e8\'eb\'e8 \lang1033\f2 reject\lang1049\f0 )\par
+\par
+\lang1033\f2 ---\lang1049\f0\par
+\'f1 \'f2\'ee\'f7\'ea\'e8 \'e7\'f0\'e5\'ed\'e8\'ff \'e2\'e7\'e0\'e8\'ec\'ee\'e4\'e5\'e9\'f1\'f2\'e2\'e8\'ff \'ec\'e5\'e6\'e4\'f3 \'ea\'eb\'e8\'e5\'ed\'f2\'ee\'ec \'e8 \'f1\'e5\'f0\'e2\'e5\'f0\'ee\'ec \lang1033\f2 SMTP\lang1049\f0\par
+\cf3\ul linkto:SMTP-\'e4\'e8\'e0\'eb\'ee\'e3\cf1\ulnone\par
+\'f2\'f0\'e8\'e3\'e3\'e5\'f0 - \'fd\'f2\'ee \lang1033\f2 event handler\lang1049\f0 , \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'ef\'f0\'e8\'e2\'ff\'e7\'e0\'ed \'ea \'f1\'ee\'e1\'fb\'f2\'e8\'fe \'ef\'ee\'f1\'f2\'f3\'ef\'eb\'e5\'ed\'e8\'ff \'ed\'e0 \'f1\'e5\'f0\'e2\'e5\'f0 \'ee\'f7\'e5\'f0\'e5\'e4\'ed\'ee\'e9 \'ef\'ee\'f0\'f6\'e8\'e8 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'e8 \'ee\'f2 \'ea\'eb\'e8\'e5\'ed\'f2\'e0/\'ee \'ea\'eb\'e8\'e5\'ed\'f2\'e5, \'f2.\'e5. \'ea \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'b8\'ed\'ed\'ee\'e9 \'f4\'e0\'e7\'e5/\'fd\'f2\'e0\'ef\'f3 \lang1033\f2 SMTP-\lang1049\f0\'e2\'e7\'e0\'e8\'ec\'ee\'e4\'e5\'e9\'f1\'f2\'e2\'e8\'ff\par
+\par
+\'f2.\'e5., \'ed\'e0\'ef\'f0\'e8\'ec\'e5\'f0,\par
+\lang1033\f2 smtpd_client_restrictions \lang1049\f0\'ef\'f0\'e8\'e2\'ff\'e7\'e0\'ed \'ea \'ec\'ee\'ec\'e5\'ed\'f2\'f3, \'ea\'ee\'e3\'e4\'e0 \'ea\'eb\'e8\'e5\'ed\'f2 \'f2\'ee\'eb\'fc\'ea\'ee-\'f2\'ee\'eb\'fc\'ea\'ee \'ef\'ee\'e4\'ea\'eb\'fe\'f7\'e8\'eb\'f1\'ff \'ed\'e0 25 \'ef\'ee\'f0\'f2 \'e8 \'e5\'f9\'b8 \'ed\'e8\'f7\'e5\'e3\'ee \'ed\'e5 \'ee\'f2\'ef\'f0\'e0\'e2\'eb\'ff\'eb (\'ef\'f0\'ee \'ed\'e5\'e3\'ee \'e8\'e7\'e2\'e5\'f1\'f2\'ed\'ee \'f2\'ee\'eb\'fc\'ea\'ee, \'f1 \'ea\'e0\'ea\'ee\'e3\'ee \lang1033\f2 IP \lang1049\f0\'ee\'ed \'ef\'ee\'e4\'ea\'eb\'fe\'f7\'e8\'eb\'f1\'ff \'e8 \'ea\'e0\'ea\'ee\'e5 \lang1033\f2 DNS-\lang1049\f0\'e8\'ec\'ff \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'e5\'f2 \'fd\'f2\'ee\'ec\'f3 \lang1033\f2 IP\lang1049\f0 )\par
+\lang1033\f2 smtpd_helo_restrictions \lang1049\f0\'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'f3\'e5\'f2 \'ec\'ee\'ec\'e5\'ed\'f2\'f3, \'ea\'ee\'e3\'e4\'e0 \'ea\'eb\'e8\'e5\'ed\'f2 \'ee\'f2\'ef\'f0\'e0\'e2\'e8\'eb \'ea\'ee\'ec\'e0\'ed\'e4\'f3 \lang1033\f2 HELO/EHLO\lang1049\f0  \'f1\'ee \'f1\'e2\'ee\'e8\'ec \lang1033\f2 FQDN \lang1049\f0\'e2 \'ea\'e0\'f7\'e5\'f1\'f2\'e2\'e5 \'ef\'e0\'f0\'e0\'ec\'e5\'f2\'f0\'e0 (\'e8 \'f1\'e5\'f0\'e2\'e5\'f0 \'ef\'ee\'ea\'e0 \'e5\'ec\'f3 \'ed\'e8\'f7\'e5\'e3\'ee \'ed\'e5 \'ee\'f2\'e2\'e5\'f2\'e8\'eb), \'f2.\'e5. \'ee\'ed \'e2\'fb\'e1\'f0\'e0\'eb \'f2\'e8\'ef \'ee\'e1\'f1\'eb\'f3\'e6\'e8\'e2\'e0\'ed\'e8\'ff (\'f1\'f2\'e0\'ed\'e4\'e0\'f0\'f2\'ed\'fb\'e9 - \lang1033\f2 SMTP, \lang1049\f0\'f0\'e0\'f1\'f8\'e8\'f0\'e5\'ed\'ed\'fb\'e9 - \lang1033\f2 ESMTP\lang1049\f0 ) \'e8 \'ef\'f0\'e5\'e4\'f1\'f2\'e0\'e2\'e8\'eb\'f1\'ff...\par
+\'e5\'f1\'eb\'e8 \'e2\'f1\'b8 \'f5\'ee\'f0\'ee\'f8\'ee, \'f2\'ee \'f1\'e5\'f0\'e2\'e5\'f0 \ul\'ef\'ee \'f0\'e5\'e7\'f3\'eb\'fc\'f2\'e0\'f2\'e0\'ec \'ee\'e1\'f0\'e0\'e1\'ee\'f2\'ea\'e8 \lang1033\f2 smtpd_helo_restrictions\lang1049\ulnone\f0  \i\'c8\i0  \'e4\'f0\'f3\'e3\'e8\'f5 \'ec\'e5\'f5\'e0\'ed\'e8\'e7\'ec\'ee\'e2 \'f4\'e8\'eb\'fc\'f2\'f0\'e0\'f6\'e8\'e8 \'ee\'f2\'e2\'e5\'f2\'e8\'f2 \'ea\'eb\'e8\'e5\'ed\'f2\'f3 \'f7\'f2\'ee-\'f2\'ee \'f2\'e8\'ef\'e0 "250 \'ce\'ea"\par
+\par
+\'e5\'f1\'eb\'e8 \'ea\'eb\'e8\'e5\'ed\'f2 \'ee\'f2\'ef\'f0\'e0\'e2\'eb\'ff\'e5\'f2 \'ea\'ee\'ec\'e0\'ed\'e4\'fb \'ef\'ee\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'ed\'ee (\'e0 \'ed\'e5 \'e2\'f0\'e0\'e7\'ed\'ee\'e1\'ee\'e9, \'f7\'f2\'ee \'e4\'ee\'ef\'f3\'f1\'f2\'e8\'ec\'ee \'f1\'f2\'e0\'ed\'e4\'e0\'f0\'f2\'ee\'ec), \'f2\'ee \'ea\'e0\'e6\'e4\'e0\'ff \'ef\'ee\'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e0\'ff \'f4\'e0\'e7\'e0 \'f1\'ee\'e4\'e5\'f0\'e6\'e8\'f2 \'ee \'ea\'eb\'e8\'e5\'ed\'f2\'e5 \'e1\'ee\'eb\'fc\'f8\'e5 \'e8\'ed\'f4\'ee\'f0\'ec\'e0\'f6\'e8\'e8, \'e8, \'f1\'ee\'ee\'f2\'e2\'e5\'f2\'f1\'f2\'e2\'e5\'ed\'ed\'ee, \'ea \'ed\'e5\'e9 \'ec\'ee\'e6\'ed\'ee \'ef\'f0\'e8\'f6\'e5\'ef\'e8\'f2\'fc \'e1\'ee\'eb\'fc\'f8\'e5 \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \'f2\'f0\'e8\'e3\'e3\'e5\'f0\'e0\par
+\par
+\'ee\'e4\'ed\'e0\'ea\'ee, \'ea\'eb\'e8\'e5\'ed\'f2 \'ec\'ee\'e6\'e5\'f2 \'ed\'e0\'f0\'f3\'f8\'e0\'f2\'fc \'ef\'ee\'f0\'ff\'e4\'ee\'ea \'ea\'ee\'ec\'e0\'ed\'e4\lang1033\f2  (\lang1049\f0\'e8 \'e4\'e0\'e6\'e5 \'ef\'f0\'ee\'ef\'f3\'f1\'ea\'e0\'f2\'fc \'ed\'e5\'ea\'ee\'f2\'ee\'f0\'fb\'e5\lang1033\f2 )\lang1049\f0  \'e8 \'ed\'e0 \'f1\'e0\'ec\'ee\'ec \'e4\'e5\'eb\'e5 \'ef\'ee \'f3\'ec\'ee\'eb\'f7. \'f2\'f0\'e8\'e3\'e3\'e5\'f0\'fb \'f1\'f0\'e0\'e1\'e0\'f2\'fb\'e2\'e0\'fe\'f2 \'ef\'ee\'f7\'f2\'e8 \'e2\'f1\'e5 \'ef\'f0\'e8\'ec\'e5\'f0\'ed\'ee \'ee\'e4\'ed\'ee\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee (\'ef\'f0\'e8 \'ee\'f2\'ef\'f0\'e0\'e2\'ea\'e5 \'ef\'e5\'f0\'e2\'ee\'e9 \'ea\'ee\'ec\'e0\'ed\'e4\'fb \lang1033\f2 RCPT TO\lang1049\f0 )\par
+\cf3\ul linkto:\'cf\'e0\'f0\'e0\'ec\'e5\'f2\'f0 smtpd_delay_reject (Postfix)\cf1\ulnone\par
+\par
+\'f1\'f3\'f9\'e5\'f1\'f2\'e2\'f3\'e5\'f2 \'ea\'e0\'f1\'f2\'ee\'ec\'ed\'fb\'e9 \'e2\'e8\'e4 \'f2\'f0\'e8\'e3\'e3\'e5\'f0\'e0, \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'ed\'e5 \'f1\'e2\'ff\'e7\'e0\'ed \'f1 \'fd\'f2\'e0\'ef\'e0\'ec\'e8 \lang1033\f2 SMTP:\lang1049\f0\par
+\cf3\ul linkto:\'ca\'eb\'e0\'f1\'f1\'fb \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 (Postfix)\cf1\ulnone\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:\'ce\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'ff (restrictions) Postfix\par
+\par
+\par
+}
+ 

@@ -18,7 +18,7 @@
 \par
 ---\par
 \'f2\'e5\'eb\'ee \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'e4\'e5\'eb\'e8\'f2\'f1\'ff \'ed\'e0 \'f1\'e5\'ea\'f6\'e8\'e8\par
-(\lang1033\f1 MIME-\lang1049\f0\'f1\'e5\'ea\'f6\'e8\'e8 \'ee\'e1\'fb\'f7\'ed\'ee \'ef\'ee\'e4\'e5\'eb\'e5\'ed\'fb \'e4\'e5\'eb\'e8\'ec\'e8\'f2\'e5\'f0\'ee\'ec)\par
+(\lang1033\f1 MIME-\lang1049\f0\'f1\'e5\'ea\'f6\'e8\'e8 \'ee\'e1\'fb\'f7\'ed\'ee \'ef\'ee\'e4\'e5\'eb\'e5\'ed\'fb \'e4\'e5\'eb\'e8\'ec\'e8\'f2\'e5\'f0\'ee\'ec (\'ed\'e0 \'f1\'e0\'ec\'ee\'ec \'e4\'e5\'eb\'e5 \lang1033\f1 boundary\lang1049\f0 ))\par
 \par
 \'e4\'eb\'ff \'ea\'e0\'e6\'e4\'ee\'e9 \'f1\'e5\'ea\'f6\'e8\'e8 \'e5\'f1\'f2\'fc \'f1\'e2\'ee\'e9 \'ed\'e0\'e1\'ee\'f0 \'ef\'f0\'ee\'e2\'e5\'f0\'ee\'ea:\par
 - header_checks\par
@@ -34,7 +34,7 @@
 \lang1049\f0\'ed\'e0\'ef\'f0,\par
 \f2\fs16 body_checks = regexp:/etc/postfix/body_checks\lang1033\f1\fs20\par
 \par
-\lang1049\f0\'e5\'f1\'eb\'e8 \'ef\'f0\'ee\'e8\'f1\'f5\'ee\'e4\'e8\'f2 \lang1033\f1 match \lang1049\f0\'f1 \'eb\'e5\'e2\'ee\'e9 \'f7\'e0\'f1\'f2\'fc\'fe (\lang1033\f1 LHS\lang1049\f0 ) (\'f0\'e5\'e3\'f3\'eb\'ff\'f0\'ea\'ee\'e9), \'f2\'ee \'ef\'f0\'e8\'ec\'e5\'ed\'ff\'e5\'f2\'f1\'ff \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'e5 \'e8\'e7 \'ef\'f0\'e0\'e2\'ee\'e9 \'f7\'e0\'f1\'f2\'e8\lang1033\f1  (RHS)\lang1049\f0\par
+\lang1049\f0\'e5\'f1\'eb\'e8 \'ef\'f0\'ee\'e8\'f1\'f5\'ee\'e4\'e8\'f2 \lang1033\f1 match \lang1049\f0\'f1 \'eb\'e5\'e2\'ee\'e9 \'f7\'e0\'f1\'f2\'fc\'fe (\lang1033\f1 LHS\lang1049\f0 ) (\'f0\'e5\'e3\'f3\'eb\'ff\'f0\'ea\'ee\'e9), \'f2\'ee \'ef\'f0\'e8\'ec\'e5\'ed\'ff\'e5\'f2\'f1\'ff \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'e5 \'e8\'e7 \'ef\'f0\'e0\'e2\'ee\'e9 \'f7\'e0\'f1\'f2\'e8\lang1033\f1  (RHS)\lang1049\f0  (\'f1\'ef\'e8\'f1\'ee\'ea \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'e9 \'f1\'ec\'ee\'f2\'f0\'e8 \'e2\'ed\'e8\'e7\'f3 (\cf4\'e2\'fb\'e4\'e5\'eb\'e8\'f2\'fc \'e2 \'ee\'f2\'e4\'e5\'eb\'fc\'ed\'f3\'fe \'e7\'e0\'ec\'e5\'f2\'ea\'f3?\cf1 ))\par
 \par
 \'ea\'e0\'e6\'e4\'e0\'ff \'f1\'f2\'f0\'ee\'f7\'ea\'e0 \'e2\'ed\'f3\'f2\'f0\'e8 \'f1\'e5\'ea\'f6\'e8\'e8 \'f1\'f0\'e0\'e2\'ed\'e8\'e2\'e0\'e5\'f2\'f1\'ff \'f1 \'ea\'e0\'e6\'e4\'ee\'e9 \'f1\'f2\'f0\'ee\'f7\'ea\'ee\'e9 \'e8\'e7 \'ed\'e0\'e1\'ee\'f0\'e0 \'e4\'ee \'ef\'e5\'f0\'e2\'ee\'e3\'ee \'f1\'ee\'e2\'ef\'e0\'e4\'e5\'ed\'e8\'ff...\par
 \lang1033\f1 [\lang1049\f0\'ed\'e0 \'f1\'e0\'ec\'ee\'ec \'e4\'e5\'eb\'e5 \i "\'d1\'e8\'ed\'f2\'e0\'ea\'f1\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'e0\'ed\'e0\'eb\'e8\'e7\'e0\'f2\'ee\'f0 \'ef\'f0\'ee\'f5\'ee\'e4\'e8\'f2 \ul\'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'e5\ulnone  \'f1\'f2\'f0\'ee\'ea\'e0 \'e7\'e0 \'f1\'f2\'f0\'ee\'ea\'ee\'e9. \'d1\'e8\'ed\'f2\'e0\'ea\'f1\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'e0\'ed\'e0\'eb\'e8\'e7\'e0\'f2\'ee\'f0 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'ff\'e5\'f2, \'ea \'ea\'e0\'ea\'ee\'ec\'f3 \'f0\'e0\'e7\'e4\'e5\'eb\'f3 \'f1\'ee\'ee\'e1\'f9\'e5\'ed\'e8\'ff \'ee\'f2\'ed\'ee\'f1\'e8\'f2\'f1\'ff \'f2\'e5\'ea\'f3\'f9\'e0\'ff \'f1\'f2\'f0\'ee\'ea\'e0"\lang1033\i0\f1  \lang1049\f0 (\'f2.\'e5. \'ea \'ea\'e0\'ea\'ee\'ec\'f3 \'f2\'e8\'ef\'f3 \'f1\'e5\'ea\'f6\'e8\'e9)\lang1033\f1 ]\par
