@@ -65,5 +65,6 @@ linkto:\'ce\'f2\'ef\'f0\'e0\'e2\'ea\'e0 \'f2\'e5\'f1\'f2\'ee\'e2\'ee\'e3\'ee \'e
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'cf\'f0\'ee\'e2\'e5\'f0\'ea\'e8 (\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e8\'e5 \'f4\'e8\'eb\'fc\'f2\'f0\'fb) (checks) Postfix\par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'d2\'f0\'e8\'e3\'e3\'e5\'f0\'fb \'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e5\'ed\'e8\'e9 (Postfix)\par
 \'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'cf\'e0\'f0\'e0\'ec\'e5\'f2\'f0 smtpd_delay_reject (Postfix)\par
+\'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'c4\'e5\'ec\'ee\'ed smtpd (Postfix)\par
 }
  
