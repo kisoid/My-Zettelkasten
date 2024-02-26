@@ -1,0 +1,87 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;\red255\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'c3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e5 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e8 systemd\b0\par
+\cf2 #review:1\cf1\par
+\par
+\'e8\'ed\'f2\'e5\'f0\'e5\'f1\'ed\'e0\'ff \'ea\'ee\'f1\'f2\'fb\'eb\'fc\'ed\'e0\'ff \'f2\'e5\'f5\'ed\'ee\'eb\'ee\'e3\'e8\'ff, \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'ec\'e0\'ff \'e2 \'f1\'ee\'f7\'e5\'f2\'e0\'ed\'e8\'e8 \'f1 \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'ec\'e8 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\'ec\'e8 \lang1033\f1 systemd \lang1049\f0\'e8 \'ee\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'fb\'ec\'e8 \'f1\'eb\'f3\'e6\'e1\'e0\'ec\'e8 \lang1033\f1 systemd\lang1049\f0\par
+\'e0 \'f2\'e0\'ea\'e6\'e5 \'e2 \'e1\'ee\'eb\'e5\'e5 \'ef\'f0\'ee\'f1\'f2\'fb\'f5 (\'e0\'f2\'ee\'ec\'e0\'f0\'ed\'fb\'f5) \'e4\'e8\'f0\'e5\'ea\'f2\'e8\'e2\'e0\'f5 \'f2\'e8\'ef\'e0 \lang1033\f1 PrivateTmp=\lang1049\f0 , StateDirectory= \'e8 \'f2.\'e4.\lang1033\f1\par
+\cf3\lang1049\ul\f0 linkto:\'c4\'e8\'f0\'e5\'ea\'f2\'e8\'e2\'e0 PrivateTmp (systemd)\cf1\ulnone\par
+\'e8 \'e2\'f0\'ee\'e4\'e5 \'ea\'e0\'ea \'e2 \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'e0\'f5 (\'e8\'eb\'e8 \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'fb \'ef\'ee\'f1\'eb\'f3\'e6\'e8\'eb\'e8 \'e2\'e4\'ee\'f5\'ed\'ee\'e2\'e5\'ed\'e8\'e5\'ec\lang1033\f1 :\par
+\i "\f0\'c4\'eb\'ff \'f0\'e5\'f8\'e5\'ed\'e8\'ff \'fd\'f2\'ee\'e9 \'e7\'e0\'e4\'e0\'f7\'e8 \'ec\'fb \'ee\'e1\'f0\'e0\'f2\'e8\'eb\'e8\'f1\'fc \'ea \'ee\'ef\'fb\'f2\'f3 \'f1\'e8\'f1\'f2\'e5\'ec \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'ed\'ee\'e9 \'e8\'e7\'ee\'eb\'ff\'f6\'e8\'e8.\par
+\'cf\'f0\'e8 \'f0\'e0\'e1\'ee\'f2\'e5 \'f1 \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'e0\'ec\'e8 \'e2\'ee\'e7\'ed\'e8\'ea\'e0\'e5\'f2 \'f1\'f5\'ee\'e6\'e0\'ff \'ef\'f0\'ee\'e1\'eb\'e5\'ec\'e0: \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'fb \'e8 \'f5\'ee\'f1\'f2 \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'fe\'f2\par
+\'f7\'e0\'f1\'f2\'e8\'f7\'ed\'ee \'e8\'eb\'e8 \'ef\'ee\'eb\'ed\'ee\'f1\'f2\'fc\'fe \'ef\'e5\'f0\'e5\'ea\'f0\'fb\'e2\'e0\'fe\'f9\'e8\'e5\'f1\'ff \'ed\'e0\'e1\'ee\'f0\'fb \'f7\'e8\'f1\'eb\'ee\'e2\'fb\'f5 \'e8\'e4\'e5\'ed\'f2\'e8\'f4\'e8\'ea\'e0\'f2\'ee\'f0\'ee\'e2 \'ef\'ee\'eb\'fc-\par
+\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'e9, \'e0 \'e7\'ed\'e0\'f7\'e8\'f2, \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e8 \'f5\'ee\'f1\'f2\'e0 \'ec\'ee\'e3\'f3\'f2 \'ef\'ee\'eb\'f3\'f7\'e8\'f2\'fc \'e4\'ee\'f1\'f2\'f3\'ef \'ea \'f4\'e0\'e9\'eb\'e0\'ec \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'e0,\par
+\'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'ef\'f0\'e8\'ed\'e0\'e4\'eb\'e5\'e6\'e0\'f2 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\'ec \'f1 \'f2\'e0\'ea\'e8\'ec \'e6\'e5 UID \f1 - \f0\'e0 \'e2\'e5\'e4\'fc \'fd\'f2\'ee \'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'f1\'ee\'e2\'f1\'e5\'ec\par
+\'e4\'f0\'f3\'e3\'ee\'e9 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fc, \'ed\'e8\'ea\'e0\'ea \'ed\'e5 \'f1\'e2\'ff\'e7\'e0\'ed\'ed\'fb\'e9 \'f1\'ee \'f1\'e2\'ee\'e8\'ec \'f5\'ee\'f1\'f2\'ee\'e2\'fb\'ec \f1\'ab\f0\'e4\'e2\'ee\'e9\'ed\'e8\'ea\'ee\'ec\f1\'bb"\lang1049\i0\f0 )\par
+\par
+\'ef\'f0\'e5\'e4\'ef\'ee\'eb\'ee\'e6\'e8\'ec, \'f1\'ee\'e7\'e4\'e0\'b8\'f2\'f1\'ff \'ea\'e0\'f2\'e0\'eb\'ee\'e3\par
+\lang1033\f1 /tmp/\lang1049\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\lang1033\f1 /\lang1049\f0\'e8\'ec\'ff_\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\par
+\par
+\lang1033\f1\{\lang1049\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\lang1033\f1  \lang1049\f0\'ec\'ee\'e6\'e5\'f2 \'f1\'f2\'f0\'ee\'e8\'f2\'fc\'f1\'ff \'e8\'e7 \'e8\'ec\'ff_\'f1\'eb\'f3\'e6\'e1\'fb + \'ef\'f1\'e5\'e2\'e4\'ee\'f1\'eb\'f3\'f7\'e0\'e9\'ed\'e0\'ff_\'f1\'f2\'f0\'ee\'ea\'e0 \'e4\'eb\'ff \lang1033\f1 PrivateTmp\par
+\lang1049\f0\'e8\'eb\'e8 \'ef\'f0\'ee\'f1\'f2\'ee \lang1033\f1 "private" \lang1049\f0\'e4\'eb\'ff \'e4\'f0\'f3\'e3\'e8\'f5 \'e4\'e8\'f0\'e5\'ea\'f2\'e8\'e2 (\'f1\'ec. \'ed\'e8\'e6\'e5)\par
+\par
+\'e8\'ec\'ff_\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0 - \'fd\'f2\'ee \'e8\'ec\'ff \'fe\'ed\'e8\'f2\'e0 \'e4\'eb\'ff \'e4\'f0\'f3\'e3\'e8\'f5 \'e4\'e8\'f0\'e5\'ea\'f2\'e8\'e2 \'e8\'eb\'e8 \lang1033\f1 "tmp" \lang1049\f0\'e4\'eb\'ff \lang1033\f1 PrivateTmp\}\lang1049\f0\par
+\par
+\'ed\'e0 \lang1033\f1 /tmp/\lang1049\i\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\i0  \'f3\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'f2\'f1\'ff\par
+\'e2\'eb\'e0\'e4\'e5\'eb\'e5\'f6: \lang1033\f1 root/root\par
+\lang1049\f0\'f0\'e0\'e7\'f0\'e5\'f8\'e5\'ed\'e8\'ff: 0700\par
+\par
+\'ed\'e0 \lang1033\f1 /tmp/\lang1049\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\lang1033\f1 /\lang1049\i\f0\'e8\'ec\'ff_\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\i0  \'f3\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'f2\'f1\'ff\par
+\'e2\'eb\'e0\'e4\'e5\'eb\'e5\'f6: \'fe\'e7\'e5\'f0_\'fe\'ed\'e8\'f2\'e0\lang1033\f1 /\lang1049\f0\'fe\'e7\'e5\'f0_\'fe\'ed\'e8\'f2\'e0\lang1033\f1  (\lang1049\f0\'ec\'ee\'e6\'e5\'f2 \'e1\'fb\'f2\'fc \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'ec \'fe\'e7\'e5\'f0\'ee\'ec/\'e3\'f0\'f3\'ef\'ef\'ee\'e9\lang1033\f1 )\par
+\lang1049\f0\'f0\'e0\'e7\'f0\'e5\'f8\'e5\'ed\'e8\'ff: 0777\par
+\par
+\'ef\'ee\'ea\'e0 \'fe\'ed\'e8\'f2 \'ed\'e5 \'e7\'e0\'ef\'f3\'f9\'e5\'ed, \'ed\'e8 \'f3 \'ea\'ee\'e3\'ee (\'ed\'f3 \'ea\'f0\'ee\'ec\'e5 \lang1033\f1 root\lang1049\f0 ) \'ed\'e5\'f2 \'e4\'ee\'f1\'f2\'f3\'ef\'e0 \'ea \'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'ec\'f3 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'f3, \'f2.\'ea. "\'ed\'e5 \'ef\'f3\'f1\'ea\'e0\'e5\'f2" \'e3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e9 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\par
+\par
+\'ea\'ee\'e3\'e4\'e0 \'fe\'ed\'e8\'f2 \'e7\'e0\'ef\'f3\'f9\'e5\'ed, \'ef\'f0\'ee\'e8\'f1\'f5\'ee\'e4\'e8\'f2 \'ec\'ee\'ed\'f2\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 \'ef\'f3\'f1\'f2\'ee\'e9 \lang1033\f1 tmpfs \lang1049\f0\'e2\par
+\lang1033\f1 /tmp\lang1049\f0  (\'e2\'ed\'f3\'f2\'f0\'e8 \lang1033\f1 mount namespace \lang1049\f0\'fe\'ed\'e8\'f2\'e0 (\'f2.\'e5. \lang1033\f1 FSNS \lang1049\f0\'f2\'f3\'f2 \'ed\'e8 \'ef\'f0\'e8 \'f7\'b8\'ec...))\lang1033\f1\par
+\lang1049\f0\'e7\'e0\'f2\'e5\'ec \'e2 \'ed\'b8\'ec \'f1\'ee\'e7\'e4\'e0\'b8\'f2\'f1\'ff \i\'ed\'ee\'e2\'fb\'e9\i0  \'ea\'e0\'f2\'e0\'eb\'ee\'e3\par
+\lang1033\f1 /tmp/\lang1049\i\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\i0\par
+\'ed\'e0 \'ea\'ee\'f2\'ee\'f0\'fb\'e9 \'f3\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'f2\'f1\'ff\par
+\'e2\'eb\'e0\'e4\'e5\'eb\'e5\'f6: \lang1033\f1 root/root\par
+\lang1049\f0\'f0\'e0\'e7\'f0\'e5\'f8\'e5\'ed\'e8\'ff: 07\b 55\b0  (\lang1033\f1 r_xr_x\lang1049\f0 ) \lang1033\f1\{\lang1049\f0\'f2.\'e5. \'e3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e9 \'ea\'e0\'f2\'e0\'eb\'ee\'e3 \'ef\'e5\'f0\'e5\'f1\'f2\'e0\'b8\'f2 \'e1\'fb\'f2\'fc \i\'ee\'e3\'f0\'e0\'ed\'e8\'f7\'e8\'f2\'e5\'eb\'fc\'ed\'fb\'ec\i0  \'e2\'ed\'f3\'f2\'f0\'e8\lang1033\f1\}\lang1049\f0\par
+\'e2\'ed\'f3\'f2\'f0\'e8 \'fd\'f2\'ee\'e3\'ee \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0 \'f1\'ee\'e7\'e4\'e0\'b8\'f2\'f1\'ff\par
+\lang1033\f1 /tmp/\lang1049\f0\'e8\'ec\'ff_\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'ee\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\lang1033\f1 /\lang1049\i\f0\'e8\'ec\'ff_\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e5\'e3\'ee_\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\i0\par
+\'f1 \'f0\'e0\'e7\'f0\'e5\'f8\'e5\'ed\'e8\'ff\'ec\'e8 0777 \'e4\'eb\'ff \'fe\'e7\'e5\'f0\'e0 \'fe\'ed\'e8\'f2\'e0\par
+\'e8 \'e2 \'ed\'e5\'e3\'ee \'ef\'f0\'ee\'e8\'e7\'e2\'ee\'e4\'e8\'f2\'f1\'ff \lang1033\f1 bind-\lang1049\f0\'ec\'ee\'ed\'f2\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 "\'ed\'e0\'f1\'f2\'ee\'ff\'f9\'e5\'e3\'ee" \'ee\'e4\'ed\'ee\'e8\'ec\'b8\'ed\'ed\'ee\'e3\'ee \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e0\par
+\par
+\'f2\'e0\'ea\'e8\'ec \'ee\'e1\'f0\'e0\'e7\'ee\'ec, \'fe\'ed\'e8\'f2 \'ed\'e5 \'e2\'e8\'e4\'e8\'f2 \'ed\'e8\'f7\'e5\'e3\'ee, \'f7\'f2\'ee \'e1\'fb\'eb\'ee \'e2 \'ed\'e0\'f1\'f2\'ee\'ff\'f9\'e5\'ec \lang1033\f1 /tmp \lang1049\f0\'e8 \'e2\'e8\'e4\'e8\'f2 \'e2 \'ed\'b8\'ec \'f2\'ee\'eb\'fc\'ea\'ee \'f1\'e2\'ee\'e9 \'eb\'e8\'f7\'ed\'fb\'e9 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\par
+\'ef\'f0\'e8 \'fd\'f2\'ee\'ec \'ee\'ed \'ed\'e5 \'e2\'e8\'e4\'e8\'f2 \'f4\'e0\'e9\'eb\'fb \'e4\'f0\'f3\'e3\'e8\'f5 \'fe\'ed\'e8\'f2\'ee\'e2, \'e4\'e0\'e6\'e5 \'e5\'f1\'eb\'e8 \'e2 \'e8\'f5 \'ec\'e5\'f2\'e0\'e4\'e0\'ed\'ed\'fb\'f5 \lang1033\f1 uid/gid \lang1049\f0\'f2\'e0\'ea\'e8\'e5 \'e6\'e5, \'ea\'e0\'ea \'f3 \'f2\'e5\'ea\'f3\'f9\'e5\'e3\'ee \'fe\'e7\'e5\'f0\'e0 \'fe\'ed\'e8\'f2\'e0...\lang1033\f1\par
+\par
+---\par
+\cf4\lang1049\f0\'f1\'ea\'ee\'f0\'e5\'e5 \'e2\'f1\'e5\'e3\'ee \'e7\'e0\'e1\'eb\'f3\'e6\'e4\'e5\'ed\'e8\'e5:\cf1  \'ed\'e0 \'f1\'e0\'ec\'ee\'ec \'e4\'e5\'eb\'e5, \'e4\'eb\'ff \lang1033\f1 tmp \lang1049\f0\'fd\'f2\'ee \'ed\'e5 \'ed\'f3\'e6\'ed\'ee - \'ee\'e1\'fb\'f7\'ed\'ee \'e2 /\lang1033\f1 tmp\lang1049\f0  (\'e2 \lang1033\f1 mount namespace\lang1049\f0 ) \'ef\'f0\'ee\'f1\'f2\'ee\lang1033\f1  \lang1049\f0\'ec\'ee\'ed\'f2\'e8\'f0\'f3\'e5\'f2\'f1\'ff\lang1033\f1\par
+\cf3\lang1049\ul\f0 linkto:\'cf\'f1\'e5\'e2\'e4\'ee\'f4\'e0\'e9\'eb\'ee\'e2\'e0\'ff \'f1\'e8\'f1\'f2\'e5\'ec\'e0 tmpfs\cf1\lang1033\ulnone\f1\par
+(\lang1049\f0\'f4\'e0\'e9\'eb\'ee\'e2\'e0\'ff \'f1\'e8\'f1\'f2\'e5\'ec\'e0 \'e2 \'ee\'ef\'e5\'f0\'e0\'f2\'e8\'e2\'ea\'e5\lang1033\f1 )\lang1049\f0 , \'ea\'ee\'f2\'ee\'f0\'e0\'ff \'ee\'f7\'e8\'f9\'e0\'e5\'f2\'f1\'ff \'ef\'ee\'f1\'eb\'e5 \'ee\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e8 \'fe\'ed\'e8\'f2\'e0\par
+(\'ee\'ef\'e8\'f1\'e0\'ed\'e8\'e5 \'ed\'e5\'f1\'ea\'ee\'eb\'fc\'ea\'ee \'ef\'f3\'f2\'e0\'ed\'ed\'ee\'e5, \'f2\'e0\'ea \'f7\'f2\'ee \'f2\'f3\'f2 \cf4\'ff \'ed\'e5 \'f3\'e2\'e5\'f0\'e5\'ed\cf1 )\par
+\lang1033\f1 (\cf2\lang1049\f0\'e8\'eb\'e8 \'e2\'f1\'b8-\'f2\'e0\'ea\'e8\cf1  \'ec\'ee\'ed\'f2\'e8\'f0\'f3\'fe\'f2\'f1\'ff \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e8 \'f1 \'e4\'e8\'f1\'ea\'e0, \'f2.\'ea. \'ee\'ef\'e5\'f0\'e0\'f2\'e8\'e2\'e0 \i\'ec\'e0\'eb\'e5\'ed\'fc\'ea\'e0\'ff\i0  \'ef\'ee \'f1\'f0\'e0\'e2\'ed\'e5\'ed\'e8\'fe \'f1 \'ed\'e0\'ea\'ee\'ef\'e8\'f2\'e5\'eb\'e5\'ec, \'e0 \'ef\'ee\'e4 \lang1033\f1 tmp \lang1049\f0\'e4\'eb\'ff \'fe\'ed\'e8\'f2\'e0 \'ec\'ee\'e6\'e5\'f2 \'ec\'ed\'ee\'e3\'ee \'ec\'e5\'f1\'f2\'e0 \'ef\'ee\'f2\'f0\'e5\'e1\'ee\'e2\'e0\'f2\'fc\'f1\'ff\lang1033\f1 )\lang1049\f0\par
+\par
+\'ed\'ee \'e5\'f1\'eb\'e8 \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'fe\'f2\'f1\'ff \'ee\'ef\'f6\'e8\'e8 StateDirectory=, LogsDirectory= \'e8 CacheDirectory=\par
+\'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'e7\'e0\'ec\'e5\'ed\'ff\'fe\'f2 \'ef\'ee\'eb\'ed\'ee\'f6\'e5\'ed\'ed\'fb\'e5 /var/lib, /var/log \'e8 /var/cache\par
+\'e4\'eb\'ff \'ee\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'ee\'e9 \'f1\'eb\'f3\'e6\'e1\'fb, \'f7\'f2\'ee\'e1\'fb \'ee\'ed\'e0 \'ec\'ee\'e3\'eb\'e0 \'ea\'e0\'ea-\'f2\'ee \'f1\'ee\'f5\'f0\'e0\'ed\'ff\'f2\'fc \'e4\'e0\'ed\'ed\'fb\'e5 \'ec\'e5\'e6\'e4\'f3 \'ef\'e5\'f0\'e5\'e7\'e0\'ef\'f3\'f1\'ea\'e0\'ec\'e8\par
+\par
+\cf2\'f2\'ee \'f2\'ee\'f7\'ed\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2\'f1\'ff \'e8\'ec\'e5\'ed\'ed\'ee \'f2\'e0\'ea\'e0\'ff \'f1\'f5\'e5\'ec\'e0\cf1\par
+\'ed\'e0\'ef\'f0, \lang1033\f1 /var/lib/private/foobar\par
+private - \lang1049\f0\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e9\par
+\lang1033\f1 foobar - \lang1049\f0\'e2\'ed\'f3\'f2\'f0\'e5\'ed\'ed\'e8\'e9\par
+\par
+---\par
+\'ef\'f0\'e8 \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'e8 \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'f5 (\'ee\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'fb\'f5) \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'e9 \'f1\'f5\'e5\'ec\'e0 \'f3\'f1\'eb\'ee\'e6\'ed\'ff\'e5\'f2\'f1\'ff, \'f2.\'ea. \'ef\'ee\'f1\'eb\'e5 \'f3\'e4\'e0\'eb\'e5\'ed\'e8\'ff \'fe\'e7\'e5\'f0\'e0 \'ef\'f0\'e8 \'f1\'ee\'f5\'f0\'e0\'ed\'e5\'ed\'e8\'e8 \'f1\'ee\'e7\'e4\'e0\'ed\'ed\'fb\'f5 \'e8\'ec \'f4\'e0\'e9\'eb\'ee\'e2, \'ef\'e0\'ef\'ee\'ea \'e8 \'ee\'e1\'fa\'e5\'ea\'f2\'ee\'e2 \lang1033\f1 IPC\lang1049\f0 , \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee \'ed\'e5 \'f2\'ee\'eb\'fc\'ea\'ee \'f3\'e1\'e5\'f0\'e5\'f7\'fc \'ee\'f1\'e8\'f0\'ee\'f2\'e5\'e2\'f8\'e8\'e5 \'f4\'e0\'e9\'eb\'fb (\'e2 \'e8\'f5 \'ec\'e5\'f2\'e0\'e4\'e0\'ed\'ed\'fb\'f5 \'f2\'e5\'ef\'e5\'f0\'fc \'e1\'e5\'e7\'fb\'ec\'ff\'ed\'ed\'fb\'e5 \lang1033\f1 uid, gid\lang1049\f0 ) - \'fd\'f2\'f3 \'ef\'f0\'ee\'e1\'eb\'e5\'ec\'f3 \'ea\'e0\'ea \'f0\'e0\'e7 \'e8 \'f0\'e5\'f8\'e0\'e5\'f2 \'e3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e9 \'ea\'e0\'f2\'e0\'eb\'ee\'e3, \'ed\'ee \'e8 \'e3\'f0\'e0\'ec\'ee\'f2\'ed\'ee \'ef\'e5\'f0\'e5\'e4\'e0\'f2\'fc \'f4\'e0\'e9\'eb\'fb \'e2\'ee \'e2\'eb\'e0\'e4\'e5\'ed\'e8\'e5 \'ed\'ee\'e2\'ee\'ec\'f3 \'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee\'ec\'f3 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'fe \'ef\'f0\'e8 \'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e5\'e9 \'e0\'ea\'f2\'e8\'e2\'e0\'f6\'e8\'e8 \'fe\'ed\'e8\'f2\'e0\par
+\par
+\'ee\'e1\'fb\'f7\'ed\'ee \'fd\'f2\'ee \'f0\'e5\'f8\'e0\'e5\'f2\'f1\'ff \'f2\'e0\'ea:\par
+- \'e5\'f1\'eb\'e8 \lang1033\f1 uid/gid\lang1049\f0  \'e8\'e7 \'ec\'e5\'f2\'e0\'e4\'e0\'ed\'ed\'fb\'f5 \'f1\'e5\'e9\'f7\'e0\'f1 \'ed\'e5 \'e7\'e0\'ed\'ff\'f2\'fb, \'f2\'ee \'ed\'ee\'e2\'ee\'ec\'f3 \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'ee\'ec\'f3 \'fe\'e7\'e5\'f0\'f3 \'ef\'f0\'e8\'f1\'e2\'e0\'e8\'e2\'e0\'e5\'f2\'f1\'ff \'fd\'f2\'e0 \'f1\'f2\'e0\'f0\'e0\'ff \'f7\'e8\'f1\'eb\'ee\'e2\'e0\'ff \'f1\'e2\'ff\'e7\'ea\'e0 \'e8\'e4\'e5\'ed\'f2\'e8\'f4\'e8\'ea\'e0\'f2\'ee\'f0\'ee\'e2\par
+- \'e5\'f1\'eb\'e8 \lang1033\f1 uid/gid \lang1049\f0\'e8\'e7 \'ec\'e5\'f2\'e0\'e4\'e0\'ed\'ed\'fb\'f5 \'e7\'e0\'ed\'ff\'f2\'fb, \'f2\'ee \'e4\'e8\'ed. \'fe\'e7\'e5\'f0 \'ef\'ee\'eb\'f3\'f7\'e0\'e5\'f2 \'ed\'ee\'e2\'fb\'e5 \lang1033\f1 uid/gid\lang1049\f0 , \'e0 \'ef\'ee \'f4\'e0\'e9\'eb\'e0\'ec \'e2\'ed\'f3\'f2\'f0\'e8 \'e5\'e3\'ee \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'e8 \'f0\'e5\'ea\'f3\'f0\'f1\'e8\'e2\'ed\'ee \'ef\'f0\'ee\'e8\'e7\'e2\'ee\'e4\'e8\'f2\'f1\'ff \lang1033\f1 chown, chgrp\lang1049\f0  (\'ee\'ef\'e5\'f0\'e0\'f6\'e8\'ff \'ed\'e5 \'ee\'f1\'ee\'e1\'ee \'e4\'e5\'f8\'b8\'e2\'e0\'ff, \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ed\'f3\'e6\'e5\'ed \'ef\'e5\'f0\'e2\'fb\'e9 \'ef\'f3\'ed\'ea\'f2)\par
+\par
+\'ef\'f0\'e8 \'fd\'f2\'ee\'ec \'ee\'f2\'ef\'e0\'e4\'e0\'e5\'f2 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee\'f1\'f2\'fc \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff \'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'f1\'f2\'e2\'e0 \'e8\'ec\'b8\'ed \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'e9 (\'cf\'ee\'f2\'f2\'e5\'f0\'e8\'ed\'e3 \'f1\'f7\'e8\'f2\'e0\'e5\'f2 \'fd\'f2\'ee\'f2 \'ed\'e5\'e9\'ec\'f1\'ef\'e5\'e9\'f1 \'e8\'f1\'f2\'ee\'f7\'ed\'e8\'ea\'ee\'ec \'f3\'ff\'e7\'e2\'e8\'ec\'ee\'f1\'f2\'e5\'e9...)\par
+\par
+\'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'e5 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e8 \'ed\'e8\'ea\'e0\'ea \'ed\'e5 \'f3\'f7\'e8\'f2\'fb\'e2\'e0\'fe\'f2\'f1\'ff \'e2 \'c1\'c4 \lang1033\f1 /etc/passwd \lang1049\f0\'e8 \lang1033\f1 /etc/shadow\par
+\lang1049\f0\'e8 \'ed\'e8\'ea\'e0\'ea\'e8\'f5 \'f1\'eb\'e5\'e4\'ee\'e2 \'f2\'e0\'ec \'ed\'e5 \'ee\'f1\'f2\'e0\'e2\'eb\'ff\'fe\'f2\par
+\lang1033\f1 uid/gid \lang1049\f0\'e1\'e5\'f0\'f3\'f2\'f1\'ff \'e8\'e7 \'ef\'f3\'eb\'e0 61184\f1 -65519\f0\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:Poettering \'cf\'f2\'e0\'f8\'ed\'e8\'ea _systemd \'e4\'eb\'ff \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'ee\'e2_\par
+\'f3\'e4\'e0\'eb\'e5\'ed\'e0 \'f1\'f1\'fb\'eb\'ea\'e0 \'ed\'e0\par
+\ul linkto\lang1033\f1 #\lang1049\f0 FSNS (Filesystem Namespace)\ulnone\par
+\'f2.\'ea. \'ee\'ed\'ee \'e7\'e4\'e5\'f1\'fc \'ed\'e8 \'ef\'f0\'e8 \'f7\'b8\'ec (\'ff \'e7\'e0\'ef\'f3\'f2\'e0\'eb\'f1\'ff \'f1 \lang1033\f1 FSNS/mount namespace\lang1049\f0 )\par
+linkto:\'ca\'e0\'ea systemd \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2 namespaces\par
+\par
+\par
+}
+ 

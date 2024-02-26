@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}{\f2\fnil\fcharset0 Lucida Console;}{\f3\fnil\fcharset204 Lucida Console;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'d2\'e5\'f0\'ec\'e8\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'f1\'e5\'f0\'e2\'e5\'f0 \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe Xvnc\b0\par
+\cf2 #review:1\cf1\par
+\par
+\lang1033\f1 Xvnc \lang1049\f0\'f1\'ee\'e7\'e4\'e0\'b8\'f2 \'e2\'e8\'f0\'f2\'f3\'e0\'eb\'fc\'ed\'fb\'e9 \'e3\'f0\'e0\'f4\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb \'e2\'ec\'e5\'f1\'f2\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff "\'f4\'e8\'e7\'e8\'f7\'e5\'f1\'ea\'ee\'e3\'ee"\par
+\'e8 \'e2\'f0\'ee\'e4\'e5 \'ea\'e0\'ea \'e4\'e0\'e6\'e5 \'f1\'e0\'ec \'ef\'ee \'f1\'e5\'e1\'e5 \'ff\'e2\'eb\'ff\'e5\'f2\'f1\'ff\lang1033\f1  X-\lang1049\f0\'f1\'e5\'f0\'e2\'e5\'f0\'ee\'ec\par
+\par
+\'e2\'ec\'e5\'f1\'f2\'ee \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff \lang1033\f1 VNC-\lang1049\f0\'ef\'e0\'f0\'ee\'eb\'e5\'e9, \lang1033\f1 Xvnc \lang1049\f0\'ee\'e1\'f0\'e0\'f9\'e0\'e5\'f2\'f1\'ff \'ea \'fd\'ea\'f0\'e0\'ed\'ed\'ee\'ec\'f3 \'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0\'f3 \'ef\'ee\lang1033\f1  \lang1049\f0\'ed\'e5\'e1\'e5\'e7\'ee\'ef\'e0\'f1\'ed\'ee\'ec\'f3 \'ef\'f0\'ee\'f2\'ee\'ea\'ee\'eb\'f3 \lang1033\f1 XDMCP (UDP port 177)\par
+\par
+\lang1049\f0\'fd\'ea\'f0\'e0\'ed\'ed\'fb\'e9 \'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0 \'e2 \lang1033\f1 Ubuntu 22.04 - SDDM - \lang1049\f0\'ed\'e5 \'ef\'ee\'e4\'e4\'e5\'f0\'e6\'e8\'e2\'e0\'e5\'f2 \lang1033\f1 XDMCP\lang1049\f0 , \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ef\'f0\'e8\'ed\'ff\'f2\'ee \'f0\'e5\'f8\'e5\'ed\'e8\'e5 \'e7\'e0\'ec\'e5\'ed\'e8\'f2\'fc \'e5\'e3\'ee \'ed\'e0 \lang1033\f1 LightDM\lang1049\f0\par
+\par
+\ul\'f1\'f5\'e5\'ec\'e0:\ulnone\par
+\lang1033\f1 1) \lang1049\f0\'ed\'e0 \'f1\'e5\'f0\'e2\'e5\'f0\'e5 \'f3\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e0 \lang1033\f1 KDE-plasma\lang1049\f0 , \'ed\'ee \'ee\'f2\'ec\'e5\'ed\'b8\'ed \'e7\'e0\'ef\'f3\'f1\'ea \'e2 \lang1033\f1 graphical.target\par
+2) LightDM\lang1049\f0  \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'e2 \lang1033\f1 multi-user.target\lang1049\f0 , \'ed\'ee \'e2 \'e1\'e5\'e7\'e3\'ee\'eb\'ee\'e2\'ee\'ec (\lang1033\f1 headless\lang1049\f0 ) \'f0\'e5\'e6\'e8\'ec\'e5, \'e8\'ed\'e0\'f7\'e5 \'e1\'f3\'e4\'e5\'f2 \'e0\'ed\'e0\'eb\'ee\'e3 \lang1033\f1 graphical.target\par
+3) \lang1049\f0\'e2 \lang1033\f1 LightDM \lang1049\f0\'e7\'e0\'ef\'f3\'f9\'e5\'ed \lang1033\f1 XDMCP \lang1049\f0\'f1\'e5\'f0\'e2\'e5\'f0\lang1033\f1\par
+\par
+4) \lang1049\f0\'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \'f1\'ee\'ea\'e5\'f2-\'e0\'ea\'f2\'e8\'e2\'e0\'f6\'e8\'e8 \'ef\'f0\'e8 \'ee\'e1\'f0\'e0\'f9\'e5\'ed\'e8\'e8 \'f3\'e4\'e0\'eb\'b8\'ed\'ed\'ee\'e3\'ee \'fe\'e7\'e5\'f0\'e0 \'ed\'e0 \'ef\'ee\'f0\'f2 \lang1033\f1 5900 \lang1049\f0\'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2\'f1\'ff \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0 \lang1033\f1 Xvnc\lang1049\f0\par
+\cf3\ul linkto:socket-\'e0\'ea\'f2\'e8\'e2\'e0\'f6\'e8\'ff \'fe\'ed\'e8\'f2\'ee\'e2 systemd\cf1\ulnone\par
+\par
+5) \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0 \lang1033\f1 Xvnc \lang1049\f0\'ea\'e0\'ea-\'f2\'ee \'ee\'e1\'f0\'e0\'f9\'e0\'e5\'f2\'f1\'ff \'ed\'e0 \'ef\'ee\'f0\'f2 177 \'e8 \'e7\'e0\'ef\'f3\'f1\'ea\'e0\'e5\'f2 \'f1\'e5\'e0\'ed\'f1 \'e2\'f5\'ee\'e4\'e0\par
+6) \'f3\'e4\'e0\'eb\'b8\'ed\'ed\'fb\'e9 \'fe\'e7\'e5\'f0 \'e2\'e2\'ee\'e4\'e8\'f2 \'eb\'ee\'e3\'e8\'ed/\'ef\'e0\'f0\'ee\'eb\'fc \'ee\'f2 \'ce\'d1 \'f7\'e5\'f0\'e5\'e7 \'ee\'ea\'ed\'ee \'fd\'ea\'f0\'e0\'ed\'ed\'ee\'e3\'ee \'ec\'e5\'ed\'e5\'e4\'e6\'e5\'f0\'e0 \'e8 \'ef\'ee\'eb\'f3\'f7\'e0\'e5\'f2 \'f1\'e5\'f1\'f1\'e8\'fe \lang1033\f1 plasma\par
+\par
+(\lang1049\f0\'ea\'f1\'f2\'e0\'f2\'e8, \lang1033\f1 LightDM \lang1049\f0\'f1\'e0\'ec \'ec\'ee\'e6\'e5\'f2 "\'f0\'f3\'eb\'e8\'f2\'fc" \lang1033\f1 Xvnc \lang1049\f0\'e2\'ec\'e5\'f1\'f2\'ee \lang1033\f1 systemd\lang1049\f0 , \'ed\'ee \'ff \'ed\'e5 \'ef\'f0\'ee\'e1\'ee\'e2\'e0\'eb\lang1033\f1 )\par
+\par
+\lang1049\f0 ---\par
+\ul\'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e0 \lang1033\f1 KDE\ulnone\par
+\f2\fs16 apt update\par
+apt install kde-plasma-desktop\lang1049\f3  \lang1033\f2 #\lang1049\f3  \'f2\'e8\'ef\'e0 \'f1\'e0\'ec\'fb\'e9 \'ec\'e8\'ed\'e8\'ec\'e0\'eb\'fc\'ed\'fb\'e9 \'e2\'e0\'f0\'e8\'e0\'ed\'f2\lang1033\f2\par
+systemctl get-default # graphical...\par
+systemctl set-default multi-user.target\par
+\par
+systemctl start sddm.service\lang1049\f3  \lang1033\f2 # \lang1049\f3\'e2\'ec\'e5\'f1\'f2\'ee \lang1033\f2 startkde\lang1049\f0\fs20\par
+\par
+\ul\'e7\'e0\'ec\'e5\'ed\'e0 \lang1033\f1 SDDM\lang1049\f0  \'ed\'e0 \lang1033\f1 LightDM \lang1049\f0\'e8 \'ed\'e0\'f1\'f2\'f0\'ee\'e9\'ea\'e0 \lang1033\f1 LightDM\ulnone\par
+\lang1049\f3\fs16 apt install lightdm\par
+mkdir /etc/systemd/system/lightdm.service.d/\par
+nano /etc/systemd/system/lightdm.service.d/start.conf\lang1033\f2  # \lang1049\f3\'f0\'e5\'f8\'e8\'eb, \'f7\'f2\'ee \'ef\'f0\'ee\'f9\'e5 \lang1033\f2 drop-in\lang1049\f3\par
+\lang1033\f2 cat\lang1049\f3  /etc/systemd/system/lightdm.service.d/start.conf\f0\fs20\par
+[Install]\par
+WantedBy=multi-user.target\par
+\par
+\f3\fs16 nano /etc/lightdm/lightdm.conf.d/my_xdmcp.conf\lang1033\f2  # \lang1049\f3\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'ee\par
+\lang1033\f2 cat\lang1049\f3  /etc/lightdm/lightdm.conf.d/my_xdmcp.conf\f0\fs20\par
+[XDMCPServer]\par
+enabled=true\par
+\par
+[LightDM]\par
+start-default-seat=false\lang1033\f1  #headless\lang1049\f0\par
+\par
+[SeatDefaults]\par
+user-session=plasma \lang1033\f1 # \lang1049\f0\'ef\'ee \'f3\'ec\'ee\'eb\'f7 \'e8\'f9\'e5\'f2 \'ea\'e0\'ea\'f3\'fe-\'f2\'ee \'e4\'e8\'f7\'fc\par
+\par
+\lang1033\f1 (\par
+\f2\fs16 cat /etc/X11/default-display-manager\f1\fs20\par
+/usr/sbin/lightdm\par
+\par
+\f2\fs16 ls /usr/share/xsessions/\f1\fs20\par
+plasma.desktop\par
+)\par
+\par
+\f2\fs16 systemctl daemon-reload\par
+systemctl enable lightdm.service\lang1049\f3\par
+\lang1033\f2 systemctl start lightdm.service\f1\fs20\par
+\par
+\f2\fs16 ss -na | grep 177\lang1049\f0\fs20\par
+\par
+\ul\'f3\'f1\'f2\'e0\'ed\'ee\'e2\'ea\'e0 \lang1033\f1 TigerVNC\lang1049\ulnone\f0\par
+\f3\fs16 apt install tigervnc-common tigervnc-standalone-server\f0\fs20\par
+\par
+\ul\'f1\'ee\'e7\'e4\'e0\'b8\'ec \'f1\'ee\'ea\'e5\'f2 \lang1033\f1 Xvnc\lang1049\ulnone\f0\par
+\f3\fs16 nano /etc/systemd/system/xvn\lang1033\f2 c\lang1049\f3 .socket\par
+\lang1033\f2 cat\lang1049\f3  /etc/systemd/system/xvn\lang1033\f2 c\lang1049\f3 .socket\f0\fs20\par
+[Unit]\par
+Description=My socket\par
+\par
+[Socket]\par
+ListenStream=5900\par
+Accept=yes\par
+\par
+[Install]\par
+WantedBy=sockets.target\par
+\par
+\ul\'f1\'ee\'e7\'e4\'e0\'b8\'ec \'f8\'e0\'e1\'eb\'ee\'ed \'f1\'eb\'f3\'e6\'e1\'fb\ulnone\par
+\f3\fs16 nano /etc/systemd/system/xvnc@.service\par
+\lang1033\f2 cat\lang1049\f3  /etc/systemd/system/xvnc@.service\f0\fs20\par
+[Unit]\par
+Description=My service unit for VNC\par
+\par
+[Service]\par
+User=nobody\par
+ExecStart=/usr/bin/Xvnc -inetd -query localhost -geometry 1280x1024 -once -SecurityTypes=None -Log *:stderr:30\par
+StandardInput=socket\par
+StandardError=journal\par
+\par
+\lang1033\f1 (\lang1049\f0\'ef\'f0\'e8\'ec\'e5\'f7\'e0\'ed\'e8\'e5: \'ed\'e0\'f0\'ee\'e4 \'e6\'e0\'eb\'ee\'e2\'e0\'eb\'f1\'ff, \'f7\'f2\'ee \'e2 \'f0\'e5\'e6\'e8\'ec\'e5 \lang1033\f1 inetd \lang1049\f0\'e4\'e5\'ec\'ee\'ed \'ed\'e5 \'f5\'ee\'f7\'e5\'f2 \'ef\'e8\'f1\'e0\'f2\'fc \'ee\'f8\'e8\'e1\'ea\'e8 \'e2 \lang1033\f1 stderr/stdout\par
+\lang1049\f0\'e8 \'e4\'e5\'e9\'f1\'f2\'e2\'e8\'f2\'e5\'eb\'fc\'ed\'ee...\par
+\'ef\'f0\'e8\'f8\'eb\'ee\'f1\'fc \'f3\'e4\'e0\'eb\'ff\'f2\'fc \lang1033\f1 -inetd\lang1049\f0 , \'f7\'f2\'ee\'e1\'fb \'ef\'ee\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc, \'ed\'e0 \'f7\'f2\'ee \'ee\'ed \'ec\'e0\'f2\'e5\'f0\'e8\'f2\'f1\'ff:\par
+\lang1033\f2\fs16 systemctl daemon-reload\f1\fs20\par
+\lang1049\f0 ... \'ef\'ee\'ef\'fb\'f2\'ea\'e0 \'ef\'ee\'e4\'ea\'eb\'fe\'f7\'e5\'ed\'e8\'ff ...\lang1033\f1\par
+\f2\fs16 journalctl -b\f1\fs20\par
+)\par
+\par
+\f2\fs16 systemctl daemon-reload\par
+systemctl enable xvnc.socket\par
+systemctl start xvnc.socket\lang1049\f0\fs20\par
+\par
+(\'ef\'f0\'e8\'ec\'e5\'f7\'e0\'ed\'e8\'e5: \lang1033\f1 lightdm \lang1049\f0\'ef\'e8\'f8\'e5\'f2 \'f1\'e2\'ee\'e9 \'eb\'ee\'e3 \'e2 /var/log/lightdm/lightdm.log)\par
+\par
+\'e2\'e8\'e4\'e5\'ee\'e7\'e0\'ef\'e8\'f1\'fc \'ec\'fb\'f2\'e0\'f0\'f1\'f2\'e2 \'e4\'ee\'f1\'f2\'f3\'ef\'ed\'e0 \'e7\'e4\'e5\'f1\'fc:\par
+2024-\'f4\'e5\'e2-25--09-34-36_\'e5\'e1\'f3\'f1\'fc_\'f1_TigerVNC_\'ed\'e0_UbuntuServer_22.04_\'f71.mp4\par
+2024-\'f4\'e5\'e2-25--13-02-38_\'e5\'e1\'f3\'f1\'fc_\'f1_TigerVNC_\'ed\'e0_UbuntuServer_22.04_\'f72.mp4\par
+2024-\'f4\'e5\'e2-25--16-22-14_\'ef\'ee\'e1\'ee\'f0\'ee\'eb_TigerVNC_\'e8_LightDM_\'f73.mp4\par
+\par
+---\par
+\'e2 \'f2\'e0\'ea\'ee\'ec \'f0\'e5\'e6\'e8\'ec\'e5 \'ef\'ee\'f1\'eb\'e5 \'e7\'e0\'ea\'f0\'fb\'f2\'e8\'ff \'ef\'ee\'e4\'ea\'eb\'fe\'f7\'e5\'ed\'e8\'ff \'f1\'e5\'f1\'f1\'e8\'ff \'e4\'ee\'f5\'ed\'e5\'f2\lang1033\f1  (\lang1049\f0\'f1\'ee \'e2\'f1\'e5\'ec\'e8 \'e4\'ee\'f7\'e5\'f0\'ed\'e8\'ec\'e8 \'ef\'f0\'ee\'f6\'e5\'f1\'f1\'e0\'ec\'e8\lang1033\f1 )\lang1049\f0 ...\par
+\par
+\'f7\'f2\'ee\'e1\'fb \'f1\'e5\'f1\'f1\'e8\'ff \'f1\'ee\'f5\'f0\'e0\'ed\'ff\'eb\'e0\'f1\'fc, \'ed\'e0\'e4\'ee (\'e2\'f0\'ee\'e4\'e5 \'ea\'e0\'ea) \'ed\'e0\'f1\'f2\'f0\'e0\'e8\'e2\'e0\'f2\'fc \'e7\'e0\'ef\'f3\'f1\'ea \'ed\'e5 \'ef\'ee \'e7\'e0\'ef\'f0\'ee\'f1\'f3 (\'e2 \'f1\'f2\'e8\'eb\'e5 \lang1033\f1 inetd\lang1049\f0 ), \'e0 \'e7\'e0\'f0\'e0\'ed\'e5\'e5 \'ef\'f0\'e5\'e4\'ee\'ef\'f0\'e5\'e4\'e5\'eb\'b8\'ed\'ed\'ee\'e5 \'ea\'ee\'eb-\'e2\'ee \'ef\'f0\'ee\'ed\'f3\'ec\'e5\'f0\'ee\'e2\'e0\'ed\'ed\'fb\'f5 \'fd\'ea\'e7\'e5\'ec\'ef\'eb\'ff\'f0\'ee\'e2 \lang1033\f1 vnc\lang1049\f0  (\'f4\'e0\'ea\'f2\'e8\'f7\'e5\'f1\'ea\'e8 \'e3\'f0\'e0\'f4\'e8\'f7\'e5\'f1\'ea\'e8\'f5 \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb\'ee\'e2), \'ea\'e0\'e6\'e4\'fb\'e9 \'ed\'e0 \'f1\'e2\'ee\'b8\'ec \'ef\'ee\'f0\'f2\'f3: 5901, 5902 \'e8 \'f2.\'e4.\par
+\par
+\'e4\'eb\'ff \'e4\'e0\'eb\'fc\'ed\'e5\'e9\'f8\'e5\'e3\'ee \'e8\'e7\'f3\'f7\'e5\'ed\'e8\'ff:\par
+\lang1033\f1 https://wiki.archlinux.org/title/TigerVNC_(\f0\'d0\'f3\'f1\'f1\'ea\'e8\'e9)\lang1049\par
+\par
+\'ed\'ee \'e6\'f0\'b8\'f2 \'ee\'ed\'ee \'f0\'e5\'f1\'f3\'f0\'f1\'fb \'ef\'f0\'ee\'f1\'f2\'ee \'f1\'f2\'f0\'e0\'f8\'ed\'ee...\par
+\'e4\'e0\'e6\'e5 \'ed\'e5 \'e7\'ed\'e0\'fe, \'e8\'ec\'e5\'e5\'f2 \'eb\'e8 \'f1\'ec\'fb\'f1\'eb \'f2\'e0\'ea\'ee\'e9 \'f2\'e5\'f0\'ec\'e8\'ed\'e0\'eb\'fc\'ed\'fb\'e9 \'f1\'e5\'f0\'e2\'e5\'f0... (\'f0\'e0\'e7\'e2\'e5 \'f7\'f2\'ee \'e4\'eb\'ff 2-3 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'e9)\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:\'cf\'f0\'e8\'eb\'ee\'e6\'e5\'ed\'e8\'ff VNC (\'ef\'f0\'ee\'f2\'ee\'ea\'ee\'eb RFB)\par
+\par
+}
+ 
