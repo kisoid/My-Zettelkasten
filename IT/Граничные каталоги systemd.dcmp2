@@ -3,7 +3,9 @@
 \viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'c3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e5 \'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e8 systemd\b0\par
 \cf2 #review:1\cf1\par
 \par
-\'e8\'ed\'f2\'e5\'f0\'e5\'f1\'ed\'e0\'ff \'ea\'ee\'f1\'f2\'fb\'eb\'fc\'ed\'e0\'ff \'f2\'e5\'f5\'ed\'ee\'eb\'ee\'e3\'e8\'ff, \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'ec\'e0\'ff \'e2 \'f1\'ee\'f7\'e5\'f2\'e0\'ed\'e8\'e8 \'f1 \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'ec\'e8 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\'ec\'e8 \lang1033\f1 systemd \lang1049\f0\'e8 \'ee\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'fb\'ec\'e8 \'f1\'eb\'f3\'e6\'e1\'e0\'ec\'e8 \lang1033\f1 systemd\lang1049\f0\par
+\'e8\'ed\'f2\'e5\'f0\'e5\'f1\'ed\'e0\'ff \'ea\'ee\'f1\'f2\'fb\'eb\'fc\'ed\'e0\'ff \'f2\'e5\'f5\'ed\'ee\'eb\'ee\'e3\'e8\'ff, \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'ec\'e0\'ff \'e2 \'f1\'ee\'f7\'e5\'f2\'e0\'ed\'e8\'e8 \'f1 \'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'ec\'e8 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'ff\'ec\'e8 \lang1033\f1 systemd \lang1049\f0\'e8 \'ee\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'fb\'ec\'e8 \'f1\'eb\'f3\'e6\'e1\'e0\'ec\'e8 \lang1033\f1 systemd\par
+\cf3\lang1049\ul\f0 linkto:\'c4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'e5 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e8 systemd\cf1\lang1033\ulnone\f1\par
+\cf3\lang1049\ul\f0 linkto:\'ce\'e4\'ed\'ee\'f0\'e0\'e7\'ee\'e2\'fb\'e5 \'f1\'eb\'f3\'e6\'e1\'fb systemd\cf1\ulnone\par
 \'e0 \'f2\'e0\'ea\'e6\'e5 \'e2 \'e1\'ee\'eb\'e5\'e5 \'ef\'f0\'ee\'f1\'f2\'fb\'f5 (\'e0\'f2\'ee\'ec\'e0\'f0\'ed\'fb\'f5) \'e4\'e8\'f0\'e5\'ea\'f2\'e8\'e2\'e0\'f5 \'f2\'e8\'ef\'e0 \lang1033\f1 PrivateTmp=\lang1049\f0 , StateDirectory= \'e8 \'f2.\'e4.\lang1033\f1\par
 \cf3\lang1049\ul\f0 linkto:\'c4\'e8\'f0\'e5\'ea\'f2\'e8\'e2\'e0 PrivateTmp (systemd)\cf1\ulnone\par
 \'e8 \'e2\'f0\'ee\'e4\'e5 \'ea\'e0\'ea \'e2 \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'e0\'f5 (\'e8\'eb\'e8 \'ea\'ee\'ed\'f2\'e5\'e9\'ed\'e5\'f0\'fb \'ef\'ee\'f1\'eb\'f3\'e6\'e8\'eb\'e8 \'e2\'e4\'ee\'f5\'ed\'ee\'e2\'e5\'ed\'e8\'e5\'ec\lang1033\f1 :\par
@@ -71,10 +73,6 @@ private - \lang1049\f0\'e3\'f0\'e0\'ed\'e8\'f7\'ed\'fb\'e9\par
 - \'e5\'f1\'eb\'e8 \lang1033\f1 uid/gid \lang1049\f0\'e8\'e7 \'ec\'e5\'f2\'e0\'e4\'e0\'ed\'ed\'fb\'f5 \'e7\'e0\'ed\'ff\'f2\'fb, \'f2\'ee \'e4\'e8\'ed. \'fe\'e7\'e5\'f0 \'ef\'ee\'eb\'f3\'f7\'e0\'e5\'f2 \'ed\'ee\'e2\'fb\'e5 \lang1033\f1 uid/gid\lang1049\f0 , \'e0 \'ef\'ee \'f4\'e0\'e9\'eb\'e0\'ec \'e2\'ed\'f3\'f2\'f0\'e8 \'e5\'e3\'ee \'e4\'e8\'f0\'e5\'ea\'f2\'ee\'f0\'e8\'e8 \'f0\'e5\'ea\'f3\'f0\'f1\'e8\'e2\'ed\'ee \'ef\'f0\'ee\'e8\'e7\'e2\'ee\'e4\'e8\'f2\'f1\'ff \lang1033\f1 chown, chgrp\lang1049\f0  (\'ee\'ef\'e5\'f0\'e0\'f6\'e8\'ff \'ed\'e5 \'ee\'f1\'ee\'e1\'ee \'e4\'e5\'f8\'b8\'e2\'e0\'ff, \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ed\'f3\'e6\'e5\'ed \'ef\'e5\'f0\'e2\'fb\'e9 \'ef\'f3\'ed\'ea\'f2)\par
 \par
 \'ef\'f0\'e8 \'fd\'f2\'ee\'ec \'ee\'f2\'ef\'e0\'e4\'e0\'e5\'f2 \'ed\'e5\'ee\'e1\'f5\'ee\'e4\'e8\'ec\'ee\'f1\'f2\'fc \'e8\'f1\'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'ed\'e8\'ff \'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'f1\'f2\'e2\'e0 \'e8\'ec\'b8\'ed \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e5\'e9 (\'cf\'ee\'f2\'f2\'e5\'f0\'e8\'ed\'e3 \'f1\'f7\'e8\'f2\'e0\'e5\'f2 \'fd\'f2\'ee\'f2 \'ed\'e5\'e9\'ec\'f1\'ef\'e5\'e9\'f1 \'e8\'f1\'f2\'ee\'f7\'ed\'e8\'ea\'ee\'ec \'f3\'ff\'e7\'e2\'e8\'ec\'ee\'f1\'f2\'e5\'e9...)\par
-\par
-\'e4\'e8\'ed\'e0\'ec\'e8\'f7\'e5\'f1\'ea\'e8\'e5 \'ef\'ee\'eb\'fc\'e7\'ee\'e2\'e0\'f2\'e5\'eb\'e8 \'ed\'e8\'ea\'e0\'ea \'ed\'e5 \'f3\'f7\'e8\'f2\'fb\'e2\'e0\'fe\'f2\'f1\'ff \'e2 \'c1\'c4 \lang1033\f1 /etc/passwd \lang1049\f0\'e8 \lang1033\f1 /etc/shadow\par
-\lang1049\f0\'e8 \'ed\'e8\'ea\'e0\'ea\'e8\'f5 \'f1\'eb\'e5\'e4\'ee\'e2 \'f2\'e0\'ec \'ed\'e5 \'ee\'f1\'f2\'e0\'e2\'eb\'ff\'fe\'f2\par
-\lang1033\f1 uid/gid \lang1049\f0\'e1\'e5\'f0\'f3\'f2\'f1\'ff \'e8\'e7 \'ef\'f3\'eb\'e0 61184\f1 -65519\f0\par
 \par
 \'cd\'e0\'e7\'e0\'e4 - linkto:Poettering \'cf\'f2\'e0\'f8\'ed\'e8\'ea _systemd \'e4\'eb\'ff \'e0\'e4\'ec\'e8\'ed\'e8\'f1\'f2\'f0\'e0\'f2\'ee\'f0\'ee\'e2_\par
 \'f3\'e4\'e0\'eb\'e5\'ed\'e0 \'f1\'f1\'fb\'eb\'ea\'e0 \'ed\'e0\par
