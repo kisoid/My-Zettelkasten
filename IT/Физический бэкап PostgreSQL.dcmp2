@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset204 Tahoma;}{\f1\fnil\fcharset0 Tahoma;}}
+{\colortbl ;\red0\green0\blue0;\red0\green128\blue0;\red0\green0\blue205;}
+\viewkind4\uc1\pard\cf1\lang1049\b\f0\fs20\'d4\'e8\'e7\'e8\'f7\'e5\'f1\'ea\'e8\'e9 \'e1\'fd\'ea\'e0\'ef PostgreSQL\b0\par
+\cf2 #review:1\cf1\par
+\par
+\'f4\'e0\'e9\'eb\'fb \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0 (\'ea\'e0\'f2\'e0\'eb\'ee\'e3\'e8 \'f2\'e0\'e1\'eb\'e8\'f7\'ed\'fb\'f5 \'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'f1\'f2\'e2 + \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb WAL)\par
+\'f2\'ee\'eb\'fc\'ea\'ee \'ed\'e0 \'f3\'f0\'ee\'e2\'ed\'e5 \'ea\'eb\'e0\'f1\'f2\'e5\'f0\'e0 \'f6\'e5\'eb\'e8\'ea\'ee\'ec\par
+\cf3\ul linkto:\'ca\'eb\'e0\'f1\'f2\'e5\'f0 PostgreSQL\cf1\ulnone\par
+\'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e5 \'f2\'ee\'eb\'fc\'ea\'ee \'ec\'e5\'e6\'e4\'f3 \'e8\'e4\'e5\'ed\'f2\'e8\'f7\'ed\'fb\'ec\'e8 \'e0\'f0\'f5\'e8\'f2\'e5\'ea\'f2\'f3\'f0\'e0\'ec\'e8 (\'f0\'e0\'e7\'f0\'ff\'e4\'ed\'ee\'f1\'f2\'fc, \'e2\'e5\'f0\'f1\'e8\'ff \'d1\'d3\'c1\'c4)\par
+\'e8\'f1\'ef\'ee\'eb\'fc\'e7\'f3\'e5\'f2\'f1\'ff \'ec\'e5\'f5\'e0\'ed\'e8\'e7\'ec \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'ff \'ef\'ee\'f1\'eb\'e5 \'f1\'e1\'ee\'ff\par
+\'ec\'ee\'e6\'ed\'ee \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'e8\'f2\'fc\'f1\'ff \'ed\'e0 \'ee\'ef\'f0\'e5\'e4\'e5\'eb\'b8\'ed\'ed\'fb\'e9 \'ec\'ee\'ec\'e5\'ed\'f2 \'e2\'f0\'e5\'ec\'e5\'ed\'e8 \'e2 \'ef\'f0\'ee\'f8\'eb\'ee\'ec\lang1033\f1  (\lang1049\f0\'e3\'f3\'e3\'eb\'e8\'f2\'fc \lang1033\f1 recovery.conf)\lang1049\f0\par
+\par
+\'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e5/\'e1\'fd\'ea\'e0\'ef \'e4\'e5\'eb\'e8\'f2\'f1\'ff \'ed\'e0 \'ef\'ee\'e4\'e2\'e8\'e4\'fb:\par
+\par
+\ul\'d5\'ee\'eb\'ee\'e4\'ed\'ee\'e5 \'f0\'e5\'e7\'e5\'f0\'e2\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 + \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e5\ulnone\par
+\'d1\'d3\'c1\'c4 \'ea\'ee\'f0\'f0\'e5\'ea\'f2\'ed\'ee \'ee\'f1\'f2\'e0\'ed\'e0\'e2\'eb\'e8\'e2\'e0\'e5\'f2\'f1\'ff\par
+\'ea\'ee\'ef\'e8\'f0\'f3\'fe\'f2\'f1\'ff \'f4\'e0\'e9\'eb\'fb PGDATA + \'f2\'e0\'e1\'eb\'e8\'f7\'ed\'fb\'f5 \'ef\'f0\'ee\'f1\'f2\'f0\'e0\'ed\'f1\'f2\'e2 \'f1\'f0\'e5\'e4\'f1\'f2\'e2\'e0\'ec\'e8 \'ce\'d1\par
+\'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb WAL \'e4\'eb\'ff \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'ff \'ed\'e5 \'ed\'f3\'e6\'ed\'fb\par
+\'ee\'ef\'f2\'e8\'ec\'e8\'e7\'e0\'f6\'e8\'ff \'e4\'eb\'ff \'f1\'ed\'e8\'e6\'e5\'ed\'e8\'ff \'e2\'f0\'e5\'ec\'e5\'ed\'e8 \'ef\'f0\'ee\'f1\'f2\'ee\'ff:\par
+1) \'ed\'e0 \'e3\'ee\'f0\'ff\'f7\'f3\'fe rsync\par
+2) \'ee\'f1\'f2\'e0\'ed\'ee\'e2 \'f1\'e5\'f0\'e2\'e5\'f0\'e0\par
+3) \'ed\'e0 \'f5\'ee\'eb\'ee\'e4\'ed\'f3\'fe rsync (\'f7\'f2\'ee\'e1\'fb \'e4\'ee\'eb\'e8\'eb \'f0\'e0\'e7\'ed\'e8\'f6\'f3)\par
+4) \'e7\'e0\'ef\'f3\'f1\'ea \'f1\'e5\'f0\'e2\'e5\'f0\'e0\par
+\par
+\'ef\'f0\'ee\'f1\'f2\'ee, \'ed\'ee \'e4\'e0\'f3\'ed\'f2\'e0\'e9\'ec...\par
+\par
+\ul\'c2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e5 \'ef\'ee\'f1\'eb\'e5 \'f1\'e1\'ee\'ff\ulnone\par
+\'d1\'d3\'c1\'c4 \'ed\'e5\'ea\'ee\'f0\'f0\'e5\'ea\'f2\'ed\'ee \'e2\'fb\'ea\'eb\'fe\'f7\'e5\'ed\'e0\par
+\cf3\ul linkto\lang1033\f1 :\f0\'d3\'f2\'e8\'eb\'e8\'f2\'e0 pg_controldata (PostgreSQL)\cf1\lang1049\ulnone\par
+\'f2\'f0\'e5\'e1\'f3\'fe\'f2\'f1\'ff \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb WAL \'f1 \'ec\'ee\'ec\'e5\'ed\'f2\'e0 \'ef\'ee\'f1\'eb\'e5\'e4\'ed\'e5\'e9 \'ea\'ee\'ed\'f2\'f0\'ee\'eb\'fc\'ed\'ee\'e9 \'f2\'ee\'f7\'ea\'e8\par
+\cf3\ul linkto:\'ca\'ee\'ed\'f2\'f0\'ee\'eb\'fc\'ed\'e0\'ff \'f2\'ee\'f7\'ea\'e0 PostgreSQL\cf1\ulnone\par
+\par
+\ul\'d1\'ed\'fd\'ef\'f8\'ee\'f2 \'f4\'e0\'e9\'eb\'ee\'e2\'ee\'e9 \'f1\'e8\'f1\'f2\'e5\'ec\'fb (\'ed\'e0\'ef\'f0, \'f1 \'ef\'ee\'ec. LVM, ZFS \'e8\'eb\'e8 \'f1\'ed\'fd\'ef\'f8\'ee\'f2 \'e2\'e8\'f0\'f2. \'ec\'e0\'f8\'e8\'ed\'fb)\ulnone\par
+\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'ee, \'ea\'e0\'ea \'ed\'e5\'ea\'ee\'f0\'f0\'e5\'ea\'f2\'ed\'ee \'e2\'fb\'ea\'eb\'fe\'f7\'e5\'ed\'ed\'fb\'e9 \'f1\'e5\'f0\'e2\'e5\'f0\par
+\'e2\'f1\'e5 \'e4\'e0\'ed\'ed\'fb\'e5 (\'d2\'cf + WAL) \'e4\'ee\'eb\'e6\'ed\'fb \'e1\'fb\'f2\'fc \'e2 \'ef\'f0\'e5\'e4\'e5\'eb\'e0\'f5 \'ee\'e4\'ed\'ee\'e3\'ee \'f1\'ed\'e8\'ec\'ea\'e0\par
+\par
+\ul\'c3\'ee\'f0\'ff\'f7\'e5\'e5 \'f0\'e5\'e7\'e5\'f0\'e2\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 + \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e5\ulnone\par
+\'e0\'ed\'e0\'eb\'ee\'e3\'e8\'f7\'ed\'ee, \'ea\'e0\'ea \'ed\'e5\'ea\'ee\'f0\'f0\'e5\'ea\'f2\'ed\'ee \'e2\'fb\'ea\'eb\'fe\'f7\'e5\'ed\'ed\'fb\'e9 \'f1\'e5\'f0\'e2\'e5\'f0\par
+\'f2\'f0\'e5\'e1\'f3\'fe\'f2\'f1\'ff WAL (\'e7\'e0 \i\'e2\'f1\'b8\i0  \'e2\'f0\'e5\'ec\'ff \'e1\'fd\'ea\'e0\'ef\'e0 \'ee\'f2 \'ef\'ee\'f1\'eb\'e5\'e4\'ed\'e5\'e9 \'ea\'ee\'ed\'f2\'f0\'ee\'eb. \'f2\'ee\'f7\'ea\'e8 (\'f1\'eb\'e5\'e4\'ee\'e2\'e0\'f2\'e5\'eb\'fc\'ed\'ee, \'e8\'ec\'e5\'e5\'f2 \'f1\'ec\'fb\'f1\'eb \'f1\'e4\'e5\'eb\'e0\'f2\'fc \'ef\'f0\'e8\'ed\'f3\'e4\'e8\'f2\'e5\'eb\'fc\'ed\'fb\'e9 \'f7\'e5\'ea\'ef\'ee\'e8\'ed\'f2 \'ef\'e5\'f0\'e5\'e4 \'e1\'fd\'ea\'e0\'ef\'ee\'ec))\par
++ \'e5\'f9\'b8 \'ec\'ed\'ee\'e3\'ee \'f2\'ee\'ed\'ea\'ee\'f1\'f2\'e5\'e9 (\'f1\'ec. \'ea\'f3\'f0\'f1) \'ed\'e0\'e4\'ee \'f3\'f7\'e8\'f2\'fb\'e2\'e0\'f2\'fc (\'ed\'e0\'ef\'f0, WAL \'ed\'e0\'e4\'ee \'ee\'f2\'ea\'eb\'e0\'e4\'fb\'e2\'e0\'f2\'fc "\'e2 \'f1\'f2\'ee\'f0\'ee\'ed\'ea\'f3" (\'f2.\'ea. \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb \'ef\'e5\'f0\'e5\'e7\'e0\'ef\'e8\'f1\'fb\'e2\'e0\'fe\'f2\'f1\'ff), \'ed\'e5 \'e2\'f1\'e5 \'ee\'ef\'e5\'f0\'e0\'f6\'e8\'e8 \'ef\'e8\'f8\'f3\'f2\'f1\'ff \'e2 WAL (\'ed\'e0\'e4\'ee wal_level>=archive) \'e8 \'f2.\'e4.), \'ef\'ee\'fd\'f2\'ee\'ec\'f3 \'ef\'f0\'ee\'f9\'e5 \'e7\'e0\'ef\'f3\'f1\'f2\'e8\'f2\'fc \'f3\'f2\'e8\'eb\'e8\'f2\'f3 (\'ee\'ed\'e0 \'f3\'f7\'e8\'f2\'fb\'e2\'e0\'e5\'f2 \'ed\'fe\'e0\'ed\'f1\'fb):\par
+\cf3\ul linkto\lang1033\f1 :\f0\'d3\'f2\'e8\'eb\'e8\'f2\'e0 pg_basebackup (PostgreSQL)\cf1\lang1049\ulnone\par
+\par
+\ul\'cd\'e5\'ef\'f0\'e5\'f0\'fb\'e2\'ed\'e0\'ff \'e0\'f0\'f5\'e8\'e2\'e0\'f6\'e8\'ff\ulnone\par
+\'ef\'f0\'ee\'f9\'e5 \'ef\'e5\'f0\'e5\'f1\'ec\'ee\'f2\'f0\'e5\'f2\'fc \'ea\'f3\'f0\'f1 - \'ec\'ed\'ee\'e3\'ee \'e7\'e0\'ec\'ee\'f0\'ee\'f7\'e5\'ea\par
+\'ee\'f1\'ed\'ee\'e2\'ed\'e0\'ff \'e8\'e4\'e5\'ff: \'f1 \'ef\'ee\'ec\'ee\'f9\'fc\'fe \'ea\'e0\'ea\'ee\'e9-\'ed\'e8\'e1\'f3\'e4\'fc \'f1\'e2\'ee\'e5\'e9 \'ea\'ee\'ec\'e0\'ed\'e4\'fb/\'f1\'ea\'f0\'e8\'ef\'f2\'ee\'ec \'ea\'ee\'ef\'e8\'f0\'f3\'e5\'ec \'f1\'e5\'e3\'ec\'e5\'ed\'f2\'fb \lang1033\f1 WAL\lang1049\f0  \'e2 \'e0\'f0\'f5\'e8\'e2\par
+\'ea\'ee\'ec\'e0\'ed\'e4\'e0 \'e4\'ee\'eb\'e6\'ed\'e0 \'e2\'ee\'e7\'e2\'f0\'e0\'f9\'e0\'f2\'fc 0 \i\'f2\'ee\'eb\'fc\'ea\'ee\i0  \'ef\'f0\'e8 \'f3\'f1\'ef\'e5\'f8\'ed\'ee\'ec \'ea\'ee\'ef\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e8...\par
+\par
+\lang1033\f1 ~~~\lang1049\f0\par
+\'e2\'e5\'f9\'e8, \'ea\'ee\'f2\'ee\'f0\'fb\'e5 \'f0\'e5\'f8\'e8\'eb \'ed\'e5 \'ef\'e8\'f1\'e0\'f2\'fc (\'e5\'f9\'b8 \'f0\'e0\'e7 \'ef\'e5\'f0\'e5\'f1\'ec\'ee\'f2\'f0 \'ea\'f3\'f0\'f1\'e0, \'e5\'f1\'eb\'e8 \'e1\'f3\'e4\'e5\'f2 \'ed\'f3\'e6\'ed\'ee):\par
+\lang1033\f1 recovery.conf\par
+\lang1049\f0\'f2\'e0\'e9\'ec\'eb\'e8\'ed\'e8\'e8 (\'ef\'f0\'e8 \'e2\'ee\'f1\'f1\'f2\'e0\'ed\'ee\'e2\'eb\'e5\'ed\'e8\'e8 \'ed\'e0 \'ec\'ee\'ec\'e5\'ed\'f2\'fb \'e2\'f0\'e5\'ec\'e5\'ed\'e8)\par
+\'f5\'e2\'ee\'f1\'f2\'ee\'e2\'ee\'e9 \'e1\'fd\'ea\'e0\'ef \lang1033\f1 WAL\lang1049\f0\par
+\'ec\'e5\'f2\'ea\'e8 \'e1\'fd\'ea\'e0\'ef\'ee\'e2\par
+\'ef\'f0\'e8\'ed\'f3\'e4\'e8\'f2\'e5\'eb\'fc\'ed\'ee\'e5 \'ef\'e5\'f0\'e5\'ea\'eb\'fe\'f7\'e5\'ed\'e8\'e5 \'ed\'e0 \'f1\'eb\'e5\'e4\'f3\'fe\'f9\'e8\'e9 \'f1\'e5\'e3\'ec\'e5\'ed\'f2 (\'e4\'eb\'ff \'ed\'e5\'ef\'f0\'e5\'f0\'fb\'e2\'ed\'ee\'e9 \'e0\'f0\'f5\'e8\'e2\'e0\'f6\'e8\'e8)\par
+\lang1033\f1 sync\lang1049\f0  (\lang1033\f1 fsync?\lang1049\f0 )\lang1033\f1  \lang1049\f0\'ed\'e0 \'f4\'e0\'e9\'eb\'ee\'e2\'ee\'ec \'f1\'e5\'f0\'e2\'e5\'f0\'e5 \'e1\'fd\'ea\'e0\'ef\'ee\'e2 (\'f7\'f2\'ee\'e1\'fb \'e4\'ee\'f8\'eb\'ee \'e4\'ee \'e4\'e8\'f1\'ea\'e0) (\'e4\'eb\'ff \'ed\'e5\'ef\'f0\'e5\'f0\'fb\'e2\'ed\'ee\'e9 \'e0\'f0\'f5\'e8\'e2\'e0\'f6\'e8\'e8)\par
+\'e7\'e0\'ef\'e8\'f1\'fc \'ef\'ee\'eb\'ed\'fb\'f5 \'f1\'f2\'f0\'e0\'ed\'e8\'f6 \'e2 \lang1033\f1 WAL\lang1049\f0  (\'e2\'f0\'e5\'ec\'e5\'ed\'ed\'ee, \'ef\'ee\'ea\'e0 \'e4\'e5\'eb\'e0\'e5\'f2\'f1\'ff \'e3\'ee\'f0\'ff\'f7\'e8\'e9 \'e1\'fd\'ea\'e0\'ef)\lang1033\f1\par
+\lang1049\f0\'f3\'f0\'ee\'e2\'ed\'e8 \'e2\'e5\'e4\'e5\'ed\'e8\'ff \lang1033\f1 WAL\lang1049\f0\par
+\'e8 \'f2.\'e4.\par
+\par
+\'cd\'e0\'e7\'e0\'e4 - linkto:\'d0\'e5\'e7\'e5\'f0\'e2\'ed\'ee\'e5 \'ea\'ee\'ef\'e8\'f0\'ee\'e2\'e0\'ed\'e8\'e5 (\'e1\'fd\'ea\'e0\'ef) PostgreSQL\par
+linkto:\'c6\'f3\'f0\'ed\'e0\'eb \'f3\'ef\'f0\'e5\'e6\'e4\'e0\'fe\'f9\'e5\'e9 \'e7\'e0\'ef\'e8\'f1\'e8 (WAL) PostgreSQL\par
+\'cd\'e0 \'fd\'f2\'f3 \'f1\'f2\'f0\'e0\'ed\'e8\'f6\'f3 \'f1\'f1\'fb\'eb\'e0\'e5\'f2\'f1\'ff - linkto:\'cf\'e0\'f0\'e0\'ed\'ee\'e9\'ff \'e8 WAL (PostgreSQL)\par
+}
+ 
